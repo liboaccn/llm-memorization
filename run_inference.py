@@ -43,10 +43,24 @@ def run_inference(model, tokenizer, prompt, max_length=50):
 
 
 # Example usage
-model_name_or_path = "../llama-2-7b"  # Replace with the path to your LLaMA model
-model, tokenizer = load_llama_model(model_name_or_path)
+# model_name_or_path = "../llama-2-7b"  # Replace with the path to your LLaMA model
+# model, tokenizer = load_llama_model(model_name_or_path)
 
-prompt = "The quick brown fox"  # Replace with your prompt
-generated_text = run_inference(model, tokenizer, prompt)
+# prompt = "The quick brown fox"  # Replace with your prompt
+# generated_text = run_inference(model, tokenizer, prompt)
 
-print(generated_text)
+# print(generated_text)
+
+
+
+with open('idiomem.jsonl', 'r') as f:
+    for i, line in enumerate(f):
+        data = json.loads(line)
+        s = data['idiom'] 
+        before_last_space = s.rsplit(' ', 1)[0]
+        last_space = s.rsplit(' ', 1)[1]
+        prompt  = before_last_space 
+        generated_text = run_inference(model, tokenizer, prompt)
+        predict_word =  generated_text[0].replace("\n", "") 
+        ex = last_space  in  predict_word
+        print("|"+prompt+ "|"+ predict_word + "|" +last_space + "|" + str(ex))
