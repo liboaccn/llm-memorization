@@ -2,6 +2,7 @@ import torch
 from transformers import LlamaForCausalLM
 from transformers.models.llama import LlamaTokenizer
 
+
 def load_llama_model(model_name_or_path):
     global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
     max_memory = {k: '40GB' for k in global_devices}
@@ -16,6 +17,7 @@ def load_llama_model(model_name_or_path):
 
 
     return model, tokenizer
+
 
 def run_inference(model, tokenizer, prompt, max_length=50):
     # Encode the prompt
@@ -39,8 +41,9 @@ def run_inference(model, tokenizer, prompt, max_length=50):
 
     return generated_text, hidden_states
 
+
 # Example usage
-model_name_or_path = "path/to/your/llama/model"  # Replace with the path to your LLaMA model
+model_name_or_path = "../llama-2-7b"  # Replace with the path to your LLaMA model
 model, tokenizer = load_llama_model(model_name_or_path)
 
 prompt = "The quick brown fox"  # Replace with your prompt
