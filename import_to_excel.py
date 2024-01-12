@@ -15,8 +15,9 @@ with open(file_path, 'r') as f:
         last_word_predict = data['last_word_predict']
         idiom_len =  data['idiom_len'] 
         last_word_len =  data['last_space_len']
-        probabilities_mean_valued = data['probabilities_mean_value'] 
-        probabilities_variance_value = data['probabilities_variance_value']
+        # probabilities_mean_valued = data['probabilities_mean_value'] 
+        probabilities_max_value = data['probabilities_max_value'] 
+        # probabilities_variance_value = data['probabilities_variance_value']
         hidden_states_mean_value = data['hidden_states_mean_value'] 
         hidden_states_variance_value = data['hidden_states_variance_value']
         idioms_last_word_pos  = data['idioms_pos']
@@ -26,8 +27,8 @@ with open(file_path, 'r') as f:
             str(idiom_len) + "|" + str(last_word_len) +"|"+ \
             str(idioms_last_word_pos) + "|" + str(predict_last_word_pos)+"|"+ \
             str(match) + "|"+ \
-            str(probabilities_mean_valued) + "|" + \
-            str(probabilities_variance_value)+"|"+ \
+            str(probabilities_max_value) + "|" + \
+            # str(probabilities_variance_value)+"|"+ \
             str(hidden_states_mean_value)+"|"+     \
             str(hidden_states_variance_value)
         # copy the output to excel 

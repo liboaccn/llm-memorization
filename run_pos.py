@@ -37,8 +37,9 @@ with open(file_path, 'r') as f:
         data['idiom_len'] = idiom_len
         data['last_space_len'] = len(last_space) 
         
-        data['probabilities_mean_value'] = statistics.mean(data['probabilities'])
-        data['probabilities_variance_value'] = statistics.variance(data['probabilities'])
+        # data['probabilities_mean_value'] = statistics.mean(data['probabilities'])
+        data['probabilities_max_value'] = max(data['probabilities'])
+        # data['probabilities_variance_value'] = statistics.variance(data['probabilities'])
 
 
         data['hidden_states_mean_value'] = statistics.mean(data['hidden_states'])
