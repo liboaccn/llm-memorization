@@ -14,9 +14,34 @@ import string
 from transformers import LlamaForCausalLM, LlamaConfig
 from transformers.models.llama.tokenization_llama import LlamaTokenizer
 import torch.nn.functional as F
+import statistics
+# import pdb
+import spacy
 
-import pdb
+nlp = spacy.load("en_core_web_sm")
 
+def get_last_word_pos(sentence):
+    doc = nlp(sentence)
+    last_word_pos = doc[-1].pos_
+    return last_word_pos
+
+
+def calculate_mean(data):
+    total_p_max = 0
+    total_h_mean = 0
+    total_h_variance = 0
+
+    for entry in data:
+        total_p_max += entry['p_max']
+        total_h_mean += entry['h_mean']
+        total_h_variance += entry['h_variance']
+
+    num_entries = len(data)
+    mean_p_max = total_p_max / num_entries
+    mean_h_mean = total_h_mean / num_entries
+    mean_h_variance = total_h_variance / num_entries
+
+    return mean_p_max, mean_h_mean, mean_h_variance
 
 def load_llama(model_name_or_path):
     global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
@@ -29,7 +54,7 @@ def load_llama(model_name_or_path):
     return model, tokenizer
 
 
-def predict_next_token(model, tokenizer, prompt=None, input_ids=None, max_length=20):
+def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens=[]):
     if input_ids is None:
         input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(model.device) # 1,6
         # print("input_ids1", input_ids)
@@ -59,18 +84,41 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, max_length
         # print("last_hidden", last_hidden) 
         # print("last_hidden", last_hidden.shape) 
         probabilities = F.softmax(last_logits, dim=-1)
+        # p = torch.max(probabilities, dim=-1, keepdim=True)
+        # print('probabilities',p)
+        p_max = max(probabilities.tolist()[0])
+        h_mean = statistics.mean(last_hidden.tolist()[0])
+        h_variance = statistics.variance(last_hidden.tolist()[0])
+        
+        
+        # p2 = max(probabilities.tolist()[0])
+        # print('p2', p2)
+        # data['probabilities_mean_value'] = statistics.mean(data['probabilities'])
+        # data['probabilities_variance_value'] = statistics.variance(data['probabilities'])
+
+
         # print('probabilities',probabilities)
         # Option 1: Select the token with the highest probability
         next_token_id = torch.argmax(probabilities, dim=-1, keepdim=True)
+        next_token = tokenizer.convert_ids_to_tokens(next_token_id)
         # print('next_token_id', next_token_id)
+        # print('next_token', next_token)
         # Option 2: Sample from the distribution (for more diversity in generation)
         # next_token_id = torch.multinomial(probabilities, 1)
         input_ids = torch.cat([input_ids, next_token_id], dim=-1)
         # print("input_ids2", input_ids)
-
+        data = {
+            'p_max': p_max,
+            'h_mean': h_mean,
+            'h_variance': h_variance,
+            # 'next_token': next_token,
+            # 'next_token_id': next_token_id.tolist()[0],
+        }
+        # new_tokens = torch.cat([new_tokens, data], dim=-1)
+        new_tokens.append(data)
         generated_text = tokenizer.batch_decode(input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     # return print(generated_text)
-    return generated_text, input_ids, last_hidden, probabilities 
+    return generated_text, input_ids, new_tokens
         # still need to: 1. convert id to text, 2. dump input, next token and corresponding logits, 3. hidden states
     # return generated_text, probabilities,last_hidden,last_logits 
     # return generated_text, probabilities, input_ids
@@ -89,7 +137,7 @@ def string_match(s, m):
             return True, 'GO', last_word
 # Example usage
 model_name_or_path = "../llama2-7b-hf"  # Replace with the path to your LLaMA model
-#model_name_or_path = "/home/users/libo15/data/model/Llama-2-7b-hf" 
+# model_name_or_path = "/home/users/libo15/data/model/Llama-2-7b-hf" 
 model, tokenizer = load_llama(model_name_or_path)
 
 # prompt = "The quick brown fox"  # Replace with your prompt
@@ -137,33 +185,63 @@ with open('idiomem.jsonl', 'r') as f:
         # prompt = "high as a"
         max_gen_tokens = 5
         input_ids = None
+        new_tokens= []
         for _ in range(max_gen_tokens):
-            generated_text, input_ids, last_hidden, probabilities  = predict_next_token(model, tokenizer, prompt, input_ids)
+            generated_text, input_ids, new_tokens  = predict_next_token(model, tokenizer, prompt, input_ids, new_tokens)
             input_ids      = input_ids 
+            new_tokens     = new_tokens
             # print("generated_text",generated_text[0])
             predict_word =  generated_text[0].replace("\n", "") 
             ok, go, word= string_match(predict_word, last_space)
             if go == 'STOP':
-                        break
+                break
         # print('hidden_states', last_hidden.tolist())
         # print('probabilities', probabilities.tolist())
         if go == 'STOP' and ok == True:
             ex = 'Y'
         else:
             ex = 'N'
+
+        # idiom = data['idiom']
+        # match = data['match']
+        predict = predict_word.rstrip().rstrip(string.punctuation)
+        # prompt = data['prompt']
+        # last_space = data['last_space']
+        # last_word_predict = data['last_word_predict']
+
+        # print(idiom + "|"+prompt+ "|"+ predict + "|" +last_space + "|" + str(match))
+        idioms_pos = get_last_word_pos(s)
+        # print("idioms_pos",idioms_pos)
+        predict_pos = get_last_word_pos(predict)
+        # print("predict_pos",predict_pos)
+        idiom_len = len(s.split())
+        data['idiom_len'] = idiom_len
+        data['last_space_len'] = len(last_space) 
+
+        mean_p_max, mean_h_mean, mean_h_variance = calculate_mean(new_tokens)
         data  = {
             'idiom': s,
+            'idiom_len': idiom_len,
             'match': ex,
             'predict': predict_word,
             'prompt': prompt,
             'last_space': last_space,
+            'last_space_len': len(last_space),
             'last_word_predict': word,
-            'hidden_states': last_hidden.tolist()[0],
-            'probabilities': probabilities.tolist()[0]
+            'idioms_pos': idioms_pos,
+            'predict_pos': predict_pos,
+            'mean_p_max': mean_p_max,
+            'mean_h_mean': mean_h_mean,
+            'mean_h_variance': mean_h_variance
+            # 'hidden_states': last_hidden.tolist()[0],
+            # 'probabilities': probabilities.tolist()[0]
         }
         json_data = json.dumps(data)
-        # put to predict_output.jsonl 
         print(json_data)
+        # print(new_tokens)
+        # print('=========================================')
+        # if i == 20:
+        #     break
 
 
 #  print('ex', ex)
