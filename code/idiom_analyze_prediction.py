@@ -34,15 +34,10 @@ def analyze_POS(match='Y'):
             if data['match'] == match:
                 idioms_pos = data['last_word_pos']
                 POS_count[idioms_pos] += 1
-    # for pos, count in POS_count.items():
-    #     print("match={}, POS={}, count={}".format(match, pos, count))
     return POS_count
 
 
-if __name__ == '__main__':
-    # calculate_mean_p_h(match='Y')
-    # calculate_mean_p_h(match='N')
-
+def generate_pos():
     POS_Y_count = analyze_POS(match='Y')
     POS_N_count = analyze_POS(match='N')
 
@@ -54,8 +49,49 @@ if __name__ == '__main__':
         print("POS={}, Y_count={}, N_count={}, Y_ratio={}".format(pos,
                                                                   POS_Y_count[pos],
                                                                   POS_N_count[pos],
-                                                                  POS_Y_count[pos] / (POS_Y_count[pos] + POS_N_count[pos])))
+                                                                  POS_Y_count[pos] / (
+                                                                              POS_Y_count[pos] + POS_N_count[pos])))
 
+
+def analyze_last_word_len(match='Y'):
+    from collections import defaultdict
+    len_count = defaultdict(int)
+    with open('idiom_predict.jsonl', 'r') as f:
+        for i, line in enumerate(f):
+            data = json.loads(line)
+            if data['match'] == match:
+                lw_len = data['last_word_len']
+                len_count[lw_len] += 1
+    # increase order
+    len_count = dict(sorted(len_count.items(), key=lambda item: item[0]))
+    print("match={}, {}".format(match, len_count))
+
+
+def analyze_idiom_len(match='Y'):
+    from collections import defaultdict
+    idiom_len_count = defaultdict(int)
+    with open('idiom_predict.jsonl', 'r') as f:
+        for i, line in enumerate(f):
+            data = json.loads(line)
+            if data['match'] == match:
+                idiom_len = data['idiom_len']
+                idiom_len_count[idiom_len] += 1
+    # increase order
+    len_count = dict(sorted(idiom_len_count.items(), key=lambda item: item[0]))
+    print("match={}, {}".format(match, len_count))
+
+
+if __name__ == '__main__':
+    # calculate_mean_p_h(match='Y')
+    # calculate_mean_p_h(match='N')
+
+    # analyze_last_word_len(match='Y')
+    # analyze_last_word_len(match='N')
+
+    # generate_pos()
+
+    analyze_idiom_len(match='Y')
+    analyze_idiom_len(match='N')
 
 
 
