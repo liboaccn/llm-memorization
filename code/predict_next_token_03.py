@@ -34,15 +34,6 @@ def remove_punctuation(input_string):
 
 
 def string_match(s, m):
-    # last_char = s[-1]
-    # last_word = s.rstrip().rstrip(string.punctuation).rsplit(' ', 1)[1]
-    # if m == last_word:
-    #     return True, 'STOP', last_word
-    # else:
-    #     if not last_char.isalnum():
-    #         return False, 'STOP', last_word
-    #     else:
-    #         return True, 'GO', last_word
     if s == m:
         return 'Y'
     else:
