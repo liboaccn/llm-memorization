@@ -52,5 +52,8 @@ if __name__ == '__main__':
     # predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v1.json')
     # predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v1.json')
 
-    predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v2.json')
-    predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v2.json')
+    # predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v2.json')
+    # predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v2.json')
+
+    predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v3.json')
+    predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v3.json')

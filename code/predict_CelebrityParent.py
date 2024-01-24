@@ -85,6 +85,7 @@ def predict_parent(r_file, w_file, FEW_SHOT_PROMPT):
     count = 0
     for item in json_data:
         count += 1
+        print(count)
         # if count < 965:
         #     continue
         child = item.get('child')
@@ -199,14 +200,19 @@ A: Jennifer Lawrence
 Q: Who is Aaron Taylor-Johnson's mother?
 A: Sarah Johnson"""
 
+    PROMPT_v3 = "Below is a converation with a helpful and terse assistant. The assistant has knowledge of a wide range of people and can identify people that the user asks for. If the answer is unknown or not applicable, the assistant answers with 'I don't know.'"
+
+
     # predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
     # predict_child(r_file='CelebrityParent_predict_parents_v1.json', w_file='CelebrityParent_predict_child_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
 
-    predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
-    predict_child(r_file='CelebrityParent_predict_parents_v2.json',
-                  w_file='CelebrityParent_predict_child_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
+    # predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
+    # predict_child(r_file='CelebrityParent_predict_parents_v2.json',
+    #               w_file='CelebrityParent_predict_child_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
 
-
+    predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
+    predict_child(r_file='CelebrityParent_predict_parents_v3.json',
+                  w_file='CelebrityParent_predict_child_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
 
 
 
