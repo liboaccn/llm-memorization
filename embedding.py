@@ -23,8 +23,8 @@ for item in json_data:
     explanation = item.get('explanation')
     # print(f'idiom: {idiom}, match: {match}, explanation: {explanation}')
     # break
-    idiom_v = embeddings_model.embed_query("idiom")
-    explanation_v = embeddings_model.embed_query("explanation")
+    idiom_v = embeddings_model.embed_query(idiom)
+    explanation_v = embeddings_model.embed_query(explanation)
     item['idiom_v'] = idiom_v
     item['explanation_v'] = explanation_v
     json_data = json.dumps(item)
