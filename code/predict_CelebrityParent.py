@@ -134,7 +134,7 @@ def predict_child(r_file, w_file, FEW_SHOT_PROMPT):
             parent_type = data['parent_type']
             parent = data['gold']
 
-            prompt = "\nQ: Name a child of {}?\n".format(child)
+            prompt = "\nQ: Name a child of {}?\n".format(parent)
 
             max_gen_tokens = 4
             input_ids = None
@@ -162,8 +162,6 @@ def predict_child(r_file, w_file, FEW_SHOT_PROMPT):
             fw.write(json_data + '\n')
             fw.flush()
             print(generated_text)
-
-
 
 
 if __name__ == "__main__":
@@ -203,16 +201,16 @@ A: Sarah Johnson"""
     PROMPT_v3 = "Below is a converation with a helpful and terse assistant. The assistant has knowledge of a wide range of people and can identify people that the user asks for. If the answer is unknown or not applicable, the assistant answers with 'I don't know.'"
 
 
-    # predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
-    # predict_child(r_file='CelebrityParent_predict_parents_v1.json', w_file='CelebrityParent_predict_child_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
+    predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
+    predict_child(r_file='CelebrityParent_predict_parents_v1.json', w_file='CelebrityParent_predict_child_v1.json', FEW_SHOT_PROMPT=PROMPT_v1)
 
     # predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
     # predict_child(r_file='CelebrityParent_predict_parents_v2.json',
     #               w_file='CelebrityParent_predict_child_v2.json', FEW_SHOT_PROMPT=PROMPT_v2)
 
-    predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
-    predict_child(r_file='CelebrityParent_predict_parents_v3.json',
-                  w_file='CelebrityParent_predict_child_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
+    # predict_parent(r_file=csv_file_path, w_file='CelebrityParent_predict_parents_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
+    # predict_child(r_file='CelebrityParent_predict_parents_v3.json',
+    #               w_file='CelebrityParent_predict_child_v3.json', FEW_SHOT_PROMPT=PROMPT_v3)
 
 
 

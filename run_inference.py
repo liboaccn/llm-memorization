@@ -26,7 +26,7 @@ def run_inference(model, tokenizer, prompt, max_length=50):
     # Perform inference
     with torch.no_grad():
         generate_ids = model.generate(input_ids, max_length=max_length,
-                                max_new_tokens=max_new_tokens,
+                                max_new_tokens=5,
                                 top_k=10, top_p=0.9, do_sample=True, temperature=0.8,
                                 early_stopping=True,
                                 use_cache=True,
@@ -43,8 +43,8 @@ def run_inference(model, tokenizer, prompt, max_length=50):
 
 
 # Example usage
-# model_name_or_path = "../llama-2-7b"  # Replace with the path to your LLaMA model
-# model, tokenizer = load_llama_model(model_name_or_path)
+model_name_or_path = "../llama2-7b-hf"  # Replace with the path to your LLaMA model
+model, tokenizer = load_llama_model(model_name_or_path)
 
 # prompt = "The quick brown fox"  # Replace with your prompt
 # generated_text = run_inference(model, tokenizer, prompt)

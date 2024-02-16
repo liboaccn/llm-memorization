@@ -1,25 +1,34 @@
 import numpy as np
-import matplotlib.pyplot as plt
+from sklearn.preprocessing import normalize
+from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 
-# 假设的128维向量
-v1 = np.random.rand(128)
-v2 = np.random.rand(128)
+# 示例数据
+group_a = np.random.rand(5, 32)
+group_b = np.random.rand(10, 32)
 
-# 将两个向量合并为一个2x128的矩阵
-data = np.vstack([v1, v2])
+# 标准化向量
+group_a_normalized = normalize(group_a)
+group_b_normalized = normalize(group_b)
 
-# 应用PCA降至二维
+# 计算余弦相似度
+cos_sim = cosine_similarity(np.vstack((group_a_normalized, group_b_normalized)))
+
+# 使用PCA降维到2维
 pca = PCA(n_components=2)
-transformed_data = pca.fit_transform(data)
+reduced_data = pca.fit_transform(np.vstack((group_a_normalized, group_b_normalized)))
 
-# 绘制结果
-plt.figure()
-plt.scatter(transformed_data[:, 0], transformed_data[:, 1], color=['red', 'blue'])
-plt.text(transformed_data[0, 0], transformed_data[0, 1], 'v1', fontsize=12)
-plt.text(transformed_data[1, 0], transformed_data[1, 1], 'v2', fontsize=12)
-plt.xlabel('PCA Component 1')
-plt.ylabel('PCA Component 2')
-plt.title('PCA of 128-dimensional vectors')
+# 绘制矢量图
+plt.figure(figsize=(8, 6))
+for point in reduced_data[:5]:
+    plt.quiver(0, 0, point[0], point[1], angles='xy', scale_units='xy', scale=1, color='red')
+for point in reduced_data[5:]:
+    plt.quiver(0, 0, point[0], point[1], angles='xy', scale_units='xy', scale=1, color='blue')
+plt.xlim(-1, 1)
+plt.ylim(-1, 1)
+plt.xlabel('PCA Feature 1')
+plt.ylabel('PCA Feature 2')
+plt.title('Vector Visualization of Two Groups')
 plt.grid(True)
 plt.show()

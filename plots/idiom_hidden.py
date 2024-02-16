@@ -21,11 +21,11 @@ y2 = norm.pdf(x, mean2, std_dev2)
 plt.figure(figsize=(8, 6))
 
 # 绘制两个正态分布
-plt.fill_between(x, y1, color="lightblue", alpha=0.5)
-plt.plot(x, y1, color="blue", label="Memorized, $\mu=-0.0021, \sigma^2=1.6032$")
+plt.fill_between(x, y1, color="#dece3d", alpha=0.5)
+plt.plot(x, y1, color="#dece3d", label="Memorized, $\mu=-0.0021, \sigma^2=1.6032$")
 
-plt.fill_between(x, y2, color="lightgreen", alpha=0.5)
-plt.plot(x, y2, color="green", label="Non-memorized, $\mu=0.0048, \sigma^2=1.7529$")
+plt.fill_between(x, y2, color="#cccccc", alpha=0.5)
+plt.plot(x, y2, color="#cccccc", label="Non-memorized, $\mu=0.0048, \sigma^2=1.7529$")
 
 
 # 添加标题和标签,图例

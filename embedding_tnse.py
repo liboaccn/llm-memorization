@@ -11,7 +11,7 @@ idiom_n = []
 explanation_y = []
 explanation_n = []
 # Read in the data from a file
-with open('edata.jsonl', 'r') as f:
+with open('edata127.jsonl', 'r') as f:
 # with open('idiomem_demo.jsonl', 'r') as f:
     for i, line in enumerate(f):
         data = json.loads(line)
@@ -30,15 +30,10 @@ group_explanation_y = np.array(explanation_y)
 group_idiom_n = np.array(idiom_n)
 group_explanation_n = np.array(explanation_n)
 
-# group_a = np.random.rand(5, 12)
-# group_b = np.random.rand(5, 12)
-# print(group_a)
-# exit(0)
-# Combine the groups
 combined_data = np.vstack((group_idiom_y, group_idiom_n))
 
 # Apply t-SNE
-tsne = TSNE(n_components=2, perplexity=10, learning_rate=200, n_iter=1000, random_state=0)
+tsne = TSNE(n_components=2, perplexity=10, learning_rate=100, n_iter=1000, random_state=0)
 tsne_results = tsne.fit_transform(combined_data)
 
 # Split the results back into two groups

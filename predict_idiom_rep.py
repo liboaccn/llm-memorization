@@ -61,7 +61,10 @@ def plot_tsne(data, label, marker, color, title):
 
     plt.title(title)
     plt.legend()
-    
+
+    plt.show()
+
+
 csv_file_path = 'prompt.csv'
 y_samples=[]
 n_samples=[] 
@@ -77,6 +80,31 @@ with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
         elif match == 'N':
             n_samples.append(rep)    
 
-plot_tsne(y_samples, label='Y', marker='^', color='blue', title='t-SNE Visualization of Transformer Hidden States for Y group')
-plot_tsne(n_samples, label='N', marker='o', color='red', title='t-SNE Visualization of Transformer Hidden States for N group')
+
+
+# plot_tsne(y_samples, label='Y', marker='^', color='blue', title='t-SNE Visualization of Transformer Hidden States for Y group')
+# plot_tsne(n_samples, label='N', marker='o', color='red', title='t-SNE Visualization of Transformer Hidden States for N group')
+
+group_a = np.array(y_samples)
+group_b = np.array(n_samples)
+
+# Combine the groups
+combined_data = np.vstack((group_a, group_b))
+
+# Apply t-SNE
+tsne = TSNE(n_components=2, perplexity=10, learning_rate=200, n_iter=1000, random_state=0)
+tsne_results = tsne.fit_transform(combined_data)
+
+# Split the results back into two groups
+tsne_a = tsne_results[:len(group_a)]
+tsne_b = tsne_results[len(group_a):]
+
+# Plotting
+plt.figure(figsize=(10, 6))
+plt.scatter(tsne_a[:, 0], tsne_a[:, 1], color='red', label='Group A')
+plt.scatter(tsne_b[:, 0], tsne_b[:, 1], color='blue', label='Group B')
+plt.legend()
+plt.title('t-SNE visualization of two groups')
+plt.xlabel('t-SNE feature 1')
+plt.ylabel('t-SNE feature 2')
 plt.show()
