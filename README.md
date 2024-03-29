@@ -1,15 +1,16 @@
 # llm-memorization
-What are the data characteristics that trigger memorization
+Title
 
 
 # Method
-## Idioms
-### Data
-### Method
-### Analysis
+## Datasets
+## Insights
+## Models
 
 
-## Reversal Popularities
-### Data
-### Method
-### Analysis
+# Experiments
+## Regarding text
+## Regarding probability
+## Regarding hidden state
+
+# Citations
