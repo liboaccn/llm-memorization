@@ -230,30 +230,30 @@ if __name__ == "__main__":
                 "If the answer is unknown or not applicable, the assistant answers with 'I don't know.'"
 
     model_name_or_path = "../llama2-7b-hf"
+    model = model_name_or_path.split('/')[-1]
     model, tokenizer = load_llama(model_name_or_path)
     csv_file_path = '../parent_child_pairs.csv'
 
     # step 1: get the representation of context_child_name, generated_parent_name, context_parent_name
     predict_parent(r_file=csv_file_path,
-                   w_file='CelebrityParent_predict_parents_v1.json',
+                   w_file='CelebrityParent_predict_parents_{}_v1.json'.format(model),
                    FEW_SHOT_PROMPT=PROMPT_v1)
-    predict_child(r_file='CelebrityParent_predict_parents_v1.json',
-                  w_file='CelebrityParent_predict_child_v1.json',
+    predict_child(r_file='CelebrityParent_predict_parents_{}_v1.json'.format(model),
+                  w_file='CelebrityParent_predict_child_{}_v1.json'.format(model),
                   FEW_SHOT_PROMPT=PROMPT_v1)
 
-
     predict_parent(r_file=csv_file_path,
-                   w_file='CelebrityParent_predict_parents_v2.json',
+                   w_file='CelebrityParent_predict_parents_{}_v2.json'.format(model),
                    FEW_SHOT_PROMPT=PROMPT_v2)
-    predict_child(r_file='CelebrityParent_predict_parents_v2.json',
-                  w_file='CelebrityParent_predict_child_v2.json',
+    predict_child(r_file='CelebrityParent_predict_parents_{}_v2.json'.format(model),
+                  w_file='CelebrityParent_predict_child_{}_v2.json'.format(model),
                   FEW_SHOT_PROMPT=PROMPT_v2)
 
     predict_parent(r_file=csv_file_path,
-                   w_file='CelebrityParent_predict_parents_v3.json',
+                   w_file='CelebrityParent_predict_parents_{}_v3.json'.format(model),
                    FEW_SHOT_PROMPT=PROMPT_v3)
-    predict_child(r_file='CelebrityParent_predict_parents_v3.json',
-                  w_file='CelebrityParent_predict_child_v3.json',
+    predict_child(r_file='CelebrityParent_predict_parents_{}_v3.json'.format(model),
+                  w_file='CelebrityParent_predict_child_{}_v3.json'.format(model),
                   FEW_SHOT_PROMPT=PROMPT_v3)
 
 
