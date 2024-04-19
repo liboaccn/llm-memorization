@@ -1,5 +1,8 @@
 import json
 import numpy as np
+import random
+
+random.seed(41)
 
 
 def predict_parent_mean_p_h(match='Y', r_file=None):
@@ -8,9 +11,13 @@ def predict_parent_mean_p_h(match='Y', r_file=None):
         all_hidden = []
         for i, line in enumerate(f):
             data = json.loads(line)
+            if random.random() <= 0.5:  # random split
+                data['match'] = 'Y'
+            else:
+                data['match'] = 'N'
             if data['match'] == match:
-                prob = data['mean_prob']
-                hidden = data['mean_hidden']
+                prob = data['gen_parent_prob']
+                hidden = data['gen_parent_hidden']
 
                 all_prob.append(prob)
                 all_hidden.append(hidden)
@@ -31,9 +38,13 @@ def predict_child_mean_p_h(match='N', r_file=None):
         all_hidden = []
         for i, line in enumerate(f):
             data = json.loads(line)
+            if random.random() <= 0.5:  # random split
+                data['match'] = 'Y'
+            else:
+                data['match'] = 'N'
             if data['match'] == match:
-                prob = data['mean_prob']
-                hidden = data['mean_hidden']
+                prob = data['gen_child_prob']
+                hidden = data['gen_child_hidden']
 
                 all_prob.append(prob)
                 all_hidden.append(hidden)
@@ -49,11 +60,13 @@ def predict_child_mean_p_h(match='N', r_file=None):
 
 
 if __name__ == '__main__':
-    predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v1.json')
-    predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v1.json')
+    model = "llama2-7b-hf"  # 7b, 13b
+    # model = "llama2-7b-chat-hf"  # 7b, 13b
 
-    predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v2.json')
-    predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v2.json')
 
-    predict_parent_mean_p_h(r_file='CelebrityParent_predict_parents_v3.json')
-    predict_child_mean_p_h(r_file='CelebrityParent_predict_child_v3.json')
+    predict_parent_mean_p_h(match='Y', r_file='CelebrityParent_predict_parents_{}_v2.json'.format(model))
+    predict_parent_mean_p_h(match='N', r_file='CelebrityParent_predict_parents_{}_v2.json'.format(model))
+    # predict_child_mean_p_h(match='Y', r_file='CelebrityParent_predict_child_{}_v2.json'.format(model))
+    # predict_child_mean_p_h(match='N', r_file='CelebrityParent_predict_child_{}_v2.json'.format(model))
+    print('--------------------------------')
+

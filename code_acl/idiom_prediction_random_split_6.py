@@ -1,5 +1,7 @@
 import json
 import numpy as np
+import random
+random.seed(41)
 
 
 def calculate_mean_p_h(r_file, match='Y'):
@@ -8,6 +10,10 @@ def calculate_mean_p_h(r_file, match='Y'):
         all_hidden = []
         for i, line in enumerate(f):
             data = json.loads(line)
+            if random.random() <= 0.5:  # random split
+                data['match'] = 'Y'
+            else:
+                data['match'] = 'N'
             if data['match'] == match:
                 prob = data['mean_prob']
                 hidden = data['mean_hidden']
@@ -94,16 +100,16 @@ if __name__ == '__main__':
     model = '13b-chat'
     r_file = './idiom_predict_{}.jsonl'.format(model)
 
-    analyze_idiom_count(r_file, match='Y')
-    analyze_idiom_count(r_file, match='N')
-    print('-----------------------')
-
-    analyze_last_word_len(r_file=r_file, match='Y')
-    analyze_last_word_len(r_file=r_file, match='N')
-    print('-----------------------')
-
-    analyze_pos(r_file=r_file)
-    print('-----------------------')
+    # analyze_idiom_count(r_file, match='Y')
+    # analyze_idiom_count(r_file, match='N')
+    # print('-----------------------')
+    #
+    # analyze_last_word_len(r_file=r_file, match='Y')
+    # analyze_last_word_len(r_file=r_file, match='N')
+    # print('-----------------------')
+    #
+    # analyze_pos(r_file=r_file)
+    # print('-----------------------')
 
     # -----------------
     calculate_mean_p_h(r_file=r_file, match='Y')

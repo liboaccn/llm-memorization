@@ -102,9 +102,8 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
 
 
 if __name__ == '__main__':
-    size = "7b"
+    size = "13b-chat"  # 7b, 13b, 7b-chat, 13b-chat
     model_name_or_path = "../llama2-{}-hf".format(size)
-    # model_name_or_path = "../llama2-{}-hf".format(size)
 
     r_file = './idiomem.jsonl'
     w_file = './idiom_predict_{}.jsonl'.format(size)
@@ -115,15 +114,16 @@ if __name__ == '__main__':
         for i, line in enumerate(f):
             data = json.loads(line)
             s = data['idiom']
+            idioms_pos = get_last_word_pos(s)
             idiom_word_num = len(s.split())
             before_last_space = s.rsplit(' ', 1)[0]
             last_space = s.rsplit(' ', 1)[1]
 
             prompt = before_last_space
-            max_gen_tokens = 5
+            max_gen_tokens = 5  # 5
             input_ids = None
             new_tokens = []
-            for _ in range(max_gen_tokens):
+            for i in range(max_gen_tokens):
                 generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids, new_tokens)
                 generated_text = remove_punctuation(generated_text)
                 if len(generated_text.split()) == idiom_word_num + 1:
@@ -131,7 +131,6 @@ if __name__ == '__main__':
                     predicted_word = generated_text.split()[-1]
                     match = string_match(predicted_word, last_space)
 
-                    idioms_pos = get_last_word_pos(s)
                     predict_pos = get_last_word_pos(generated_text)
 
                     mean_prob, mean_hidden = calculate_mean(new_tokens)
@@ -155,6 +154,33 @@ if __name__ == '__main__':
                     }
                     json_data = json.dumps(data)
                     fw.write(json_data + '\n')
-                    print(json_data)
-
                     break
+                elif i == max_gen_tokens -1:
+                    generated_text = ' '.join(generated_text.split()[:-1])
+                    predicted_word = generated_text.split()[-1]
+                    match = string_match(predicted_word, last_space)
+                    print('match:', match)
+
+                    predict_pos = get_last_word_pos(generated_text)
+
+                    mean_prob, mean_hidden = calculate_mean(new_tokens)
+                    data = {
+                        'match': match,
+                        'idiom': s,
+                        'idiom_len': idiom_word_num,
+
+                        'generated_text': generated_text,
+                        'predicted_word': predicted_word,
+                        'predicted_word_pos': predict_pos,
+
+                        'last_word': last_space,
+                        'last_word_len': len(last_space),
+                        'last_word_pos': idioms_pos,
+
+                        'prompt': prompt,
+
+                        'mean_prob': mean_prob,
+                        'mean_hidden': mean_hidden,
+                    }
+                    json_data = json.dumps(data)
+                    fw.write(json_data + '\n')

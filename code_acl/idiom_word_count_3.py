@@ -3,32 +3,36 @@ import matplotlib.pyplot as plt
 # Given data
 data_7b = {
     'Y': {4: 329, 5: 181, 6: 103, 7: 51, 8: 18, 9: 10, 10: 1, 11: 2, 13: 1},
-    'N': {4: 93, 5: 18, 6: 9, 7: 4, 8: 1},
-}
-
-data_13b = {
-    'Y': {4: 329, 5: 181, 6: 103, 7: 51, 8: 18, 9: 10, 10: 1, 11: 2, 13: 1},
-    'N': {4: 93, 5: 18, 6: 9, 7: 4, 8: 1},
+    'N': {4: 93, 5: 18, 6: 9, 7: 5, 8: 2} # {4: 93, 5: 18, 6: 9, 7: 4, 8: 1},
 }
 
 data_7b_chat = {
-    'Y': {4: 329, 5: 181, 6: 103, 7: 51, 8: 18, 9: 10, 10: 1, 11: 2, 13: 1},
-    'N': {4: 93, 5: 18, 6: 9, 7: 4, 8: 1},
+    'Y': {4: 309, 5: 162, 6: 90, 7: 44, 8: 14, 9: 7, 11: 2, 13: 1},
+    'N': {4: 107, 5: 25, 6: 8, 7: 5, 8: 2},
+}
+
+data_13b = {
+    'Y': {4: 345, 5: 180, 6: 98, 7: 52, 8: 19, 9: 10, 10: 1, 11: 2, 13: 1},
+    'N': {4: 85, 5: 14, 6: 8, 7: 5, 8: 1},
 }
 
 data_13b_chat = {
-    'Y': {4: 329, 5: 181, 6: 103, 7: 51, 8: 18, 9: 10, 10: 1, 11: 2, 13: 1},
-    'N': {4: 93, 5: 18, 6: 9, 7: 4, 8: 1},
+    'Y': {4: 299, 5: 152, 6: 86, 7: 42, 8: 13, 9: 8, 11: 2, 13: 1},
+    'N': {4: 145, 5: 49, 6: 28, 7: 16, 8: 7, 9: 2, 10: 1, 12: 1},
 }
 
-size = "7b"
+# size = "7b"
+# size = "7b-chat"
+# size = "13b"
+size = "13b-chat"
+
 if size == "7b":
     data = data_7b
+elif size == "7b-chat":
+    data = data_7b_chat
 elif size == "13b":
     data = data_13b
-elif size == "7b_chat":
-    data = data_7b_chat
-elif size == "13b_chat":
+elif size == "13b-chat":
     data = data_13b_chat
 
 # Prepare data for plotting
@@ -65,5 +69,5 @@ lines, labels = ax1.get_legend_handles_labels()
 lines2, labels2 = ax2.get_legend_handles_labels()
 ax2.legend(lines + lines2, labels + labels2, loc='best', fontsize=10)
 
-plt.savefig('idiom_len_size.pdf'.format(size), dpi=300, bbox_inches='tight')
+plt.savefig('idiom_word_count_{}.pdf'.format(size), dpi=300, bbox_inches='tight')
 plt.show()
