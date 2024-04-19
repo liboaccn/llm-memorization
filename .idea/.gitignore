@@ -1,0 +1,11 @@
+# Default ignored files
+
+/llama2-7b-hf
+/submit
+/papers
+.idea
+/PPT
+
+
+/shelf/
+/workspace.xml
