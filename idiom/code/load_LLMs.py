@@ -26,14 +26,16 @@ def load_gemma(model_name_or_path):
 
 
 def load_llama(model_name_or_path):
-    from transformers import LlamaForCausalLM
-    from transformers.models.llama.tokenization_llama import LlamaTokenizer
-    global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
-    max_memory = {k: '32GB' for k in global_devices}
-    tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path, legacy=False)
-    model = LlamaForCausalLM.from_pretrained(model_name_or_path,
+    # from transformers import LlamaForCausalLM
+    # from transformers.models.llama.tokenization_llama import LlamaTokenizer
+    # global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
+    # max_memory = {k: '32GB' for k in global_devices}
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
+    model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
                                              low_cpu_mem_usage=True, device_map='balanced',
-                                             torch_dtype=torch.float32, max_memory=max_memory
+                                             torch_dtype=torch.float32,
                                              )
     return model, tokenizer
 
@@ -63,7 +65,7 @@ def load_qwen(model_name_or_path):
     return model, tokenizer
 
 
-def load_model(model_name_or_path):
+def load_models(model_name_or_path):
     if 'bloom' in model_name_or_path:
         return load_bloom(model_name_or_path)
     elif 'gemma' in model_name_or_path:
@@ -78,11 +80,26 @@ def load_model(model_name_or_path):
         raise ValueError('Model not found')
 
 
+def load_model(model_name_or_path):
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+
+    # global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
+    # max_memory = {k: '32GB' for k in global_devices}
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
+    model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
+                                             low_cpu_mem_usage=True, device_map='balanced',
+                                             torch_dtype=torch.float32,
+                                             )
+    return model, tokenizer
+
+
 MODELS = [
     # '/home/incoming/LLM/qwen1_5/qwen1_5-7b',
     # '/home/incoming/LLM/gemma/gemma-7b',
     # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
     # '/home/incoming/LLM/llama2/llama2-7b',
+    '/home/incoming/LLM/llama3/llama3-8b',
     '/home/incoming/LLM/qwen1_5/qwen1_5-14b'
     '/home/incoming/LLM/llama2/llama2-13b',
 ]
