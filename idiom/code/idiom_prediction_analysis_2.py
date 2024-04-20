@@ -88,27 +88,26 @@ def analyze_idiom_count(r_file, match='Y'):
 
 
 if __name__ == '__main__':
-    # model = '7b'
-    # model = '7b-chat'
-    # model = '13b'
-    model = '13b-chat'
-    r_file = './idiom_predict_{}.jsonl'.format(model)
+    from load_LLMs import MODELS
+    for model_name_or_path in MODELS:
+        r_file = '../data/idiom_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
+        print('=========== {} ==========='.format(r_file), '\n')
 
-    analyze_idiom_count(r_file, match='Y')
-    analyze_idiom_count(r_file, match='N')
-    print('-----------------------')
+        analyze_idiom_count(r_file, match='Y')
+        analyze_idiom_count(r_file, match='N')
+        print('-----------------------')
 
-    analyze_last_word_len(r_file=r_file, match='Y')
-    analyze_last_word_len(r_file=r_file, match='N')
-    print('-----------------------')
+        analyze_last_word_len(r_file=r_file, match='Y')
+        analyze_last_word_len(r_file=r_file, match='N')
+        print('-----------------------')
 
-    analyze_pos(r_file=r_file)
-    print('-----------------------')
+        analyze_pos(r_file=r_file)
+        print('-----------------------')
 
-    # -----------------
-    calculate_mean_p_h(r_file=r_file, match='Y')
-    calculate_mean_p_h(r_file=r_file, match='N')
-    print('-----------------------')
+        # -----------------
+        calculate_mean_p_h(r_file=r_file, match='Y')
+        calculate_mean_p_h(r_file=r_file, match='N')
+        print('-----------------------')
 
 
 

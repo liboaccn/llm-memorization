@@ -7,12 +7,9 @@ step3: load tokenizer,
 see doc: https://huggingface.co/docs/transformers/v4.33.3/en/model_doc/llama
 """
 
-
 import torch
 import json
 import string
-from transformers import LlamaForCausalLM, LlamaConfig
-from transformers.models.llama.tokenization_llama import LlamaTokenizer
 import torch.nn.functional as F
 import statistics
 # import pdb
@@ -62,23 +59,12 @@ def calculate_mean(data):
     return mean_prob, mean_hidden
 
 
-def load_llama(model_name_or_path):
-    global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
-    max_memory = {k: '32GB' for k in global_devices}
-    tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path, legacy=False)
-    model = LlamaForCausalLM.from_pretrained(model_name_or_path,
-                                             low_cpu_mem_usage=True, device_map='balanced',
-                                             torch_dtype=torch.float32, max_memory=max_memory
-                                             )
-    return model, tokenizer
-
-
 def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens=[]):
     if input_ids is None:
-        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(model.device) # 1,6
+        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(model.device)  # 1,6
     with torch.no_grad():
         outputs = model(input_ids, output_attentions=True,
-                             output_hidden_states=True, return_dict=True)
+                        output_hidden_states=True, return_dict=True)
 
         # get the predicted token, and the probability of the predicted token
         logits = outputs.logits  # torch.Size([1, 6, 32000])
@@ -97,18 +83,12 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
             'hidden': last_hidden.tolist()[0],
         }
         new_tokens.append(data)
-        generated_text = tokenizer.batch_decode(input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+        generated_text = \
+        tokenizer.batch_decode(input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
     return generated_text, input_ids, new_tokens
 
 
-if __name__ == '__main__':
-    size = "13b-chat"  # 7b, 13b, 7b-chat, 13b-chat
-    model_name_or_path = "../llama2-{}-hf".format(size)
-
-    r_file = './idiomem.jsonl'
-    w_file = './idiom_predict_{}.jsonl'.format(size)
-
-    model, tokenizer = load_llama(model_name_or_path)
+def generate_idiom(r_file, w_file, model, tokenizer):
     fw = open(w_file, 'w')
     with open(r_file, 'r') as f:
         for i, line in enumerate(f):
@@ -124,7 +104,8 @@ if __name__ == '__main__':
             input_ids = None
             new_tokens = []
             for i in range(max_gen_tokens):
-                generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids, new_tokens)
+                generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids,
+                                                                           new_tokens)
                 generated_text = remove_punctuation(generated_text)
                 if len(generated_text.split()) == idiom_word_num + 1:
                     generated_text = ' '.join(generated_text.split()[:-1])
@@ -155,11 +136,11 @@ if __name__ == '__main__':
                     json_data = json.dumps(data)
                     fw.write(json_data + '\n')
                     break
-                elif i == max_gen_tokens -1:
+                elif i == max_gen_tokens - 1:  # 已经生成最大token了，还是没有生成完整idiom
                     generated_text = ' '.join(generated_text.split()[:-1])
                     predicted_word = generated_text.split()[-1]
                     match = string_match(predicted_word, last_space)
-                    print('match:', match)
+                    logging.info('match:{}'.format(match))
 
                     predict_pos = get_last_word_pos(generated_text)
 
@@ -184,3 +165,20 @@ if __name__ == '__main__':
                     }
                     json_data = json.dumps(data)
                     fw.write(json_data + '\n')
+
+
+if __name__ == '__main__':
+    import logging
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    from load_LLMs import load_model, MODELS
+
+    r_file = '../data/idiomem.jsonl'
+
+    for model_name_or_path in MODELS:
+        logging.info('Loading model: {}'.format(model_name_or_path))
+
+        w_file = '../data/idiom_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
+        logging.info('written file: {}'.format(w_file))
+
+        model, tokenizer = load_model(model_name_or_path)
+        generate_idiom(r_file, w_file, model, tokenizer)

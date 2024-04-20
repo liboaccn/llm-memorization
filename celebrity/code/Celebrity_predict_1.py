@@ -8,17 +8,6 @@ import torch.nn.functional as F
 import numpy as np
 
 
-def load_llama(model_name_or_path):
-    # global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
-    # max_memory = {k: '32GB' for k in global_devices}
-    tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path, legacy=False)
-    model = LlamaForCausalLM.from_pretrained(model_name_or_path,
-                                             low_cpu_mem_usage=True, device_map='auto',
-                                             torch_dtype=torch.float32
-                                             )
-    return model, tokenizer
-
-
 def csv_to_json(csv_file_path):
     with open(csv_file_path, 'r') as csv_file:
         reader = csv.DictReader(csv_file)
@@ -28,7 +17,6 @@ def csv_to_json(csv_file_path):
 
 def find_subtensor_indices_torch(A, B):
     for start in range(A.size(0) - B.size(0) + 1):
-        # print(start, B.size(0), A[start: start + B.size(0)], B)
         if torch.equal(A[start: start + B.size(0)], B):
             return start, start + B.size(0)
     return -1, -1
@@ -113,7 +101,7 @@ def predict_parent(r_file, w_file, FEW_SHOT_PROMPT):
             generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, FEW_SHOT_PROMPT+prompt, input_ids, child_name, new_tokens)
             child_name = None
             generated_text = generated_text.split('\n')[-1].split('A: ')[-1]
-            print(generated_text, ", parent:", parent)
+            # print(generated_text, ", parent:", parent)
             matched = exact_match(generated_text, gold=parent)
             if matched:
                 mean_prob, mean_hidden = calculate_mean(new_tokens)
@@ -195,22 +183,6 @@ def predict_child(r_file, w_file, FEW_SHOT_PROMPT):
 
 
 if __name__ == "__main__":
-    PROMPT_v1 = """Below is a converation with a helpful and terse assistant. 
-    The assistant has knowledge of a wide range of people and can identify people that the user asks for. 
-    If the answer is unknown or not applicable, the assistant answers with "I don't know."
-    Q: Name a child of Barack Obama.
-    A: Malia Obama
-    Q: Who is Elon Musk's mother?
-    A: Maye Musk
-    Q: Who is Kathy Pratt's mother?
-    A: I don't know.
-    Q: Who is Chris Hemsworth's father?
-    A: Craig Hemsworth
-    Q: Name a child of Karen Lawrence.
-    A: Jennifer Lawrence
-    Q: Who is Aaron Taylor-Johnson's mother?
-    A: Sarah Johnson"""
-
     PROMPT_v2 = """
     Q: Name a child of Barack Obama.
     A: Malia Obama
@@ -225,49 +197,19 @@ if __name__ == "__main__":
     Q: Who is Aaron Taylor-Johnson's mother?
     A: Sarah Johnson"""
 
-    PROMPT_v3 = "Below is a converation with a helpful and terse assistant. " \
-                "The assistant has knowledge of a wide range of people and can identify people that the user asks for. " \
-                "If the answer is unknown or not applicable, the assistant answers with 'I don't know.'"
+    from load_LLMs import MODELS, load_model
+    r_file = '../data/parent_child_pairs.csv'
 
-    csv_file_path = '../parent_child_pairs.csv'
+    for model_name_or_path in MODELS:
+        model_name = model_name_or_path.split('/')[-1]
+        model, tokenizer = load_model(model_name_or_path)
 
-    model_name_or_path = "../llama2-13b-chat-hf"
-    model_name = model_name_or_path.split('/')[-1]
-    model, tokenizer = load_llama(model_name_or_path)
-
-    # step 1: get the representation of context_child_name, generated_parent_name, context_parent_name
-    # predict_parent(r_file=csv_file_path,
-    #                w_file='CelebrityParent_predict_parents_{}_v1.json'.format(model_name),
-    #                FEW_SHOT_PROMPT=PROMPT_v1)
-    # predict_child(r_file='CelebrityParent_predict_parents_{}_v1.json'.format(model_name),
-    #               w_file='CelebrityParent_predict_child_{}_v1.json'.format(model_name),
-    #               FEW_SHOT_PROMPT=PROMPT_v1)
-    #
-    predict_parent(r_file=csv_file_path,
-                   w_file='CelebrityParent_predict_parents_{}_v2.json'.format(model_name),
-                   FEW_SHOT_PROMPT=PROMPT_v2)
-    predict_child(r_file='CelebrityParent_predict_parents_{}_v2.json'.format(model_name),
-                  w_file='CelebrityParent_predict_child_{}_v2.json'.format(model_name),
-                  FEW_SHOT_PROMPT=PROMPT_v2)
-
-    # predict_parent(r_file=csv_file_path,
-    #                w_file='CelebrityParent_predict_parents_{}_v3.json'.format(model_name),
-    #                FEW_SHOT_PROMPT=PROMPT_v3)
-    # predict_child(r_file='CelebrityParent_predict_parents_{}_v3.json'.format(model_name),
-    #               w_file='CelebrityParent_predict_child_{}_v3.json'.format(model_name),
-    #               FEW_SHOT_PROMPT=PROMPT_v3)
-
-# --------------------
-    model_name_or_path = "../llama2-7b-hf"
-    model_name = model_name_or_path.split('/')[-1]
-    model, tokenizer = load_llama(model_name_or_path)
-
-    predict_parent(r_file=csv_file_path,
-                   w_file='CelebrityParent_predict_parents_{}_v2.json'.format(model_name),
-                   FEW_SHOT_PROMPT=PROMPT_v2)
-    predict_child(r_file='CelebrityParent_predict_parents_{}_v2.json'.format(model_name),
-                  w_file='CelebrityParent_predict_child_{}_v2.json'.format(model_name),
-                  FEW_SHOT_PROMPT=PROMPT_v2)
+        predict_parent(r_file=r_file,
+                       w_file='../data/celebrity_out_parents_{}.json'.format(model_name),
+                       FEW_SHOT_PROMPT=PROMPT_v2)
+        predict_child(r_file='../data/celebrity_out_parents_{}.json'.format(model_name),
+                      w_file='../data/celebrity_out_child_{}.json'.format(model_name),
+                      FEW_SHOT_PROMPT=PROMPT_v2)
 
 
 

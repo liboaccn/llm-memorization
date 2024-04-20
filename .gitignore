@@ -3,11 +3,14 @@
 /llama2-7b-hf
 /submit
 /papers
-.idea
+/.idea
 /PPT
 
 /celebrity/data/
 /idiom/data
+download.sh
+downloadllama.sh
+embedding.py
 train.csv
 test.csv
 CMeEE-V2.zip
