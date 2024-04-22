@@ -85,7 +85,8 @@ def predict_parent(r_file, w_file, FEW_SHOT_PROMPT):
     count = 0
     for item in json_data:
         count += 1
-        print(count)
+        if count % 20 == 0:
+            print(count)
         child = item.get('child')
         parent = item.get('parent')
         parent_type = item.get('parent_type')

@@ -83,13 +83,13 @@ def load_models(model_name_or_path):
 def load_model(model_name_or_path):
     from transformers import AutoTokenizer, AutoModelForCausalLM
 
-    # global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
-    # max_memory = {k: '32GB' for k in global_devices}
+    global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
+    max_memory = {k: '32GB' for k in global_devices}
 
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
-                                             low_cpu_mem_usage=True, device_map='balanced',
-                                             torch_dtype=torch.float32,
+                                             low_cpu_mem_usage=True, device_map='auto',
+                                             torch_dtype=torch.float32, max_memory=max_memory
                                              )
     return model, tokenizer
 
@@ -99,7 +99,7 @@ MODELS = [
     # '/home/incoming/LLM/gemma/gemma-7b',
     # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
     # '/home/incoming/LLM/llama2/llama2-7b',
-    '/home/incoming/LLM/llama3/llama3-8b',
+    # '/home/incoming/LLM/llama3/llama3-8b',
     '/home/incoming/LLM/qwen1_5/qwen1_5-14b'
     '/home/incoming/LLM/llama2/llama2-13b',
 ]
