@@ -1,0 +1,4210 @@
+[
+    {
+        "question": "what country is the grand bahama island in?",
+        "answer": "Bahamas"
+    },
+    {
+        "question": "what two countries invaded poland in the beginning of ww2?",
+        "answer": "Germany"
+    },
+    {
+        "question": "which countries border the us?",
+        "answer": "Canada"
+    },
+    {
+        "question": "where is rome italy located on a map?",
+        "answer": "Rome"
+    },
+    {
+        "question": "what is nina dobrev nationality?",
+        "answer": "Bulgaria"
+    },
+    {
+        "question": "what country does iceland belong to?",
+        "answer": "Iceland"
+    },
+    {
+        "question": "what does thai mean?",
+        "answer": "Language"
+    },
+    {
+        "question": "who was ishmael's mom?",
+        "answer": "Hagar"
+    },
+    {
+        "question": "what are the major cities in france?",
+        "answer": "Paris"
+    },
+    {
+        "question": "what city did esther live in?",
+        "answer": "Susa"
+    },
+    {
+        "question": "what is martin cooper doing now?",
+        "answer": "Inventor"
+    },
+    {
+        "question": "what county is the city of hampton va in?",
+        "answer": "Hampton"
+    },
+    {
+        "question": "what county is heathrow airport in?",
+        "answer": "London"
+    },
+    {
+        "question": "what type of car does michael weston drive?",
+        "answer": "Wishcraft"
+    },
+    {
+        "question": "what was tupac name in juice?",
+        "answer": "Bishop"
+    },
+    {
+        "question": "what timezone is australia gmt?",
+        "answer": "UTC+8"
+    },
+    {
+        "question": "who does maggie grace play in taken?",
+        "answer": "Kim"
+    },
+    {
+        "question": "what style of music did louis armstrong play?",
+        "answer": "Jazz"
+    },
+    {
+        "question": "where does jackie french live?",
+        "answer": "Australia"
+    },
+    {
+        "question": "where is jack daniels factory?",
+        "answer": "Tennessee"
+    },
+    {
+        "question": "what is charles darwin famous for?",
+        "answer": "Evolution"
+    },
+    {
+        "question": "where did benjamin franklin died?",
+        "answer": "Philadelphia"
+    },
+    {
+        "question": "where to visit in n. ireland?",
+        "answer": "Antrim"
+    },
+    {
+        "question": "what are dollars called in spain?",
+        "answer": "Peseta"
+    },
+    {
+        "question": "where did martin luther king got shot?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "who does christina milian have a baby by?",
+        "answer": "The-Dream"
+    },
+    {
+        "question": "what did rob kardashian get surgery for?",
+        "answer": "Appendicitis"
+    },
+    {
+        "question": "what was nelson mandela's religion?",
+        "answer": "Methodism"
+    },
+    {
+        "question": "who will win the 2011 nhl stanley cup?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what is henry clay known for?",
+        "answer": "Lawyer"
+    },
+    {
+        "question": "what is the money of spain called?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where are sunbeam microwaves made?",
+        "answer": "Florida"
+    },
+    {
+        "question": "where was kennedy when he got shot?",
+        "answer": "Dallas"
+    },
+    {
+        "question": "where did the casey anthony case take place?",
+        "answer": "Orlando"
+    },
+    {
+        "question": "what do they call football in spanish?",
+        "answer": "XHVG-FM"
+    },
+    {
+        "question": "where does niles crane live?",
+        "answer": "Seattle"
+    },
+    {
+        "question": "where was gabriel faure born?",
+        "answer": "France"
+    },
+    {
+        "question": "where did the massive allied invasion of northern france take place in june 1944?",
+        "answer": "Normandy"
+    },
+    {
+        "question": "where is mitsubishi headquarters?",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "who did ben stiller play in megamind?",
+        "answer": "Bernard"
+    },
+    {
+        "question": "where did jane mansfield die?",
+        "answer": "Slidell"
+    },
+    {
+        "question": "where is the thames river located?",
+        "answer": "London"
+    },
+    {
+        "question": "what character does ellen play in finding nemo?",
+        "answer": "Dory"
+    },
+    {
+        "question": "what happened to daddy yankee?",
+        "answer": "Gunshot"
+    },
+    {
+        "question": "what city was leonardo da vinci from?",
+        "answer": "Vinci"
+    },
+    {
+        "question": "what did george v die of?",
+        "answer": "Euthanasia"
+    },
+    {
+        "question": "what sport does rebecca adlington compete in?",
+        "answer": "Swimming"
+    },
+    {
+        "question": "where is she from shakira?",
+        "answer": "Colombia"
+    },
+    {
+        "question": "who did hera marry?",
+        "answer": "Zeus"
+    },
+    {
+        "question": "what do the islamic believe?",
+        "answer": "Muslims"
+    },
+    {
+        "question": "where did henry knox die?",
+        "answer": "Thomaston"
+    },
+    {
+        "question": "who was the queen of the iceni tribe?",
+        "answer": "Boudica"
+    },
+    {
+        "question": "what is the name of the first prophet of islam?",
+        "answer": "Muhammad"
+    },
+    {
+        "question": "what do abrahamic religions have in common?",
+        "answer": "Monotheism"
+    },
+    {
+        "question": "where is tom cruise from?",
+        "answer": "Syracuse"
+    },
+    {
+        "question": "where does leland chapman live now?",
+        "answer": "Kailua"
+    },
+    {
+        "question": "where was the roman colosseum located?",
+        "answer": "Rome"
+    },
+    {
+        "question": "what albert einstein do for math?",
+        "answer": "Mathematician"
+    },
+    {
+        "question": "what did joseph lister do for science?",
+        "answer": "Listerine"
+    },
+    {
+        "question": "who uses new king james bible?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "what subatomic particles did jj thomson discover?",
+        "answer": "Electron"
+    },
+    {
+        "question": "what kind of government did benito mussolini have?",
+        "answer": "Dictator"
+    },
+    {
+        "question": "who is chelsea kane?",
+        "answer": "Singer"
+    },
+    {
+        "question": "who is darwin and what is his theory?",
+        "answer": "Naturalist"
+    },
+    {
+        "question": "what continent is south africa part of?",
+        "answer": "Africa"
+    },
+    {
+        "question": "where does the australian prime minister reside?",
+        "answer": "Canberra"
+    },
+    {
+        "question": "what is the china money called?",
+        "answer": "Renminbi"
+    },
+    {
+        "question": "what is the capital of alaska state?",
+        "answer": "Juneau"
+    },
+    {
+        "question": "who were the major trade partners of russia?",
+        "answer": "Uzbekistan"
+    },
+    {
+        "question": "where did nathaniel hawthorne die?",
+        "answer": "Plymouth"
+    },
+    {
+        "question": "what are buddhist gods?",
+        "answer": "\u0100gama"
+    },
+    {
+        "question": "what are the greek titans?",
+        "answer": "Titanium"
+    },
+    {
+        "question": "what state is harvard college located?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "where was leonardo da vinci when he died?",
+        "answer": "Amboise"
+    },
+    {
+        "question": "what kind of government did the mali empire have?",
+        "answer": "Republic"
+    },
+    {
+        "question": "what is the religion of israel people?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "which country is north of the usa?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what countries around the world speak french?",
+        "answer": "France"
+    },
+    {
+        "question": "in which province is johannesburg?",
+        "answer": "Gauteng"
+    },
+    {
+        "question": "what state did al gore represent?",
+        "answer": "Tennessee"
+    },
+    {
+        "question": "who was louis riel?",
+        "answer": "Politician"
+    },
+    {
+        "question": "where is abraham lincoln hometown?",
+        "answer": "Hodgenville"
+    },
+    {
+        "question": "what disease did helen keller?",
+        "answer": "Deafness"
+    },
+    {
+        "question": "what is the atlanta braves mascot?",
+        "answer": "Homer"
+    },
+    {
+        "question": "where was greenpeace an international environmental organization founded?",
+        "answer": "Vancouver"
+    },
+    {
+        "question": "when did tamu admit women?",
+        "answer": "Myanmar"
+    },
+    {
+        "question": "where was the battle of waterloo held?",
+        "answer": "Waterloo"
+    },
+    {
+        "question": "where does lala anthony live?",
+        "answer": "Brooklyn"
+    },
+    {
+        "question": "where was brad pitt born?",
+        "answer": "Shawnee"
+    },
+    {
+        "question": "where did dolly parton grew up?",
+        "answer": "Sevierville"
+    },
+    {
+        "question": "what state is rick santorum from?",
+        "answer": "Pennsylvania"
+    },
+    {
+        "question": "where was zachary taylor elected from?",
+        "answer": "Kentucky"
+    },
+    {
+        "question": "what ball does rickie fowler play?",
+        "answer": "Golf"
+    },
+    {
+        "question": "where do most of the people live in japan?",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "in what country is amsterdam?",
+        "answer": "Netherlands"
+    },
+    {
+        "question": "what did martin luther king jr go to college for?",
+        "answer": "Sociology"
+    },
+    {
+        "question": "what made jimi hendrix great?",
+        "answer": "guitar"
+    },
+    {
+        "question": "what did king edward vi died from?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "who does the islamic worship?",
+        "answer": "Allah"
+    },
+    {
+        "question": "where is st vincent de paul buried?",
+        "answer": "Paris"
+    },
+    {
+        "question": "what did jimmy valvano die with?",
+        "answer": "Cancer"
+    },
+    {
+        "question": "where did giovanni pierluigi da palestrina live?",
+        "answer": "Italy"
+    },
+    {
+        "question": "what religion was john f kennedy?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "what did hans oersted discovered in 1819?",
+        "answer": "Aluminium"
+    },
+    {
+        "question": "when did the lions last win a thanksgiving game?",
+        "answer": "Tombo"
+    },
+    {
+        "question": "where did richard arkwright die?",
+        "answer": "Cromford"
+    },
+    {
+        "question": "where did vietnam originate?",
+        "answer": "Asia"
+    },
+    {
+        "question": "where was hackney 2012 held?",
+        "answer": "London"
+    },
+    {
+        "question": "where are you if you re in zagreb?",
+        "answer": "Croatia"
+    },
+    {
+        "question": "where did bruno mars get his start?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "what is shakira's nationality?",
+        "answer": "Colombia"
+    },
+    {
+        "question": "where did the sultan of the ottoman empire live?",
+        "answer": "Constantinople"
+    },
+    {
+        "question": "what state did thomas jefferson live in?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "who is gilbert gottfried snl?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what was christiaan barnard famous for?",
+        "answer": "Surgeon"
+    },
+    {
+        "question": "where do audi come from?",
+        "answer": "Ingolstadt"
+    },
+    {
+        "question": "what continent does israel belong to?",
+        "answer": "Asia"
+    },
+    {
+        "question": "what is the capital city of albania?",
+        "answer": "Tirana"
+    },
+    {
+        "question": "where is thomas jefferson's home?",
+        "answer": "Monticello"
+    },
+    {
+        "question": "what is the capital of spain in 2010?",
+        "answer": "Madrid"
+    },
+    {
+        "question": "what did kenny everett die off?",
+        "answer": "AIDS"
+    },
+    {
+        "question": "where did elvis presley started his career?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "what jobs did harriet tubman have?",
+        "answer": "Writer"
+    },
+    {
+        "question": "where does unesco operate?",
+        "answer": "Paris"
+    },
+    {
+        "question": "what language do people speak in iran?",
+        "answer": "Persian"
+    },
+    {
+        "question": "what instrument does bela fleck play?",
+        "answer": "Banjo"
+    },
+    {
+        "question": "what branch is made up of the house of representatives?",
+        "answer": "Congress"
+    },
+    {
+        "question": "where did kurds originate from?",
+        "answer": "Asia"
+    },
+    {
+        "question": "where did morgan freeman come from?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "what are king charles spaniels?",
+        "answer": "Dog"
+    },
+    {
+        "question": "where did neil gaiman grow up?",
+        "answer": "Menomonie"
+    },
+    {
+        "question": "where is eu headquarters located?",
+        "answer": "Brussels"
+    },
+    {
+        "question": "what are the major religions practiced in israel?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "where did madoff live in nyc?",
+        "answer": "Queens"
+    },
+    {
+        "question": "who was josh groban in crazy stupid love?",
+        "answer": "Richard"
+    },
+    {
+        "question": "where did john boehner come from?",
+        "answer": "Ohio"
+    },
+    {
+        "question": "who does the islam worship?",
+        "answer": "Allah"
+    },
+    {
+        "question": "what is venus named for?",
+        "answer": "Planet"
+    },
+    {
+        "question": "what god do catholics believe in?",
+        "answer": "God"
+    },
+    {
+        "question": "what battle did germany surrender in ww2?",
+        "answer": "Berlin"
+    },
+    {
+        "question": "where does liz mcclarnon live?",
+        "answer": "England"
+    },
+    {
+        "question": "what city is fc schalke 04 in?",
+        "answer": "Gelsenkirchen"
+    },
+    {
+        "question": "where did giovanni da verrazano come from?",
+        "answer": "Italy"
+    },
+    {
+        "question": "what was omar epps first movie?",
+        "answer": "Juice"
+    },
+    {
+        "question": "where is eu parliament?",
+        "answer": "Brussels"
+    },
+    {
+        "question": "when does summer start in new england?",
+        "answer": "Waltham"
+    },
+    {
+        "question": "where was president lyndon johnson from?",
+        "answer": "Austin"
+    },
+    {
+        "question": "where do logan browning live?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "where adidas originate?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what is 2pm est in philippines?",
+        "answer": "UTC+8"
+    },
+    {
+        "question": "where are the pyramids of giza located?",
+        "answer": "Egypt"
+    },
+    {
+        "question": "who were demeter's brothers and sisters?",
+        "answer": "Zeus"
+    },
+    {
+        "question": "what instrument was louis armstrong famous for?",
+        "answer": "trumpet"
+    },
+    {
+        "question": "what province is canada's capital located in?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "what did bob ross die of?",
+        "answer": "Lymphoma"
+    },
+    {
+        "question": "where did martin luther live in?",
+        "answer": "Saxony-Anhalt"
+    },
+    {
+        "question": "where is made kia car?",
+        "answer": "Seoul"
+    },
+    {
+        "question": "what is the currency of spain called?",
+        "answer": "Euro"
+    },
+    {
+        "question": "which country is to the north of the united states of america?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what 3 states border the pacific ocean?",
+        "answer": "California"
+    },
+    {
+        "question": "what did mozart do to become famous?",
+        "answer": "Composer"
+    },
+    {
+        "question": "where was avril lavigne born?",
+        "answer": "Belleville"
+    },
+    {
+        "question": "what is the short name for stephanie?",
+        "answer": "Stepha"
+    },
+    {
+        "question": "where are they now jessica mcclure?",
+        "answer": "Midland"
+    },
+    {
+        "question": "what a city in montana?",
+        "answer": "Helena"
+    },
+    {
+        "question": "where are vw cc made?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what did richard nixon do for a living before he became president?",
+        "answer": "Politician"
+    },
+    {
+        "question": "where did john howard live?",
+        "answer": "Sydney"
+    },
+    {
+        "question": "where did pablo picasso die?",
+        "answer": "Mougins"
+    },
+    {
+        "question": "what did nick carter sister died of?",
+        "answer": "guitar"
+    },
+    {
+        "question": "who is james dean?",
+        "answer": "Actor"
+    },
+    {
+        "question": "who do roman catholics give authority to?",
+        "answer": "Pope"
+    },
+    {
+        "question": "who is nina dobrev playing in perks of being a wallflower?",
+        "answer": "Candace"
+    },
+    {
+        "question": "what state does obama come from?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "what was van gogh famous for?",
+        "answer": "Painter"
+    },
+    {
+        "question": "what did thomson discover with his cathode ray tube experiment?",
+        "answer": "Electron"
+    },
+    {
+        "question": "where was martin cooper from?",
+        "answer": "Chicago"
+    },
+    {
+        "question": "what is the currency name of china?",
+        "answer": "Renminbi"
+    },
+    {
+        "question": "what medium is the school of athens?",
+        "answer": "Athens"
+    },
+    {
+        "question": "in what state did the bloody battle of antietam take place?",
+        "answer": "Sharpsburg"
+    },
+    {
+        "question": "where did vietnamese people originate from?",
+        "answer": "Asian"
+    },
+    {
+        "question": "what country vasco da gama sail for?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "where did prophet daniel died?",
+        "answer": "Babylon"
+    },
+    {
+        "question": "where was toussaint l'ouverture from?",
+        "answer": "Haiti"
+    },
+    {
+        "question": "what type of art does wassily kandinsky do?",
+        "answer": "Painting"
+    },
+    {
+        "question": "where was rod stewart born?",
+        "answer": "Highgate"
+    },
+    {
+        "question": "who is samantha gibb?",
+        "answer": "Singer"
+    },
+    {
+        "question": "what was nicolaus copernicus occupation?",
+        "answer": "Astronomer"
+    },
+    {
+        "question": "what kind of currency does greece have?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where is the mozambique located?",
+        "answer": "Africa"
+    },
+    {
+        "question": "what did bella abzug do?",
+        "answer": "Lawyer"
+    },
+    {
+        "question": "what does the zambezi river flow into?",
+        "answer": "Namibia"
+    },
+    {
+        "question": "what is anderson cooper?",
+        "answer": "CNN"
+    },
+    {
+        "question": "where does the tsunami happened in japan?",
+        "answer": "Japan"
+    },
+    {
+        "question": "what is the capital of georgia?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "what color is miley cyrus red hair?",
+        "answer": "therichest.org"
+    },
+    {
+        "question": "who is susan st james?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where marie curie come from?",
+        "answer": "Warsaw"
+    },
+    {
+        "question": "where does allen iverson live now?",
+        "answer": "Hampton"
+    },
+    {
+        "question": "where was dwight howard born?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "where do guyanese people live?",
+        "answer": "Guyana"
+    },
+    {
+        "question": "where is alexandria located?",
+        "answer": "Egypt"
+    },
+    {
+        "question": "who was the fascist dictator of germany?",
+        "answer": "Hitler"
+    },
+    {
+        "question": "where do most chinese live?",
+        "answer": "China"
+    },
+    {
+        "question": "how rich is the roman catholic church?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "what did darry look like?",
+        "answer": "Male"
+    },
+    {
+        "question": "what do the buddha believe in?",
+        "answer": "Buddhism"
+    },
+    {
+        "question": "where is jack daniels tennessee whiskey made?",
+        "answer": "Tennessee"
+    },
+    {
+        "question": "where did kaiser wilhelm fled to?",
+        "answer": "Doorn"
+    },
+    {
+        "question": "what type of music was scott joplin noted for?",
+        "answer": "Ragtime"
+    },
+    {
+        "question": "where is adam smith from?",
+        "answer": "Kirkcaldy"
+    },
+    {
+        "question": "in what city did machiavelli live?",
+        "answer": "Florence"
+    },
+    {
+        "question": "who is abraham maslow?",
+        "answer": "Psychologist"
+    },
+    {
+        "question": "what is benedict arnold famous for?",
+        "answer": "Traitor"
+    },
+    {
+        "question": "where is the original mona lisa?",
+        "answer": "Louvre"
+    },
+    {
+        "question": "who was the leader of germany in wwii?",
+        "answer": "Hitler"
+    },
+    {
+        "question": "what is the northeast of the united states?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what state did george washington live in?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "where did noah live before the flood?",
+        "answer": "Mesopotamia"
+    },
+    {
+        "question": "in what modern country is the yucatan peninsula located?",
+        "answer": "Mexico"
+    },
+    {
+        "question": "who is lincoln steffens?",
+        "answer": "Journalist"
+    },
+    {
+        "question": "where is el salvador located?",
+        "answer": "Americas"
+    },
+    {
+        "question": "who founded the sisters of saint joseph?",
+        "answer": "Rachel"
+    },
+    {
+        "question": "what are american staffordshire terriers?",
+        "answer": "Dog"
+    },
+    {
+        "question": "what land did god give to israel?",
+        "answer": "Israel"
+    },
+    {
+        "question": "what style of art did vincent van gogh do?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "where did the tutsi come from?",
+        "answer": "Rwanda"
+    },
+    {
+        "question": "where was the roman empire centered?",
+        "answer": "Rome"
+    },
+    {
+        "question": "where are the mines in victoria?",
+        "answer": "Victoria"
+    },
+    {
+        "question": "where is luke afb arizona?",
+        "answer": "Glendale"
+    },
+    {
+        "question": "where was the gallipoli campaign waged?",
+        "answer": "Gallipoli"
+    },
+    {
+        "question": "what does the japanese call their country?",
+        "answer": "Japan"
+    },
+    {
+        "question": "when are school holidays in queensland 2013?",
+        "answer": "Woorabinda"
+    },
+    {
+        "question": "who was killed first tupac or biggie?",
+        "answer": "Tupac"
+    },
+    {
+        "question": "where is sony headquarters?",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "when is wimbledon tennis tournament?",
+        "answer": "Yearly"
+    },
+    {
+        "question": "what did larry hagman die of?",
+        "answer": "Leukemia"
+    },
+    {
+        "question": "what timezone is michigan usa?",
+        "answer": "UTC-5"
+    },
+    {
+        "question": "what do ethnic russians look like?",
+        "answer": "Europeans"
+    },
+    {
+        "question": "where did justin bieber grew up?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what district does john cornyn represent?",
+        "answer": "Texas"
+    },
+    {
+        "question": "what equipment does porter robinson use?",
+        "answer": "Pseudo-cylinder"
+    },
+    {
+        "question": "what city is the university of maryland university college in?",
+        "answer": "Adelphi"
+    },
+    {
+        "question": "where did anne frank live before the war?",
+        "answer": "Frankfurt"
+    },
+    {
+        "question": "where was joseph p kennedy born?",
+        "answer": "Boston"
+    },
+    {
+        "question": "which country is located directly east of belgium?",
+        "answer": "Europe"
+    },
+    {
+        "question": "who are iran's major trading partners?",
+        "answer": "Madagascar"
+    },
+    {
+        "question": "what state is kaplan university online located?",
+        "answer": "Maryland"
+    },
+    {
+        "question": "where did l frank baum die?",
+        "answer": "Hollywood"
+    },
+    {
+        "question": "where did gareth southgate play?",
+        "answer": "England"
+    },
+    {
+        "question": "where is the gobi desert located?",
+        "answer": "Mongolia"
+    },
+    {
+        "question": "what city was barack obama born in?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "what countries speak spanish wikipedia?",
+        "answer": "Spain"
+    },
+    {
+        "question": "what country did vasco da gama came from?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "where is the nfl hall of fame located and when was the building opened?",
+        "answer": "Canton"
+    },
+    {
+        "question": "where did laura ingalls wilder live?",
+        "answer": "Wisconsin"
+    },
+    {
+        "question": "where christopher columbus was born?",
+        "answer": "Genoa"
+    },
+    {
+        "question": "who did kat graham play in parent trap?",
+        "answer": "Jackie"
+    },
+    {
+        "question": "what did kourtney kardashian go to college for?",
+        "answer": "Theatre"
+    },
+    {
+        "question": "where is bergen belsen concentration camp located?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what was the name of tecumseh brother?",
+        "answer": "Tenskwatawa"
+    },
+    {
+        "question": "when did the battle of thermopylae occur?",
+        "answer": "Greece"
+    },
+    {
+        "question": "what do you say after a sneeze in german?",
+        "answer": "Wymysorys"
+    },
+    {
+        "question": "what is the currency in slovakia 2012?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what was prince charles last name?",
+        "answer": "Mountbatten-Windsor"
+    },
+    {
+        "question": "what website did mark zuckerberg co founder?",
+        "answer": "Facebook"
+    },
+    {
+        "question": "in which province islamabad is located?",
+        "answer": "Pakistan"
+    },
+    {
+        "question": "where is red lake ontario?",
+        "answer": "Canada"
+    },
+    {
+        "question": "who is adam sandler?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what time do the polls open in indiana 2012?",
+        "answer": "UTC\u221206:00"
+    },
+    {
+        "question": "what colony is john adams from?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "who does russia trade with the most?",
+        "answer": "Uzbekistan"
+    },
+    {
+        "question": "who was the grandson of king david's father?",
+        "answer": "Solomon"
+    },
+    {
+        "question": "where is devon sawa now?",
+        "answer": "Vancouver"
+    },
+    {
+        "question": "where is shoreditch?",
+        "answer": "London"
+    },
+    {
+        "question": "where does the spanish language come from?",
+        "answer": "Spain"
+    },
+    {
+        "question": "where does ryan lochte live now?",
+        "answer": "Gainesville"
+    },
+    {
+        "question": "what is capital city of ontario?",
+        "answer": "Ottawa"
+    },
+    {
+        "question": "where is hong kong china?",
+        "answer": "Asia"
+    },
+    {
+        "question": "what countries do they speak italian?",
+        "answer": "Italy"
+    },
+    {
+        "question": "where is the capital of canada on the map?",
+        "answer": "Ottawa"
+    },
+    {
+        "question": "what kind of paintings did frida kahlo do?",
+        "answer": "Surrealism"
+    },
+    {
+        "question": "what is the most practiced religion in the us?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "where did the flemish live?",
+        "answer": "Belgium"
+    },
+    {
+        "question": "what culture lived in teotihuacan?",
+        "answer": "Mexico"
+    },
+    {
+        "question": "who started the first persian gulf war?",
+        "answer": "Kuwait"
+    },
+    {
+        "question": "where was emperor hadrian born?",
+        "answer": "Rome"
+    },
+    {
+        "question": "what was the colosseum in rome used for?",
+        "answer": "Gladiator"
+    },
+    {
+        "question": "what did chadwick identify?",
+        "answer": "Neutron"
+    },
+    {
+        "question": "where did kurt cobain die?",
+        "answer": "Seattle"
+    },
+    {
+        "question": "where was the battle of verdun held?",
+        "answer": "Verdun"
+    },
+    {
+        "question": "what countries did germany take over during world war 2?",
+        "answer": "France"
+    },
+    {
+        "question": "where did jane austen grow up?",
+        "answer": "England"
+    },
+    {
+        "question": "when is the next geneva motor show?",
+        "answer": "March"
+    },
+    {
+        "question": "when and where did the battle of antietam take place?",
+        "answer": "Sharpsburg"
+    },
+    {
+        "question": "what two countries speak italian?",
+        "answer": "Italy"
+    },
+    {
+        "question": "who is jeremy sumpter?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what state did henry clay represent?",
+        "answer": "Kentucky"
+    },
+    {
+        "question": "what country was vasco nunez de balboa born in?",
+        "answer": "Spain"
+    },
+    {
+        "question": "who was the emperor before nero?",
+        "answer": "Claudius"
+    },
+    {
+        "question": "where do the orioles play spring training?",
+        "answer": "Baltimore"
+    },
+    {
+        "question": "when are school holidays in uk 2011?",
+        "answer": "Denbighshire"
+    },
+    {
+        "question": "where did pizarro land?",
+        "answer": "Spain"
+    },
+    {
+        "question": "who is paul revere and what did he do?",
+        "answer": "Silversmith"
+    },
+    {
+        "question": "what part of the world is south africa in?",
+        "answer": "Africa"
+    },
+    {
+        "question": "where is washington d.c. at?",
+        "answer": "Maryland"
+    },
+    {
+        "question": "what is the government of chile?",
+        "answer": "Republic"
+    },
+    {
+        "question": "where is the battle of verdun located?",
+        "answer": "Verdun"
+    },
+    {
+        "question": "who plays stella in coronation street?",
+        "answer": "Lager"
+    },
+    {
+        "question": "where was the earthquake in christchurch?",
+        "answer": "Canterbury"
+    },
+    {
+        "question": "what did cam newton do?",
+        "answer": "Quarterback"
+    },
+    {
+        "question": "where is baybrook mall?",
+        "answer": "Friendswood"
+    },
+    {
+        "question": "what state did obama win?",
+        "answer": "Illinois"
+    },
+    {
+        "question": "what planet did princess leia call home?",
+        "answer": "Alderaan"
+    },
+    {
+        "question": "where is whitey bulger?",
+        "answer": "Boston"
+    },
+    {
+        "question": "what currency does greece use 2012?",
+        "answer": "Euro"
+    },
+    {
+        "question": "which hmv stores are open?",
+        "answer": "Waterstones"
+    },
+    {
+        "question": "what were marco polo's goals?",
+        "answer": "Explorer"
+    },
+    {
+        "question": "where did pope benedict xvi live?",
+        "answer": "Germany"
+    },
+    {
+        "question": "where is tommy emmanuel from?",
+        "answer": "Australia"
+    },
+    {
+        "question": "what kind of money do the netherlands use?",
+        "answer": "Euro"
+    },
+    {
+        "question": "who is henry david thoreau?",
+        "answer": "Poet"
+    },
+    {
+        "question": "who did king tut married?",
+        "answer": "Ankhesenamun"
+    },
+    {
+        "question": "what religion is mary queen of scots?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "where is port st johns florida?",
+        "answer": "Florida"
+    },
+    {
+        "question": "what did ben hall do?",
+        "answer": "Bushranger"
+    },
+    {
+        "question": "where is the university of oregon state?",
+        "answer": "Oregon"
+    },
+    {
+        "question": "what is the capital city of canada on a map?",
+        "answer": "Ottawa"
+    },
+    {
+        "question": "what is the name of currency used in spain?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what ethnicity are people from iran?",
+        "answer": "Persian"
+    },
+    {
+        "question": "where did the germans come from wiki?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what movie did tom hanks won his first oscar?",
+        "answer": "Big"
+    },
+    {
+        "question": "what country did francis drake represent?",
+        "answer": "England"
+    },
+    {
+        "question": "where does turkish language?",
+        "answer": "Turkey"
+    },
+    {
+        "question": "who was mendel and what did he develop?",
+        "answer": "Scientist"
+    },
+    {
+        "question": "which asian country has the biggest population?",
+        "answer": "China"
+    },
+    {
+        "question": "what language do chinese?",
+        "answer": "Chinese"
+    },
+    {
+        "question": "what language is spoken in basque?",
+        "answer": "Basque"
+    },
+    {
+        "question": "what country did jacques cartier came from?",
+        "answer": "France"
+    },
+    {
+        "question": "who did magellan sail for?",
+        "answer": "Explorer"
+    },
+    {
+        "question": "where did irish people come from?",
+        "answer": "Ireland"
+    },
+    {
+        "question": "where did carrie underwood live?",
+        "answer": "Checotah"
+    },
+    {
+        "question": "where was toni braxton born and raised?",
+        "answer": "Severn"
+    },
+    {
+        "question": "what state did roger sherman represent at the constitutional convention?",
+        "answer": "Connecticut"
+    },
+    {
+        "question": "where does bradley cooper live now?",
+        "answer": "Philadelphia"
+    },
+    {
+        "question": "what country did vasco da gama come from?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "where does luke skywalker live in star wars?",
+        "answer": "Tatooine"
+    },
+    {
+        "question": "what country is vatican city in?",
+        "answer": "Rome"
+    },
+    {
+        "question": "where is the warmest weather in the united states in december?",
+        "answer": "Florida"
+    },
+    {
+        "question": "what did duke ellington do?",
+        "answer": "Musician"
+    },
+    {
+        "question": "where are the atlanta falcons located?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "where was obama born?",
+        "answer": "Hawaii"
+    },
+    {
+        "question": "where was tommy emmanuel born?",
+        "answer": "Muswellbrook"
+    },
+    {
+        "question": "what techniques did frida kahlo use in her paintings?",
+        "answer": "Surrealism"
+    },
+    {
+        "question": "who does larry david play in seinfeld?",
+        "answer": "Screenwriter"
+    },
+    {
+        "question": "where does brian williams live?",
+        "answer": "Ridgewood"
+    },
+    {
+        "question": "what technique did vincent van gogh use in his paintings?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "where was toussaint charbonneau from?",
+        "answer": "Boucherville"
+    },
+    {
+        "question": "in which province is pretoria?",
+        "answer": "Gauteng"
+    },
+    {
+        "question": "what country did john cabot sail for?",
+        "answer": "Italy"
+    },
+    {
+        "question": "when does school start in los angeles california 2011?",
+        "answer": "August"
+    },
+    {
+        "question": "what did robert koch do?",
+        "answer": "Physician"
+    },
+    {
+        "question": "what kind of drugs does charlie sheen do?",
+        "answer": "Cocaine"
+    },
+    {
+        "question": "what country was the treaty of versailles written?",
+        "answer": "France"
+    },
+    {
+        "question": "what is st mary mascot?",
+        "answer": "Griffin"
+    },
+    {
+        "question": "where did the welsh language originate from?",
+        "answer": "Celts"
+    },
+    {
+        "question": "where is kia cars made?",
+        "answer": "Seoul"
+    },
+    {
+        "question": "where jay z was raised?",
+        "answer": "Brooklyn"
+    },
+    {
+        "question": "where was battle of verdun located?",
+        "answer": "Verdun"
+    },
+    {
+        "question": "what gauge strings john mayer?",
+        "answer": "Blues-rock"
+    },
+    {
+        "question": "what was abe lincoln shot with?",
+        "answer": "Firearm"
+    },
+    {
+        "question": "what american penny is worth money?",
+        "answer": "Cent"
+    },
+    {
+        "question": "what to see in vietnam in two weeks?",
+        "answer": "Hanoi"
+    },
+    {
+        "question": "where did reagan die?",
+        "answer": "Bel-Air"
+    },
+    {
+        "question": "where is shakira from originally?",
+        "answer": "Barranquilla"
+    },
+    {
+        "question": "where was the gettysburg war located?",
+        "answer": "Gettysburg"
+    },
+    {
+        "question": "what does julian clary do?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where is the olympic national park located?",
+        "answer": "Washington"
+    },
+    {
+        "question": "what art movement was vincent van gogh apart of?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "what nation did hitler lead?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what secondary school did adolf hitler go to?",
+        "answer": "Realschule"
+    },
+    {
+        "question": "where are you from in egyptian arabic?",
+        "answer": "Egypt"
+    },
+    {
+        "question": "what did captain scott die of?",
+        "answer": "Starvation"
+    },
+    {
+        "question": "what city did elvis presley grew up in?",
+        "answer": "Tupelo"
+    },
+    {
+        "question": "where are brembo brakes from?",
+        "answer": "Bergamo"
+    },
+    {
+        "question": "what dialect do most chinese speak?",
+        "answer": "Chinese"
+    },
+    {
+        "question": "who does avril lavigne play in over the hedge?",
+        "answer": "Heather"
+    },
+    {
+        "question": "which country is gaza city located?",
+        "answer": "Israel"
+    },
+    {
+        "question": "what country did james watt come from?",
+        "answer": "Scotland"
+    },
+    {
+        "question": "what is the currency in germany in 2010?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what planet was luke skywalker raised on?",
+        "answer": "Tatooine"
+    },
+    {
+        "question": "what is the name of the money used in spain?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what did florence sabin do?",
+        "answer": "Physician"
+    },
+    {
+        "question": "where did audie murphy grow up?",
+        "answer": "Texas"
+    },
+    {
+        "question": "where was the battle of verdun ww1?",
+        "answer": "Verdun"
+    },
+    {
+        "question": "when does school start in hillsborough county?",
+        "answer": "Valrico"
+    },
+    {
+        "question": "what are the basic beliefs of islam religion?",
+        "answer": "Monotheism"
+    },
+    {
+        "question": "in what state was the air force academy established?",
+        "answer": "Colorado"
+    },
+    {
+        "question": "what currency should i bring to italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what does the roman empire consist of?",
+        "answer": "Cilicia"
+    },
+    {
+        "question": "where is glastonbury connecticut?",
+        "answer": "Connecticut"
+    },
+    {
+        "question": "what instruments does katy perry play?",
+        "answer": "Vocals"
+    },
+    {
+        "question": "where does don king live?",
+        "answer": "Cleveland"
+    },
+    {
+        "question": "where is luke bryan from?",
+        "answer": "Leesburg"
+    },
+    {
+        "question": "where did captain james cook grow up?",
+        "answer": "Marton"
+    },
+    {
+        "question": "where is sony headquarters located?",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "what happened to adolf hitler at the end of the war?",
+        "answer": "Suicide"
+    },
+    {
+        "question": "which four states touch mexico?",
+        "answer": "California"
+    },
+    {
+        "question": "what is the money called in spain?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where is john deere made?",
+        "answer": "Moline"
+    },
+    {
+        "question": "what did charles lindbergh became famous for in the 1920s?",
+        "answer": "Pilot"
+    },
+    {
+        "question": "what state did romney governor?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "what place did thomas jefferson died?",
+        "answer": "Charlottesville"
+    },
+    {
+        "question": "where is compaq laptops made?",
+        "answer": "Houston"
+    },
+    {
+        "question": "who does paul wesley play in 24?",
+        "answer": "Stephen"
+    },
+    {
+        "question": "what continent is australia in?",
+        "answer": "Australia"
+    },
+    {
+        "question": "where is spanish springs nv?",
+        "answer": "Europe"
+    },
+    {
+        "question": "who won the 2012 snooker masters?",
+        "answer": "London"
+    },
+    {
+        "question": "what state was john adams elected from?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "who was the first jedi master?",
+        "answer": "Yoda"
+    },
+    {
+        "question": "where was governor cuomo born?",
+        "answer": "Queens"
+    },
+    {
+        "question": "where did thomas jefferson died?",
+        "answer": "Charlottesville"
+    },
+    {
+        "question": "where is ibrahim chatta from?",
+        "answer": "Haryana"
+    },
+    {
+        "question": "what did emily bronte died of?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "what countries did mother teresa work in?",
+        "answer": "Kolkata"
+    },
+    {
+        "question": "what did charles dickens believe in?",
+        "answer": "Anglicanism"
+    },
+    {
+        "question": "what religion is sammy davis jr?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "where kurdish people from?",
+        "answer": "Asia"
+    },
+    {
+        "question": "where was jesus born and raised?",
+        "answer": "Nazareth"
+    },
+    {
+        "question": "what happened to harvey smith?",
+        "answer": "Designer"
+    },
+    {
+        "question": "where do islamic people go to worship?",
+        "answer": "Mosque"
+    },
+    {
+        "question": "what does george soros believe?",
+        "answer": "Atheism"
+    },
+    {
+        "question": "on which river is paris?",
+        "answer": "Seine"
+    },
+    {
+        "question": "where are dell products manufactured?",
+        "answer": "Texas"
+    },
+    {
+        "question": "what kind of biome is the everglades?",
+        "answer": "Wetland"
+    },
+    {
+        "question": "what was the capital of ancient israel?",
+        "answer": "Jerusalem"
+    },
+    {
+        "question": "where is tomb of allama iqbal?",
+        "answer": "Lahore"
+    },
+    {
+        "question": "who does the united states export the most to?",
+        "answer": "Canada"
+    },
+    {
+        "question": "where is sony ericsson based?",
+        "answer": "London"
+    },
+    {
+        "question": "which roman god goddess are you?",
+        "answer": "Vitellius"
+    },
+    {
+        "question": "what countries does canada export wheat to?",
+        "answer": "Japan"
+    },
+    {
+        "question": "what the australian liberal party stands for?",
+        "answer": "Australia"
+    },
+    {
+        "question": "where did roger moore live?",
+        "answer": "England"
+    },
+    {
+        "question": "where did carmen electra grow up?",
+        "answer": "Sharonville"
+    },
+    {
+        "question": "who did michael jackson play in the wiz?",
+        "answer": "Scarecrow"
+    },
+    {
+        "question": "what is the capital city of assyrian empire?",
+        "answer": "Assur"
+    },
+    {
+        "question": "what disease michael jackson?",
+        "answer": "Mysophobia"
+    },
+    {
+        "question": "what is isaac newton famous for?",
+        "answer": "Physicist"
+    },
+    {
+        "question": "what is considered eastern canada?",
+        "answer": "Newfoundland"
+    },
+    {
+        "question": "where do ba fly to from london city airport?",
+        "answer": "London"
+    },
+    {
+        "question": "where does kaka live?",
+        "answer": "Brazil"
+    },
+    {
+        "question": "what is the capital city of south carolina?",
+        "answer": "Columbia"
+    },
+    {
+        "question": "what type of political system is headed by queen elizabeth ii?",
+        "answer": "Monarch"
+    },
+    {
+        "question": "what city did obama grow up in?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "where did chris cuomo go?",
+        "answer": "Queens"
+    },
+    {
+        "question": "where did gary coleman live when he died?",
+        "answer": "Provo"
+    },
+    {
+        "question": "where was ronald reagan born and raised?",
+        "answer": "Tampico"
+    },
+    {
+        "question": "what are the biggest cities in illinois?",
+        "answer": "Chicago"
+    },
+    {
+        "question": "which province in canada is the most populated?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "which states touch canadian soil?",
+        "answer": "Michigan"
+    },
+    {
+        "question": "what did alvin smith died from?",
+        "answer": "Poison"
+    },
+    {
+        "question": "when is the gold cup cheltenham?",
+        "answer": "Yearly"
+    },
+    {
+        "question": "where does portuguese originate?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "what instrument does ringo starr play?",
+        "answer": "Drums"
+    },
+    {
+        "question": "what disease did anne frank get?",
+        "answer": "Typhus"
+    },
+    {
+        "question": "what channel is anderson cooper talk show on?",
+        "answer": "CNN"
+    },
+    {
+        "question": "what do hungarian people speak?",
+        "answer": "Hungarian"
+    },
+    {
+        "question": "in what town did ned kelly and his family grow up?",
+        "answer": "Beveridge"
+    },
+    {
+        "question": "what are the new york giants home colors?",
+        "answer": "Blue"
+    },
+    {
+        "question": "where can you buy amazon kindle?",
+        "answer": "Amazon.com"
+    },
+    {
+        "question": "what was king louis xiv religion?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "who juan ponce de leon?",
+        "answer": "Explorer"
+    },
+    {
+        "question": "what state is toronto in?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "where did helen keller die?",
+        "answer": "Easton"
+    },
+    {
+        "question": "where did the hopi indians live?",
+        "answer": "Americas"
+    },
+    {
+        "question": "what did jeff corwin major in?",
+        "answer": "Biologist"
+    },
+    {
+        "question": "what timezone is malaysia?",
+        "answer": "UTC+8"
+    },
+    {
+        "question": "where was alice walker born?",
+        "answer": "Eatonton"
+    },
+    {
+        "question": "where did romans go?",
+        "answer": "Europe"
+    },
+    {
+        "question": "what instruments did vivaldi wrote concertos for?",
+        "answer": "Violin"
+    },
+    {
+        "question": "what land did god promise joshua?",
+        "answer": "Canaan"
+    },
+    {
+        "question": "what countries did queen elizabeth i rule?",
+        "answer": "England"
+    },
+    {
+        "question": "what channel is the mtv vma awards on?",
+        "answer": "MTV"
+    },
+    {
+        "question": "where do they grow rice in italy?",
+        "answer": "Lombardy"
+    },
+    {
+        "question": "where great britain on the world map?",
+        "answer": "Europe"
+    },
+    {
+        "question": "what year did the vietnam war happen?",
+        "answer": "1960s"
+    },
+    {
+        "question": "what state was ronald reagan governor of?",
+        "answer": "California"
+    },
+    {
+        "question": "what is the most practiced religion in the united states?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "where was my honda motorcycle made?",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "what is st james palace?",
+        "answer": "Palace"
+    },
+    {
+        "question": "what did thoreau die from?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "what is the main religion in eastern europe?",
+        "answer": "Zift"
+    },
+    {
+        "question": "where do the japanese live?",
+        "answer": "Japan"
+    },
+    {
+        "question": "what is illinois state flower called?",
+        "answer": "Viola"
+    },
+    {
+        "question": "who plays miley cyrus brother?",
+        "answer": "Guitarist"
+    },
+    {
+        "question": "what country was theodor schwann born in?",
+        "answer": "Germany"
+    },
+    {
+        "question": "where did darfur happen?",
+        "answer": "Sudan"
+    },
+    {
+        "question": "what was henry ford best known for?",
+        "answer": "Industrialist"
+    },
+    {
+        "question": "where the queen of denmark lives?",
+        "answer": "Copenhagen"
+    },
+    {
+        "question": "where is burundi located on a map?",
+        "answer": "Africa"
+    },
+    {
+        "question": "where is merrell shoes headquarters?",
+        "answer": "Rockford"
+    },
+    {
+        "question": "what country volvo cars made?",
+        "answer": "Sweden"
+    },
+    {
+        "question": "what is tim tebow's religion?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "what does anderson cooper do?",
+        "answer": "Journalist"
+    },
+    {
+        "question": "who is ellen bernstein?",
+        "answer": "Actor"
+    },
+    {
+        "question": "when are the australian open men's finals?",
+        "answer": "Yearly"
+    },
+    {
+        "question": "where did jerome david salinger died?",
+        "answer": "Cornish"
+    },
+    {
+        "question": "where is somalia located?",
+        "answer": "Africa"
+    },
+    {
+        "question": "who does ryan newman race for?",
+        "answer": "Alltel"
+    },
+    {
+        "question": "what country is joseph prince from?",
+        "answer": "Singapore"
+    },
+    {
+        "question": "where is the sistine chapel by michelangelo?",
+        "answer": "Rome"
+    },
+    {
+        "question": "where is jack daniel buried?",
+        "answer": "Lynchburg"
+    },
+    {
+        "question": "what strings does john mayer?",
+        "answer": "guitar"
+    },
+    {
+        "question": "what role did tom cruise play in endless love?",
+        "answer": "Billy"
+    },
+    {
+        "question": "what city was ronald reagan born in?",
+        "answer": "Tampico"
+    },
+    {
+        "question": "what 4 states border the pacific ocean?",
+        "answer": "Oregon"
+    },
+    {
+        "question": "where is amazon based out of?",
+        "answer": "Seattle"
+    },
+    {
+        "question": "where was anne frank born?",
+        "answer": "Frankfurt"
+    },
+    {
+        "question": "who was king tut's wife?",
+        "answer": "Ankhesenamun"
+    },
+    {
+        "question": "where kurdish people come from?",
+        "answer": "Asia"
+    },
+    {
+        "question": "what type of business is mitt romney in?",
+        "answer": "Politician"
+    },
+    {
+        "question": "what country columbus was born?",
+        "answer": "Genoa"
+    },
+    {
+        "question": "what is the houston rockets mascot?",
+        "answer": "Clutch"
+    },
+    {
+        "question": "what is ryan seacrest famous for?",
+        "answer": "Presenter"
+    },
+    {
+        "question": "what city became the capital of the assyrian empire?",
+        "answer": "Assur"
+    },
+    {
+        "question": "where does frida kahlo live now?",
+        "answer": "Coyoac\u00e1n"
+    },
+    {
+        "question": "where was emperor tiberius born?",
+        "answer": "Rome"
+    },
+    {
+        "question": "where to live near seattle wa?",
+        "answer": "Magnolia"
+    },
+    {
+        "question": "where to go in mexico for vacation?",
+        "answer": "Yucat\u00e1n"
+    },
+    {
+        "question": "what does matt dallas do now?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what character did liv tyler play in lord of the rings?",
+        "answer": "Arwen"
+    },
+    {
+        "question": "where was saint joseph from?",
+        "answer": "Canaan"
+    },
+    {
+        "question": "where does kenya moore get her money?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what round did manny pacquiao win in?",
+        "answer": "celebritynetworth.com"
+    },
+    {
+        "question": "what was howard carter's job?",
+        "answer": "Archaeologist"
+    },
+    {
+        "question": "what is the capital city of texas usa?",
+        "answer": "Austin"
+    },
+    {
+        "question": "where was the vietnam war located?",
+        "answer": "Vietnam"
+    },
+    {
+        "question": "where is aviano air force base located?",
+        "answer": "Italy"
+    },
+    {
+        "question": "where did giovanni da verrazano live?",
+        "answer": "Dieppe"
+    },
+    {
+        "question": "what was antonio vivaldi known for?",
+        "answer": "Priest"
+    },
+    {
+        "question": "where did george harrison live before he died?",
+        "answer": "Liverpool"
+    },
+    {
+        "question": "where do most earthquakes happen in japan?",
+        "answer": "Hokkaido"
+    },
+    {
+        "question": "where was president chester arthur born?",
+        "answer": "Fairfield"
+    },
+    {
+        "question": "where did laura bush grow up?",
+        "answer": "Midland"
+    },
+    {
+        "question": "who is ellen albertini dow?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what town was abe lincoln born in?",
+        "answer": "Hodgenville"
+    },
+    {
+        "question": "where does morrissey live 2010?",
+        "answer": "Manchester"
+    },
+    {
+        "question": "where did toussaint louverture live?",
+        "answer": "Haiti"
+    },
+    {
+        "question": "where to stay in thailand koh samui?",
+        "answer": "UTC+07:00"
+    },
+    {
+        "question": "where do most immigrants in the united states come from today?",
+        "answer": "Mexico"
+    },
+    {
+        "question": "what state toronto located?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "where do most of the people in egypt live?",
+        "answer": "Cairo"
+    },
+    {
+        "question": "where was benjamin franklin raised?",
+        "answer": "Boston"
+    },
+    {
+        "question": "where do people speak burmese?",
+        "answer": "Myanmar"
+    },
+    {
+        "question": "what money do they have in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what is the name of the capital of spain?",
+        "answer": "Madrid"
+    },
+    {
+        "question": "where are facebook headquarters located?",
+        "answer": "California"
+    },
+    {
+        "question": "what was the roman political system?",
+        "answer": "Autocracy"
+    },
+    {
+        "question": "what government type is north korea?",
+        "answer": "Juche"
+    },
+    {
+        "question": "where is the pepsi center?",
+        "answer": "Denver"
+    },
+    {
+        "question": "where is the best place to stay in aruba?",
+        "answer": "Oranjestad"
+    },
+    {
+        "question": "what county is denver colorado in?",
+        "answer": "Denver"
+    },
+    {
+        "question": "what province is toronto canada located in?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "what are the gods of islam?",
+        "answer": "Allah"
+    },
+    {
+        "question": "what was vasco nunez de balboa original purpose of his journey?",
+        "answer": "Explorer"
+    },
+    {
+        "question": "who did joseph from the bible marry?",
+        "answer": "Asenath"
+    },
+    {
+        "question": "what channel does anderson cooper come on?",
+        "answer": "CNN"
+    },
+    {
+        "question": "what money do they use in china?",
+        "answer": "Renminbi"
+    },
+    {
+        "question": "where does jeb bush live?",
+        "answer": "Midland"
+    },
+    {
+        "question": "what does united church of christ believe?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "where is walton goggins from?",
+        "answer": "Birmingham"
+    },
+    {
+        "question": "which province is calgary canada in?",
+        "answer": "Alberta"
+    },
+    {
+        "question": "where is the capital city of assyrians?",
+        "answer": "Assur"
+    },
+    {
+        "question": "who is aidan quinn?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where was ben franklin born?",
+        "answer": "Boston"
+    },
+    {
+        "question": "what is the dominican republic part of?",
+        "answer": "Hispaniola"
+    },
+    {
+        "question": "where did jerry spinelli live as a kid?",
+        "answer": "Norristown"
+    },
+    {
+        "question": "what time is the melbourne cup?",
+        "answer": "Yearly"
+    },
+    {
+        "question": "where is the french alps located?",
+        "answer": "France"
+    },
+    {
+        "question": "where does the zambezi river begin?",
+        "answer": "Mwinilunga"
+    },
+    {
+        "question": "what did andrew johnson die from?",
+        "answer": "Stroke"
+    },
+    {
+        "question": "what does time warner own?",
+        "answer": "WPCH-TV"
+    },
+    {
+        "question": "who did bryce dallas howard play in eclipse?",
+        "answer": "Victoria"
+    },
+    {
+        "question": "who was michael jackson in the wiz?",
+        "answer": "Scarecrow"
+    },
+    {
+        "question": "what state in chicago in?",
+        "answer": "Illinois"
+    },
+    {
+        "question": "what part of the atom did chadwick discover?",
+        "answer": "Neutron"
+    },
+    {
+        "question": "where did sir john a macdonald die?",
+        "answer": "Ottawa"
+    },
+    {
+        "question": "where did martin luther king jr get shot?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "what country does spanish come from?",
+        "answer": "Spain"
+    },
+    {
+        "question": "what is south korea's capital city?",
+        "answer": "Seoul"
+    },
+    {
+        "question": "what country did giovanni da verrazano represent?",
+        "answer": "Italy"
+    },
+    {
+        "question": "what city is the jacksonville jaguars from?",
+        "answer": "Jacksonville"
+    },
+    {
+        "question": "what was the cause of death for edgar allan poe?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "what is thomas edison's most famous for?",
+        "answer": "Inventor"
+    },
+    {
+        "question": "what does jennifer lopez do?",
+        "answer": "Actor"
+    },
+    {
+        "question": "what country was dmitri mendeleev born?",
+        "answer": "Russia"
+    },
+    {
+        "question": "what is the capital city of west germany?",
+        "answer": "Bonn"
+    },
+    {
+        "question": "what contribution did hooke made to science in 1665?",
+        "answer": "Micrographia"
+    },
+    {
+        "question": "where was george washington originally from?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "what country christopher columbus from?",
+        "answer": "Genoa"
+    },
+    {
+        "question": "who was michael j fox?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where is roger federer from sui?",
+        "answer": "Basel"
+    },
+    {
+        "question": "where did the florida marlins?",
+        "answer": "Miami"
+    },
+    {
+        "question": "what did skinner believe?",
+        "answer": "Atheism"
+    },
+    {
+        "question": "what currency is used in germany 2012?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what made roald dahl famous?",
+        "answer": "Novelist"
+    },
+    {
+        "question": "what country did ponce de leon live in?",
+        "answer": "Spain"
+    },
+    {
+        "question": "what is the official state flower of arizona?",
+        "answer": "Saguaro"
+    },
+    {
+        "question": "what style of art did van gogh produce?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "what are portuguese people considered?",
+        "answer": "Portuguese"
+    },
+    {
+        "question": "where was ancient carthage located?",
+        "answer": "Tunisia"
+    },
+    {
+        "question": "where is riley's farm located?",
+        "answer": "Sunnydale"
+    },
+    {
+        "question": "where is eric cantor from?",
+        "answer": "Richmond"
+    },
+    {
+        "question": "where did tim mcgraw grew up?",
+        "answer": "Delhi"
+    },
+    {
+        "question": "what currency does greece use?",
+        "answer": "Euro"
+    },
+    {
+        "question": "who does sonny bill williams play for 2012?",
+        "answer": "Chiefs"
+    },
+    {
+        "question": "when was the last shark attack in maui?",
+        "answer": "Wailuku"
+    },
+    {
+        "question": "where is rihanna from ethnically?",
+        "answer": "Afro-Guyanese"
+    },
+    {
+        "question": "what did baron de montesquieu die from?",
+        "answer": "Fever"
+    },
+    {
+        "question": "what did doc holliday die from?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "where did robin gibb die?",
+        "answer": "London"
+    },
+    {
+        "question": "what is the capital city of montana usa?",
+        "answer": "Helena"
+    },
+    {
+        "question": "what kind of money does germany?",
+        "answer": "Euro"
+    },
+    {
+        "question": "who did walter raleigh sail for?",
+        "answer": "England"
+    },
+    {
+        "question": "where did frank baum live?",
+        "answer": "Syracuse"
+    },
+    {
+        "question": "where is johnny depp from?",
+        "answer": "Owensboro"
+    },
+    {
+        "question": "what was alice walker famous for?",
+        "answer": "Writer"
+    },
+    {
+        "question": "where do haitian people come from?",
+        "answer": "Haiti"
+    },
+    {
+        "question": "where did jimmy hoffa live?",
+        "answer": "Indiana"
+    },
+    {
+        "question": "what state obama was born?",
+        "answer": "Hawaii"
+    },
+    {
+        "question": "who is democritus and what did he discover?",
+        "answer": "Mathematician"
+    },
+    {
+        "question": "where did elvis presley live before he died?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "what is the currency of germany in 2010?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what currency do italy have?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what country did marco polo come from?",
+        "answer": "Venice"
+    },
+    {
+        "question": "what did amerigo vespucci explore?",
+        "answer": "Americas"
+    },
+    {
+        "question": "where did patrick henry live?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "where is spain located what continent?",
+        "answer": "Europe"
+    },
+    {
+        "question": "what happened to sir thomas cromwell?",
+        "answer": "Decapitation"
+    },
+    {
+        "question": "who did butler beat last night?",
+        "answer": "Stephano"
+    },
+    {
+        "question": "what are the mountains in peru called?",
+        "answer": "Andes"
+    },
+    {
+        "question": "where is victoria beckham from?",
+        "answer": "Harlow"
+    },
+    {
+        "question": "what country was osama bin laden killed in?",
+        "answer": "Abbottabad"
+    },
+    {
+        "question": "where did heidi klum and seal get married?",
+        "answer": "Mexico"
+    },
+    {
+        "question": "what form of government does north korea?",
+        "answer": "Juche"
+    },
+    {
+        "question": "where is located cornell university?",
+        "answer": "Ithaca"
+    },
+    {
+        "question": "what island is bethany hamilton from?",
+        "answer": "Lihue"
+    },
+    {
+        "question": "what city is the state capital of washington?",
+        "answer": "Olympia"
+    },
+    {
+        "question": "what does shawn johnson do?",
+        "answer": "Gymnast"
+    },
+    {
+        "question": "where did nadia boulanger live?",
+        "answer": "Paris"
+    },
+    {
+        "question": "in which city was president kennedy killed?",
+        "answer": "Dallas"
+    },
+    {
+        "question": "what sport do the harlem globetrotters play?",
+        "answer": "Basketball"
+    },
+    {
+        "question": "in which continent is russia?",
+        "answer": "Eurasia"
+    },
+    {
+        "question": "where did paul ryan live?",
+        "answer": "Janesville"
+    },
+    {
+        "question": "where is angola located?",
+        "answer": "Africa"
+    },
+    {
+        "question": "where did harriet tubman live after the civil war?",
+        "answer": "Auburn"
+    },
+    {
+        "question": "what is the capital of oregon?",
+        "answer": "Salem"
+    },
+    {
+        "question": "what do spain call their money?",
+        "answer": "Euro"
+    },
+    {
+        "question": "who did james franco play on general hospital?",
+        "answer": "Franco"
+    },
+    {
+        "question": "where did andreas vesalius die?",
+        "answer": "Zakynthos"
+    },
+    {
+        "question": "where was emperor qin shi huang born?",
+        "answer": "Handan"
+    },
+    {
+        "question": "where was the first ford motor company located?",
+        "answer": "Dearborn"
+    },
+    {
+        "question": "which country does irish language come from?",
+        "answer": "Irish"
+    },
+    {
+        "question": "what religion did jesus christ follow?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "what party is bloomberg affiliated with?",
+        "answer": "Independent"
+    },
+    {
+        "question": "where does t boone pickens live?",
+        "answer": "Oklahoma"
+    },
+    {
+        "question": "what is the capital city of germany now?",
+        "answer": "Berlin"
+    },
+    {
+        "question": "what continent is syria located in?",
+        "answer": "Asia"
+    },
+    {
+        "question": "what was alexander graham bell known for?",
+        "answer": "Telephone"
+    },
+    {
+        "question": "where to go in florida for vacation?",
+        "answer": "Miami"
+    },
+    {
+        "question": "what did douglas engelbart invent?",
+        "answer": "Mouse"
+    },
+    {
+        "question": "where is fiat abarth made?",
+        "answer": "Turin"
+    },
+    {
+        "question": "where was tommy steele born?",
+        "answer": "Bermondsey"
+    },
+    {
+        "question": "where are you if you're in khartoum?",
+        "answer": "Sudan"
+    },
+    {
+        "question": "where did fred west work?",
+        "answer": "Laborer"
+    },
+    {
+        "question": "where did the allied invasion of france take place?",
+        "answer": "Normandy"
+    },
+    {
+        "question": "what city was nelson mandela born in?",
+        "answer": "Mvezo"
+    },
+    {
+        "question": "what time does independence center open on sundays?",
+        "answer": "Independence"
+    },
+    {
+        "question": "what was matthias schleiden known for?",
+        "answer": "Botanist"
+    },
+    {
+        "question": "what country was jesus born?",
+        "answer": "Iudaea"
+    },
+    {
+        "question": "what was vietnam war fought for?",
+        "answer": "Communism"
+    },
+    {
+        "question": "where is italian spoken around the world?",
+        "answer": "Italy"
+    },
+    {
+        "question": "where is kate middleton spending christmas?",
+        "answer": "Bucklebury"
+    },
+    {
+        "question": "where did president andrew jackson grew up?",
+        "answer": "Waxhaws"
+    },
+    {
+        "question": "where the murray river located?",
+        "answer": "Australia"
+    },
+    {
+        "question": "where was joe biden a senator?",
+        "answer": "Delaware"
+    },
+    {
+        "question": "what is the money currency in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where was adolf hitler died?",
+        "answer": "Berlin"
+    },
+    {
+        "question": "what was sherlock holmes famous for?",
+        "answer": "Detective"
+    },
+    {
+        "question": "what does sirius black wand look like?",
+        "answer": "Star"
+    },
+    {
+        "question": "where are the libyan refugees going?",
+        "answer": "Tunisia"
+    },
+    {
+        "question": "what city was woodstock held in?",
+        "answer": "Bethel"
+    },
+    {
+        "question": "who do pagans believe is god?",
+        "answer": "Odin"
+    },
+    {
+        "question": "what was one thing benjamin franklin is famous for?",
+        "answer": "Bifocals"
+    },
+    {
+        "question": "who might arthur miller think would?",
+        "answer": "Writer"
+    },
+    {
+        "question": "what did atticus finch do?",
+        "answer": "Lawyer"
+    },
+    {
+        "question": "where is the spratly islands located?",
+        "answer": "Asia"
+    },
+    {
+        "question": "who does new zealand import from?",
+        "answer": "China"
+    },
+    {
+        "question": "what city was kennedy shot?",
+        "answer": "Dallas"
+    },
+    {
+        "question": "what is the capital of kentucky known for its bluegrass?",
+        "answer": "Frankfort"
+    },
+    {
+        "question": "what was karl marx beliefs?",
+        "answer": "Marxism"
+    },
+    {
+        "question": "where did japan invade to get resources?",
+        "answer": "China"
+    },
+    {
+        "question": "what is jonathan swift famous for?",
+        "answer": "Pamphleteer"
+    },
+    {
+        "question": "where was dr luther king jr born?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "where french revolution?",
+        "answer": "France"
+    },
+    {
+        "question": "what did hitler do bad?",
+        "answer": "Nazism"
+    },
+    {
+        "question": "what countries are included in the netherlands?",
+        "answer": "Elburg"
+    },
+    {
+        "question": "what form of government is israel?",
+        "answer": "Democracy"
+    },
+    {
+        "question": "what is the biggest country in europe by population?",
+        "answer": "Russia"
+    },
+    {
+        "question": "where is art smith from?",
+        "answer": "Kirkcaldy"
+    },
+    {
+        "question": "what empire did maria theresa rule?",
+        "answer": "Bohemia"
+    },
+    {
+        "question": "where are john deere snow blowers made?",
+        "answer": "Moline"
+    },
+    {
+        "question": "what art movement does vincent van gogh belong to?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "what type of government is the philippines?",
+        "answer": "Republic"
+    },
+    {
+        "question": "where did sir donald bradman live?",
+        "answer": "Adelaide"
+    },
+    {
+        "question": "what is the name of the broncos mascot?",
+        "answer": "Miles"
+    },
+    {
+        "question": "what is the percentage of youth in uganda?",
+        "answer": "Uganda"
+    },
+    {
+        "question": "where does sherrod brown live?",
+        "answer": "Mansfield"
+    },
+    {
+        "question": "what is the currency in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what is the name of the currency used in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where is audrey hepburn from?",
+        "answer": "Ixelles"
+    },
+    {
+        "question": "where did the australian floods take place?",
+        "answer": "Queensland"
+    },
+    {
+        "question": "what is the name of the currency used in china?",
+        "answer": "Renminbi"
+    },
+    {
+        "question": "where did abraham and his descendants live?",
+        "answer": "Canaan"
+    },
+    {
+        "question": "where president obama was born?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "who did viggo mortensen play in lord of the rings?",
+        "answer": "Aragorn"
+    },
+    {
+        "question": "what country does david luiz play for?",
+        "answer": "Brazil"
+    },
+    {
+        "question": "where is victoria british columbia?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what radio station is npr on in nyc?",
+        "answer": "WNYC"
+    },
+    {
+        "question": "where is mount fuji located?",
+        "answer": "Honshu"
+    },
+    {
+        "question": "where was toussaint l'ouverture born?",
+        "answer": "Haiti"
+    },
+    {
+        "question": "what is the capital city of spain wiki answers?",
+        "answer": "Madrid"
+    },
+    {
+        "question": "which country in north america is divided into provinces?",
+        "answer": "Canada"
+    },
+    {
+        "question": "where is the scottish house in skyfall?",
+        "answer": "Celts"
+    },
+    {
+        "question": "where is the illinois river on a map?",
+        "answer": "Illinois"
+    },
+    {
+        "question": "who do pagans worship?",
+        "answer": "Odin"
+    },
+    {
+        "question": "what region did the incas live in?",
+        "answer": "Cusco"
+    },
+    {
+        "question": "which of the following was a contribution thomas hunt morgan made to genetics?",
+        "answer": "Chromosome"
+    },
+    {
+        "question": "what type of art does claude monet do?",
+        "answer": "Impressionism"
+    },
+    {
+        "question": "who did jennifer lawrence play in x men?",
+        "answer": "Mystique"
+    },
+    {
+        "question": "what type of equipment did dorothea lange use?",
+        "answer": "Photography"
+    },
+    {
+        "question": "what cancer did jackie kennedy die of?",
+        "answer": "Lymphoma"
+    },
+    {
+        "question": "what is the capital of italy today?",
+        "answer": "Rome"
+    },
+    {
+        "question": "where are you from in malayalam?",
+        "answer": "India"
+    },
+    {
+        "question": "what nationality is rihanna?",
+        "answer": "Barbados"
+    },
+    {
+        "question": "what banjo does scott avett play?",
+        "answer": "Banjo"
+    },
+    {
+        "question": "who is angelina jolie?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where is nineveh city?",
+        "answer": "Iraq"
+    },
+    {
+        "question": "where is the national ffa foundation located today?",
+        "answer": "Indianapolis"
+    },
+    {
+        "question": "where did the battle of passchendaele happen?",
+        "answer": "Passendale"
+    },
+    {
+        "question": "where did jay moriarty die?",
+        "answer": "Maldives"
+    },
+    {
+        "question": "what does helen flanagan do?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where is tennessee river?",
+        "answer": "Tennessee"
+    },
+    {
+        "question": "where did kate gosselin grew up?",
+        "answer": "Philadelphia"
+    },
+    {
+        "question": "what city does fulham play in?",
+        "answer": "London"
+    },
+    {
+        "question": "who were demeter's siblings?",
+        "answer": "Zeus"
+    },
+    {
+        "question": "what the largest city in spain?",
+        "answer": "Madrid"
+    },
+    {
+        "question": "where did the gallipoli war take place?",
+        "answer": "Gallipoli"
+    },
+    {
+        "question": "where is shakira from?",
+        "answer": "Colombia"
+    },
+    {
+        "question": "what is the most populated state in united states?",
+        "answer": "California"
+    },
+    {
+        "question": "when does the vietnam war end?",
+        "answer": "1970s"
+    },
+    {
+        "question": "what is steve nash nationality?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what two states is st louis in?",
+        "answer": "Missouri"
+    },
+    {
+        "question": "what does sarabi?",
+        "answer": "Physician"
+    },
+    {
+        "question": "what drug killed marilyn monroe?",
+        "answer": "Barbiturate"
+    },
+    {
+        "question": "what did john dalton study?",
+        "answer": "Chemist"
+    },
+    {
+        "question": "what do unitarian universalist believe?",
+        "answer": "Nontrinitarianism"
+    },
+    {
+        "question": "where was john f kennedy when he got shot?",
+        "answer": "Dallas"
+    },
+    {
+        "question": "what province is montreal canada located?",
+        "answer": "Qu\u00e9bec"
+    },
+    {
+        "question": "what was nikola tesla known for?",
+        "answer": "Inventor"
+    },
+    {
+        "question": "what is the predominant religion in israel?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "what country did toussaint l'ouverture help free?",
+        "answer": "Haiti"
+    },
+    {
+        "question": "what is the kentucky state bird?",
+        "answer": "Cardinal"
+    },
+    {
+        "question": "what did st. nicholas do in his life?",
+        "answer": "Bishop"
+    },
+    {
+        "question": "who was ulysses s. grant?",
+        "answer": "Lieutenant-General"
+    },
+    {
+        "question": "where is ibrahim afellay from?",
+        "answer": "Utrecht"
+    },
+    {
+        "question": "where is spanish spoken most?",
+        "answer": "Spain"
+    },
+    {
+        "question": "what capital city of brazil?",
+        "answer": "Bras\u00edlia"
+    },
+    {
+        "question": "what currency does cyprus use?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what type of guitar does johnny depp play?",
+        "answer": "Gibson's"
+    },
+    {
+        "question": "what episode of how i met your mother is carrie underwood on?",
+        "answer": "Hooked"
+    },
+    {
+        "question": "who is dustin johnson the golfer?",
+        "answer": "Golfer"
+    },
+    {
+        "question": "what city is the university of oregon state in?",
+        "answer": "Eugene"
+    },
+    {
+        "question": "where does kate middleton live 2012?",
+        "answer": "Reading"
+    },
+    {
+        "question": "where does the city of paris get its name?",
+        "answer": "Parisii"
+    },
+    {
+        "question": "where is olympic national park located?",
+        "answer": "Washington"
+    },
+    {
+        "question": "what city and state is yale located in?",
+        "answer": "Connecticut"
+    },
+    {
+        "question": "where was barack hussein obama sr born?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "who was kate chopin?",
+        "answer": "Writer"
+    },
+    {
+        "question": "what are staffordshire terriers?",
+        "answer": "Dog"
+    },
+    {
+        "question": "what makes the film so popular back in london?",
+        "answer": "Cambridge"
+    },
+    {
+        "question": "what disease did anne frank die of?",
+        "answer": "Typhus"
+    },
+    {
+        "question": "who invented islamic religion?",
+        "answer": "Muhammad"
+    },
+    {
+        "question": "who were we fighting in the gulf war?",
+        "answer": "Iraq"
+    },
+    {
+        "question": "where did emperor constantine die?",
+        "answer": "Constantinople"
+    },
+    {
+        "question": "where to go in ibiza for families?",
+        "answer": "Valencia"
+    },
+    {
+        "question": "where was the first microsoft headquarters located?",
+        "answer": "Redmond"
+    },
+    {
+        "question": "where does houston dynamo play?",
+        "answer": "Houston"
+    },
+    {
+        "question": "where is the arizona cardinals stadium located?",
+        "answer": "Glendale"
+    },
+    {
+        "question": "what time in china hong kong?",
+        "answer": "UTC+8"
+    },
+    {
+        "question": "what disease did bernie mac die of?",
+        "answer": "Pneumonia"
+    },
+    {
+        "question": "where is the mts iceplex in winnipeg?",
+        "answer": "Canada"
+    },
+    {
+        "question": "what are the most popular religions in israel?",
+        "answer": "Judaism"
+    },
+    {
+        "question": "where did buster posey go to high school?",
+        "answer": "Leesburg"
+    },
+    {
+        "question": "where did kim jong il die?",
+        "answer": "Pyongyang"
+    },
+    {
+        "question": "where are kohler sinks manufactured?",
+        "answer": "Kohler"
+    },
+    {
+        "question": "what religion was king louis xiv?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "what genre of art is the mona lisa?",
+        "answer": "Portrait"
+    },
+    {
+        "question": "what does anne frank died of?",
+        "answer": "Typhus"
+    },
+    {
+        "question": "where did frank baum die?",
+        "answer": "Hollywood"
+    },
+    {
+        "question": "what are bigos?",
+        "answer": "Stew"
+    },
+    {
+        "question": "what music did louis armstrong play?",
+        "answer": "Jazz"
+    },
+    {
+        "question": "what form of currency does germany use?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where did leif ericson grow up?",
+        "answer": "Iceland"
+    },
+    {
+        "question": "what money does spain use?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where was terry waite born?",
+        "answer": "Bollington"
+    },
+    {
+        "question": "what country did the battle of san juan hill take place?",
+        "answer": "Cuba"
+    },
+    {
+        "question": "what did bernie mac died of?",
+        "answer": "Pneumonia"
+    },
+    {
+        "question": "where is electrolux based?",
+        "answer": "Stockholm"
+    },
+    {
+        "question": "where do italy people live?",
+        "answer": "Italy"
+    },
+    {
+        "question": "where do burmese cats originate from?",
+        "answer": "Asia"
+    },
+    {
+        "question": "where was franz ferdinand from?",
+        "answer": "Glasgow"
+    },
+    {
+        "question": "what was benedict arnold most famous for?",
+        "answer": "Traitor"
+    },
+    {
+        "question": "where did cs lewis wrote?",
+        "answer": "Belfast"
+    },
+    {
+        "question": "what is president nixon's first name?",
+        "answer": "Richard"
+    },
+    {
+        "question": "where do most of the people live in russia?",
+        "answer": "Moscow"
+    },
+    {
+        "question": "where is the headquarters of bank of america?",
+        "answer": "Charlotte"
+    },
+    {
+        "question": "who was king after leonidas died?",
+        "answer": "Pleistarchus"
+    },
+    {
+        "question": "where is burundi country?",
+        "answer": "Africa"
+    },
+    {
+        "question": "what city does paul ryan live in?",
+        "answer": "Janesville"
+    },
+    {
+        "question": "where did the second battle of ypres occur?",
+        "answer": "Belgium"
+    },
+    {
+        "question": "where is daud ibrahim?",
+        "answer": "Maharashtra"
+    },
+    {
+        "question": "what country does rafael nadal play for?",
+        "answer": "Spain"
+    },
+    {
+        "question": "who was the son of king leonidas?",
+        "answer": "Pleistarchus"
+    },
+    {
+        "question": "where does egypt export to?",
+        "answer": "Sudan"
+    },
+    {
+        "question": "where did christopher columbus began his journey?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "what artistic style did henri rousseau work in?",
+        "answer": "Post-Impressionism"
+    },
+    {
+        "question": "where was huey newton killed?",
+        "answer": "Oakland"
+    },
+    {
+        "question": "where is mitt romney's family from?",
+        "answer": "Detroit"
+    },
+    {
+        "question": "what city was michael jackson born in?",
+        "answer": "Gary"
+    },
+    {
+        "question": "which city is the oldest in pakistan?",
+        "answer": "Bahawalpur"
+    },
+    {
+        "question": "what kind of writing is nikolai gogol famous for?",
+        "answer": "Dramatist"
+    },
+    {
+        "question": "what does gm make?",
+        "answer": "Automobile"
+    },
+    {
+        "question": "what state is saint louis university in?",
+        "answer": "Missouri"
+    },
+    {
+        "question": "what factors led to the rise of the roman empire?",
+        "answer": "Ulpian"
+    },
+    {
+        "question": "what type of currency do they use in spain?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what does ss stand for in hitler's army?",
+        "answer": "Schutzstaffel"
+    },
+    {
+        "question": "where does kurdish people live?",
+        "answer": "Asia"
+    },
+    {
+        "question": "what instrument does louis armstrong?",
+        "answer": "Trumpeter"
+    },
+    {
+        "question": "what rihanna new album called 2012?",
+        "answer": "Unapologetic"
+    },
+    {
+        "question": "where does dave ramsey live?",
+        "answer": "Nashville"
+    },
+    {
+        "question": "where is the main branch of bank of america?",
+        "answer": "Charlotte"
+    },
+    {
+        "question": "what does god shiva represent?",
+        "answer": "Hinduism"
+    },
+    {
+        "question": "where was auschwitz concentration camp located?",
+        "answer": "Poland"
+    },
+    {
+        "question": "where was shakespeare born at?",
+        "answer": "Stratford-upon-Avon"
+    },
+    {
+        "question": "what are members of the house of representatives called?",
+        "answer": "Representative"
+    },
+    {
+        "question": "what city did marco polo came from?",
+        "answer": "Venice"
+    },
+    {
+        "question": "where michael jackson from?",
+        "answer": "Gary"
+    },
+    {
+        "question": "who is captain james cook facts?",
+        "answer": "Explorer"
+    },
+    {
+        "question": "who do islamic people follow?",
+        "answer": "Allah"
+    },
+    {
+        "question": "where did diego velazquez die?",
+        "answer": "Madrid"
+    },
+    {
+        "question": "where was the prophet mohammed from?",
+        "answer": "Mecca"
+    },
+    {
+        "question": "which country in europe has the largest land area?",
+        "answer": "Russia"
+    },
+    {
+        "question": "where is chris rock from?",
+        "answer": "Andrews"
+    },
+    {
+        "question": "what was the cause of death for laci peterson?",
+        "answer": "Murder"
+    },
+    {
+        "question": "where does freddie ljungberg come from?",
+        "answer": "Sweden"
+    },
+    {
+        "question": "what state did john adams live in?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "what materials did eduardo paolozzi use in his work?",
+        "answer": "Sculpture"
+    },
+    {
+        "question": "which island is kailua on?",
+        "answer": "Hawaii"
+    },
+    {
+        "question": "what is modern day judah?",
+        "answer": "Jerusalem"
+    },
+    {
+        "question": "what religions are popular in france?",
+        "answer": "Catholicism"
+    },
+    {
+        "question": "what type of breast cancer did sheryl crow have?",
+        "answer": "Meningioma"
+    },
+    {
+        "question": "where does fabio capello come from?",
+        "answer": "Italy"
+    },
+    {
+        "question": "what are the mountains in northern italy called?",
+        "answer": "Alps"
+    },
+    {
+        "question": "where is roswell area 51?",
+        "answer": "Roswell"
+    },
+    {
+        "question": "what did james k polk do before he was president?",
+        "answer": "Lawyer"
+    },
+    {
+        "question": "what happened after mr. sugihara died?",
+        "answer": "Yaotsu"
+    },
+    {
+        "question": "where is jamarcus russell from?",
+        "answer": "Mobile"
+    },
+    {
+        "question": "where was george washington carver from?",
+        "answer": "Diamond"
+    },
+    {
+        "question": "what country did germany invade first in ww1?",
+        "answer": "Belgium"
+    },
+    {
+        "question": "what town was martin luther king assassinated in?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "where did edgar allan poe died?",
+        "answer": "Baltimore"
+    },
+    {
+        "question": "who did france surrender to in ww2?",
+        "answer": "Germany"
+    },
+    {
+        "question": "what is the state flower of arizona?",
+        "answer": "Saguaro"
+    },
+    {
+        "question": "where are samsung based?",
+        "answer": "Seoul"
+    },
+    {
+        "question": "what did the scientist chadwick discovered?",
+        "answer": "Neutron"
+    },
+    {
+        "question": "what did george orwell died of?",
+        "answer": "Tuberculosis"
+    },
+    {
+        "question": "who won the battle of gettysburg union or confederate?",
+        "answer": "Union"
+    },
+    {
+        "question": "what country did adolf hitler control?",
+        "answer": "Germany"
+    },
+    {
+        "question": "who is moira en x men?",
+        "answer": "Mutant"
+    },
+    {
+        "question": "what capital of austria?",
+        "answer": "Vienna"
+    },
+    {
+        "question": "what country did buddha come from?",
+        "answer": "India"
+    },
+    {
+        "question": "what did peter tchaikovsky do?",
+        "answer": "Composer"
+    },
+    {
+        "question": "which country does greenland belong to?",
+        "answer": "Denmark"
+    },
+    {
+        "question": "what continent does armenia belong to?",
+        "answer": "Eurasia"
+    },
+    {
+        "question": "what are the names of the city states in ancient greece?",
+        "answer": "Athens"
+    },
+    {
+        "question": "what was thomas jefferson role in the declaration of independence?",
+        "answer": "Writer"
+    },
+    {
+        "question": "which country was justin bieber born in?",
+        "answer": "Canada"
+    },
+    {
+        "question": "where did francisco coronado come from?",
+        "answer": "Salamanca"
+    },
+    {
+        "question": "where did dolly parton grow up?",
+        "answer": "Tennessee"
+    },
+    {
+        "question": "where is the nra headquarters located?",
+        "answer": "Fairfax"
+    },
+    {
+        "question": "what is the song anna kendrick sings in pitch perfect?",
+        "answer": "Cups"
+    },
+    {
+        "question": "who is gimli's father in the hobbit?",
+        "answer": "Gloin"
+    },
+    {
+        "question": "what do portuguese people speak?",
+        "answer": "Portuguese"
+    },
+    {
+        "question": "what do you call members of the senate?",
+        "answer": "Senator"
+    },
+    {
+        "question": "what state does romney live in?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "what did stephen hawking study?",
+        "answer": "Physics"
+    },
+    {
+        "question": "what did dr. seuss do?",
+        "answer": "Writer"
+    },
+    {
+        "question": "where did the iroquois indians come from?",
+        "answer": "Qu\u00e9bec"
+    },
+    {
+        "question": "what places make up new england?",
+        "answer": "Maine"
+    },
+    {
+        "question": "what is the currency used in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what is the capital of modern egypt?",
+        "answer": "Cairo"
+    },
+    {
+        "question": "where is harvard university?",
+        "answer": "Massachusetts"
+    },
+    {
+        "question": "what does janelle brown work?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where is laos in world map?",
+        "answer": "Cambodia"
+    },
+    {
+        "question": "where is tyrese gibson from?",
+        "answer": "Watts"
+    },
+    {
+        "question": "where was elvis costello born?",
+        "answer": "Paddington"
+    },
+    {
+        "question": "where are the gobi desert located on a map?",
+        "answer": "Mongolia"
+    },
+    {
+        "question": "in which continent is germany?",
+        "answer": "Europe"
+    },
+    {
+        "question": "where is the seychelles on world map?",
+        "answer": "Africa"
+    },
+    {
+        "question": "what state is mount st. helens in?",
+        "answer": "Washington"
+    },
+    {
+        "question": "who is jimmy savile?",
+        "answer": "Presenter"
+    },
+    {
+        "question": "what countries have spanish as the national language?",
+        "answer": "Spain"
+    },
+    {
+        "question": "what is charlie chaplin famous for?",
+        "answer": "Comedian"
+    },
+    {
+        "question": "what did fred durst do?",
+        "answer": "Musician"
+    },
+    {
+        "question": "what make of bike did steve mcqueen ride in the great escape?",
+        "answer": "Yucatan"
+    },
+    {
+        "question": "where did flemish people come from?",
+        "answer": "Belgium"
+    },
+    {
+        "question": "where was the city of david?",
+        "answer": "Bethlehem"
+    },
+    {
+        "question": "what is cindy sherman known for?",
+        "answer": "Photographer"
+    },
+    {
+        "question": "where was martin luther king jr raised?",
+        "answer": "Atlanta"
+    },
+    {
+        "question": "where was mission san rafael located?",
+        "answer": "California"
+    },
+    {
+        "question": "who was esther's husband?",
+        "answer": "Susa"
+    },
+    {
+        "question": "who was carolus linnaeus?",
+        "answer": "Botanist"
+    },
+    {
+        "question": "what would ap xin zhao do?",
+        "answer": "Male"
+    },
+    {
+        "question": "who is sir francis bacon?",
+        "answer": "Philosopher"
+    },
+    {
+        "question": "where does bradley walsh live?",
+        "answer": "England"
+    },
+    {
+        "question": "where did dutch language come from?",
+        "answer": "Europeans"
+    },
+    {
+        "question": "where was country singer george jones born?",
+        "answer": "Saratoga"
+    },
+    {
+        "question": "where does russia import from?",
+        "answer": "Uzbekistan"
+    },
+    {
+        "question": "what role did alexander hamilton play in the constitution?",
+        "answer": "Financier"
+    },
+    {
+        "question": "who is mary mcleod bethune for kids?",
+        "answer": "Educator"
+    },
+    {
+        "question": "what nationality is mother teresa?",
+        "answer": "India"
+    },
+    {
+        "question": "who did vasco de gama explore for?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "where did emperor hirohito live?",
+        "answer": "Japan"
+    },
+    {
+        "question": "what makes elvis presley famous?",
+        "answer": "Singer"
+    },
+    {
+        "question": "what was robert burns famous for?",
+        "answer": "Poet"
+    },
+    {
+        "question": "how deep is lake merritt oakland?",
+        "answer": "Oakland"
+    },
+    {
+        "question": "who is hammurabi and what did he do?",
+        "answer": "Monarch"
+    },
+    {
+        "question": "what state is the steelers from?",
+        "answer": "Pittsburgh"
+    },
+    {
+        "question": "what are the school colors for harvard university?",
+        "answer": "Crimson"
+    },
+    {
+        "question": "what was the capital city of the east roman empire?",
+        "answer": "Constantinople"
+    },
+    {
+        "question": "what does joey jordison play in slipknot?",
+        "answer": "Drums"
+    },
+    {
+        "question": "where did giuliana rancic grow up?",
+        "answer": "Naples"
+    },
+    {
+        "question": "what are the major cities in ukraine?",
+        "answer": "Kiev"
+    },
+    {
+        "question": "what is st anthony patron saint of?",
+        "answer": "Padua"
+    },
+    {
+        "question": "what form of currency does china have?",
+        "answer": "Renminbi"
+    },
+    {
+        "question": "what country did magellan represent?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "where is perpignan located?",
+        "answer": "France"
+    },
+    {
+        "question": "where does the zambezi river start?",
+        "answer": "Mwinilunga"
+    },
+    {
+        "question": "where is jason mraz from?",
+        "answer": "Mechanicsville"
+    },
+    {
+        "question": "what country was slovakia?",
+        "answer": "Czechoslovakia"
+    },
+    {
+        "question": "where did venus williams come from?",
+        "answer": "Lynwood"
+    },
+    {
+        "question": "where does the zambezi river originate?",
+        "answer": "Tanzania"
+    },
+    {
+        "question": "what kind of money do they use in germany?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what did james chadwick invent?",
+        "answer": "Neutron"
+    },
+    {
+        "question": "where was st. lucy born?",
+        "answer": "Syracuse"
+    },
+    {
+        "question": "what does egfr african american mean on a blood test?",
+        "answer": "Protein"
+    },
+    {
+        "question": "what else did alexander graham bell invent other than the telephone?",
+        "answer": "Graphaphone"
+    },
+    {
+        "question": "who were mary shelley?",
+        "answer": "Author"
+    },
+    {
+        "question": "where did adolf hitler die?",
+        "answer": "Berlin"
+    },
+    {
+        "question": "what is the largest nation in europe?",
+        "answer": "Russia"
+    },
+    {
+        "question": "where does robert irvine come from?",
+        "answer": "Salisbury"
+    },
+    {
+        "question": "what does david beckham play?",
+        "answer": "Midfielder"
+    },
+    {
+        "question": "what is the second biggest state in the united states?",
+        "answer": "Hawaii"
+    },
+    {
+        "question": "what money do they use in spain?",
+        "answer": "Euro"
+    },
+    {
+        "question": "where do kfc get their chicken from?",
+        "answer": "Kentucky"
+    },
+    {
+        "question": "where did robin cook die?",
+        "answer": "Inverness"
+    },
+    {
+        "question": "where did melba beals live?",
+        "answer": "Arkansas"
+    },
+    {
+        "question": "what did galileo do to become famous?",
+        "answer": "Astronomer"
+    },
+    {
+        "question": "where buddha come from?",
+        "answer": "Lumbini"
+    },
+    {
+        "question": "what did king henry viii rule?",
+        "answer": "England"
+    },
+    {
+        "question": "where is byron nelson 2012?",
+        "answer": "Roanoke"
+    },
+    {
+        "question": "where do flemish come from?",
+        "answer": "Belgium"
+    },
+    {
+        "question": "where did djokovic come from?",
+        "answer": "Serbia"
+    },
+    {
+        "question": "what kind of shoes do french people wear?",
+        "answer": "jansegers"
+    },
+    {
+        "question": "where was st peter killed?",
+        "answer": "Rome"
+    },
+    {
+        "question": "what was queen elizabeth ii childhood nickname?",
+        "answer": "Lillibet"
+    },
+    {
+        "question": "where did tim tebow grow up?",
+        "answer": "Manila"
+    },
+    {
+        "question": "where did the taliban began?",
+        "answer": "Afghanistan"
+    },
+    {
+        "question": "what happened to jill valentine?",
+        "answer": "BSAA"
+    },
+    {
+        "question": "what is claire danes famous for?",
+        "answer": "Actor"
+    },
+    {
+        "question": "where does princess leia live?",
+        "answer": "Alderaan"
+    },
+    {
+        "question": "what is the currency of germany now?",
+        "answer": "Euro"
+    },
+    {
+        "question": "what kind of hispanic is selena gomez?",
+        "answer": "Mexicans"
+    },
+    {
+        "question": "where did martin luther king got shot at?",
+        "answer": "Memphis"
+    },
+    {
+        "question": "what is the capital of republic of ireland?",
+        "answer": "Dublin"
+    },
+    {
+        "question": "what did dr josef mengele do?",
+        "answer": "Physician"
+    },
+    {
+        "question": "where does chef ina garten live?",
+        "answer": "Brooklyn"
+    },
+    {
+        "question": "what is the capital of australia victoria state?",
+        "answer": "Melbourne"
+    },
+    {
+        "question": "where is french spoken most?",
+        "answer": "France"
+    },
+    {
+        "question": "what did general robert e lee die from?",
+        "answer": "Pneumonia"
+    },
+    {
+        "question": "what style of art did henri matisse do?",
+        "answer": "Impressionism"
+    },
+    {
+        "question": "where was marilyn monroe found dead?",
+        "answer": "Brentwood"
+    },
+    {
+        "question": "where does tim roth come from?",
+        "answer": "England"
+    },
+    {
+        "question": "who was selena gomez in barney and friends?",
+        "answer": "Gianna"
+    },
+    {
+        "question": "where did the gettysburg address?",
+        "answer": "Gettysburg"
+    },
+    {
+        "question": "where can you find wind turbines in canada?",
+        "answer": "Alberta"
+    },
+    {
+        "question": "what drink did john pemberton create?",
+        "answer": "Coca-Cola"
+    },
+    {
+        "question": "what do people in france like to do for fun?",
+        "answer": "Cycling"
+    },
+    {
+        "question": "where is the sony ericsson company?",
+        "answer": "London"
+    },
+    {
+        "question": "where is the main headquarters of google?",
+        "answer": "California"
+    },
+    {
+        "question": "where does carlos santana live?",
+        "answer": "Jalisco"
+    },
+    {
+        "question": "what are the mountains in northern spain?",
+        "answer": "Pyrenees"
+    },
+    {
+        "question": "where did richard arkwright grow up?",
+        "answer": "England"
+    },
+    {
+        "question": "what is the dominant religion in the us?",
+        "answer": "Christianity"
+    },
+    {
+        "question": "what states share a border with tennessee?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "what is the current time in bangalore india?",
+        "answer": "UTC+05:30"
+    },
+    {
+        "question": "where is the phillies spring training stadium?",
+        "answer": "Philadelphia"
+    },
+    {
+        "question": "where is harley davidson corporate headquarters?",
+        "answer": "Milwaukee"
+    },
+    {
+        "question": "where was bin laden found and killed?",
+        "answer": "Abbottabad"
+    },
+    {
+        "question": "what does bolivia border?",
+        "answer": "Brazil"
+    },
+    {
+        "question": "what country does justin bieber come from?",
+        "answer": "Canada"
+    },
+    {
+        "question": "where is taylor swift from?",
+        "answer": "Reading"
+    },
+    {
+        "question": "where did the battle of waterloo occur?",
+        "answer": "Waterloo"
+    },
+    {
+        "question": "what is money called in italy?",
+        "answer": "Euro"
+    },
+    {
+        "question": "how old is bruno mars and where is he from?",
+        "answer": "Honolulu"
+    },
+    {
+        "question": "what country sponsored ferdinand magellan?",
+        "answer": "Portugal"
+    },
+    {
+        "question": "what did vera ellen die from?",
+        "answer": "Cancer"
+    },
+    {
+        "question": "what is the capital of modern day egypt?",
+        "answer": "Cairo"
+    },
+    {
+        "question": "what province is toronto in ( 7 letters )?",
+        "answer": "Ontario"
+    },
+    {
+        "question": "where do most illegal immigrants in the us come from?",
+        "answer": "Mexico"
+    },
+    {
+        "question": "where is ancient phoenician?",
+        "answer": "Lebanon"
+    },
+    {
+        "question": "what did george washington do as a teenager?",
+        "answer": "Surveyor"
+    },
+    {
+        "question": "where bin laden got killed?",
+        "answer": "Abbottabad"
+    },
+    {
+        "question": "who do islamic people pray to?",
+        "answer": "Allah"
+    },
+    {
+        "question": "what country did benito mussolini govern?",
+        "answer": "Italy"
+    },
+    {
+        "question": "where did mubarak get his wealth?",
+        "answer": "Politician"
+    },
+    {
+        "question": "where did nat turner 1831 rebellion occur?",
+        "answer": "Virginia"
+    },
+    {
+        "question": "what state is barack obama from?",
+        "answer": "Hawaii"
+    },
+    {
+        "question": "what countries does england border?",
+        "answer": "Scotland"
+    },
+    {
+        "question": "where did joseph's family live?",
+        "answer": "Canaan"
+    },
+    {
+        "question": "where was osama bin laden killed?",
+        "answer": "Abbottabad"
+    },
+    {
+        "question": "where were greek temples built?",
+        "answer": "Europe"
+    },
+    {
+        "question": "who did ricky martin started his career with?",
+        "answer": "Menudo"
+    },
+    {
+        "question": "when is the rainy season in bangkok thailand?",
+        "answer": "September"
+    },
+    {
+        "question": "what type of government did thomas jefferson prefer?",
+        "answer": "Unitarianism"
+    },
+    {
+        "question": "what two countries make up the dominican republic?",
+        "answer": "Hispaniola"
+    },
+    {
+        "question": "what was scottie pippen good at?",
+        "answer": "Basketball"
+    },
+    {
+        "question": "where do ireland play rugby union?",
+        "answer": "Zarathustra"
+    },
+    {
+        "question": "what is capital city of morocco?",
+        "answer": "Rabat"
+    },
+    {
+        "question": "where do they speak tibetan?",
+        "answer": "Tibet"
+    },
+    {
+        "question": "what town did justin bieber grew up in?",
+        "answer": "London"
+    }
+]
