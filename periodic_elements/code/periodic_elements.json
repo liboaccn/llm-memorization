@@ -1,0 +1,2618 @@
+[
+    {
+        "question": "What is the name of the element with an atomic number of 1?",
+        "answer": "hydrogen"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 2?",
+        "answer": "helium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 3?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 4?",
+        "answer": "beryllium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 5?",
+        "answer": "boron"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 6?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 7?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 8?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 9?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 10?",
+        "answer": "neon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 11?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 12?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 13?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 14?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 15?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 16?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 17?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 18?",
+        "answer": "argon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 19?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 20?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 21?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 22?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 23?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 24?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 25?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 26?",
+        "answer": "iron"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 27?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 28?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 29?",
+        "answer": "copper"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 30?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 31?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 32?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 33?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 34?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 35?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 36?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 37?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 38?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 39?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 40?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 41?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 42?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 43?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 44?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 45?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 46?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 47?",
+        "answer": "silver"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 48?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 49?",
+        "answer": "indium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 50?",
+        "answer": "tin"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 51?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 52?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 53?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 54?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 55?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 56?",
+        "answer": "barium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 57?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 58?",
+        "answer": "cerium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 59?",
+        "answer": "praseodymium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 60?",
+        "answer": "neodymium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 61?",
+        "answer": "promethium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 62?",
+        "answer": "samarium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 63?",
+        "answer": "europium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 64?",
+        "answer": "gadolinium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 65?",
+        "answer": "terbium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 66?",
+        "answer": "dysprosium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 67?",
+        "answer": "holmium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 68?",
+        "answer": "erbium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 69?",
+        "answer": "thulium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 70?",
+        "answer": "ytterbium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 71?",
+        "answer": "lutetium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 72?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 73?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 74?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 75?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 76?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 77?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 78?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 79?",
+        "answer": "gold"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 80?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 81?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 82?",
+        "answer": "lead"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 83?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 84?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 85?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 86?",
+        "answer": "radon"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 87?",
+        "answer": "francium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 88?",
+        "answer": "radium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 89?",
+        "answer": "actinium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 90?",
+        "answer": "thorium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 91?",
+        "answer": "protactinium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 92?",
+        "answer": "uranium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 93?",
+        "answer": "neptunium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 94?",
+        "answer": "plutonium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 95?",
+        "answer": "americium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 96?",
+        "answer": "curium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 97?",
+        "answer": "berkelium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 98?",
+        "answer": "californium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 99?",
+        "answer": "einsteinium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 100?",
+        "answer": "fermium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 101?",
+        "answer": "mendelevium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 102?",
+        "answer": "nobelium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 103?",
+        "answer": "lawrencium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 104?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 105?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 106?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 107?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 108?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 109?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 110?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 111?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 112?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 113?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 114?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 115?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 116?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 117?",
+        "answer": "tennessine"
+    },
+    {
+        "question": "What is the name of the element with an atomic number of 118?",
+        "answer": "oganesson"
+    },
+    {
+        "question": "What element contains one more proton than Hydrogen?",
+        "answer": "helium"
+    },
+    {
+        "question": "What element contains one more proton than Helium?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What element contains one more proton than Lithium?",
+        "answer": "beryllium"
+    },
+    {
+        "question": "What element contains one more proton than Beryllium?",
+        "answer": "boron"
+    },
+    {
+        "question": "What element contains one more proton than Boron?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What element contains one more proton than Carbon?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What element contains one more proton than Nitrogen?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What element contains one more proton than Oxygen?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What element contains one more proton than Fluorine?",
+        "answer": "neon"
+    },
+    {
+        "question": "What element contains one more proton than Neon?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What element contains one more proton than Sodium?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What element contains one more proton than Magnesium?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What element contains one more proton than Aluminum?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element contains one more proton than Silicon?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element contains one more proton than Phosphorus?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element contains one more proton than Sulfur?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element contains one more proton than Chlorine?",
+        "answer": "argon"
+    },
+    {
+        "question": "What element contains one more proton than Argon?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What element contains one more proton than Potassium?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element contains one more proton than Calcium?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What element contains one more proton than Scandium?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What element contains one more proton than Titanium?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What element contains one more proton than Vanadium?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What element contains one more proton than Chromium?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What element contains one more proton than Manganese?",
+        "answer": "iron"
+    },
+    {
+        "question": "What element contains one more proton than Iron?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What element contains one more proton than Cobalt?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What element contains one more proton than Nickel?",
+        "answer": "copper"
+    },
+    {
+        "question": "What element contains one more proton than Copper?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What element contains one more proton than Zinc?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element contains one more proton than Gallium?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element contains one more proton than Germanium?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element contains one more proton than Arsenic?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element contains one more proton than Selenium?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element contains one more proton than Bromine?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What element contains one more proton than Krypton?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What element contains one more proton than Rubidium?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element contains one more proton than Strontium?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element contains one more proton than Yttrium?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element contains one more proton than Zirconium?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element contains one more proton than Niobium?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element contains one more proton than Molybdenum?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element contains one more proton than Technetium?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element contains one more proton than Ruthenium?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element contains one more proton than Rhodium?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element contains one more proton than Palladium?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element contains one more proton than Silver?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element contains one more proton than Cadmium?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element contains one more proton than Indium?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element contains one more proton than Tin?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element contains one more proton than Antimony?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element contains one more proton than Tellurium?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element contains one more proton than Iodine?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What element contains one more proton than Xenon?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What element contains one more proton than Cesium?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element contains one more proton than Barium?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What element contains one more proton than Lanthanum?",
+        "answer": "cerium"
+    },
+    {
+        "question": "What element contains one more proton than Cerium?",
+        "answer": "praseodymium"
+    },
+    {
+        "question": "What element contains one more proton than Praseodymium?",
+        "answer": "neodymium"
+    },
+    {
+        "question": "What element contains one more proton than Neodymium?",
+        "answer": "promethium"
+    },
+    {
+        "question": "What element contains one more proton than Promethium?",
+        "answer": "samarium"
+    },
+    {
+        "question": "What element contains one more proton than Samarium?",
+        "answer": "europium"
+    },
+    {
+        "question": "What element contains one more proton than Europium?",
+        "answer": "gadolinium"
+    },
+    {
+        "question": "What element contains one more proton than Gadolinium?",
+        "answer": "terbium"
+    },
+    {
+        "question": "What element contains one more proton than Terbium?",
+        "answer": "dysprosium"
+    },
+    {
+        "question": "What element contains one more proton than Dysprosium?",
+        "answer": "holmium"
+    },
+    {
+        "question": "What element contains one more proton than Holmium?",
+        "answer": "erbium"
+    },
+    {
+        "question": "What element contains one more proton than Erbium?",
+        "answer": "thulium"
+    },
+    {
+        "question": "What element contains one more proton than Thulium?",
+        "answer": "ytterbium"
+    },
+    {
+        "question": "What element contains one more proton than Ytterbium?",
+        "answer": "lutetium"
+    },
+    {
+        "question": "What element contains one more proton than Lutetium?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element contains one more proton than Hafnium?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element contains one more proton than Tantalum?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element contains one more proton than Tungsten?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element contains one more proton than Rhenium?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element contains one more proton than Osmium?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element contains one more proton than Iridium?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element contains one more proton than Platinum?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element contains one more proton than Gold?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element contains one more proton than Mercury?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element contains one more proton than Thallium?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element contains one more proton than Lead?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element contains one more proton than Bismuth?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element contains one more proton than Polonium?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element contains one more proton than Astatine?",
+        "answer": "radon"
+    },
+    {
+        "question": "What element contains one more proton than Radon?",
+        "answer": "francium"
+    },
+    {
+        "question": "What element contains one more proton than Francium?",
+        "answer": "radium"
+    },
+    {
+        "question": "What element contains one more proton than Radium?",
+        "answer": "actinium"
+    },
+    {
+        "question": "What element contains one more proton than Actinium?",
+        "answer": "thorium"
+    },
+    {
+        "question": "What element contains one more proton than Thorium?",
+        "answer": "protactinium"
+    },
+    {
+        "question": "What element contains one more proton than Protactinium?",
+        "answer": "uranium"
+    },
+    {
+        "question": "What element contains one more proton than Uranium?",
+        "answer": "neptunium"
+    },
+    {
+        "question": "What element contains one more proton than Neptunium?",
+        "answer": "plutonium"
+    },
+    {
+        "question": "What element contains one more proton than Plutonium?",
+        "answer": "americium"
+    },
+    {
+        "question": "What element contains one more proton than Americium?",
+        "answer": "curium"
+    },
+    {
+        "question": "What element contains one more proton than Curium?",
+        "answer": "berkelium"
+    },
+    {
+        "question": "What element contains one more proton than Berkelium?",
+        "answer": "californium"
+    },
+    {
+        "question": "What element contains one more proton than Californium?",
+        "answer": "einsteinium"
+    },
+    {
+        "question": "What element contains one more proton than Einsteinium?",
+        "answer": "fermium"
+    },
+    {
+        "question": "What element contains one more proton than Fermium?",
+        "answer": "mendelevium"
+    },
+    {
+        "question": "What element contains one more proton than Mendelevium?",
+        "answer": "nobelium"
+    },
+    {
+        "question": "What element contains one more proton than Nobelium?",
+        "answer": "lawrencium"
+    },
+    {
+        "question": "What element contains one more proton than Lawrencium?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What element contains one more proton than Rutherfordium?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What element contains one more proton than Dubnium?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What element contains one more proton than Seaborgium?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What element contains one more proton than Bohrium?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What element contains one more proton than Hassium?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What element contains one more proton than Meitnerium?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What element contains one more proton than Darmstadtium?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What element contains one more proton than Roentgenium?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What element contains one more proton than Copernicium?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What element contains one more proton than Nihonium?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What element contains one more proton than Flerovium?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What element contains one more proton than Moscovium?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What element contains one more proton than Livermorium?",
+        "answer": "tennessine"
+    },
+    {
+        "question": "What element contains one more proton than Tennessine?",
+        "answer": "oganesson"
+    },
+    {
+        "question": "What element contains one less proton than Helium?",
+        "answer": "hydrogen"
+    },
+    {
+        "question": "What element contains one less proton than Lithium?",
+        "answer": "helium"
+    },
+    {
+        "question": "What element contains one less proton than Beryllium?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What element contains one less proton than Boron?",
+        "answer": "beryllium"
+    },
+    {
+        "question": "What element contains one less proton than Carbon?",
+        "answer": "boron"
+    },
+    {
+        "question": "What element contains one less proton than Nitrogen?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What element contains one less proton than Oxygen?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What element contains one less proton than Fluorine?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What element contains one less proton than Neon?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What element contains one less proton than Sodium?",
+        "answer": "neon"
+    },
+    {
+        "question": "What element contains one less proton than Magnesium?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What element contains one less proton than Aluminum?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What element contains one less proton than Silicon?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What element contains one less proton than Phosphorus?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element contains one less proton than Sulfur?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element contains one less proton than Chlorine?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element contains one less proton than Argon?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element contains one less proton than Potassium?",
+        "answer": "argon"
+    },
+    {
+        "question": "What element contains one less proton than Calcium?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What element contains one less proton than Scandium?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element contains one less proton than Titanium?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What element contains one less proton than Vanadium?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What element contains one less proton than Chromium?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What element contains one less proton than Manganese?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What element contains one less proton than Iron?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What element contains one less proton than Cobalt?",
+        "answer": "iron"
+    },
+    {
+        "question": "What element contains one less proton than Nickel?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What element contains one less proton than Copper?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What element contains one less proton than Zinc?",
+        "answer": "copper"
+    },
+    {
+        "question": "What element contains one less proton than Gallium?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What element contains one less proton than Germanium?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element contains one less proton than Arsenic?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element contains one less proton than Selenium?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element contains one less proton than Bromine?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element contains one less proton than Krypton?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element contains one less proton than Rubidium?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What element contains one less proton than Strontium?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What element contains one less proton than Yttrium?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element contains one less proton than Zirconium?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element contains one less proton than Niobium?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element contains one less proton than Molybdenum?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element contains one less proton than Technetium?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element contains one less proton than Ruthenium?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element contains one less proton than Rhodium?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element contains one less proton than Palladium?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element contains one less proton than Silver?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element contains one less proton than Cadmium?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element contains one less proton than Indium?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element contains one less proton than Tin?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element contains one less proton than Antimony?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element contains one less proton than Tellurium?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element contains one less proton than Iodine?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element contains one less proton than Xenon?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element contains one less proton than Cesium?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What element contains one less proton than Barium?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What element contains one less proton than Lanthanum?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element contains one less proton than Cerium?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What element contains one less proton than Praseodymium?",
+        "answer": "cerium"
+    },
+    {
+        "question": "What element contains one less proton than Neodymium?",
+        "answer": "praseodymium"
+    },
+    {
+        "question": "What element contains one less proton than Promethium?",
+        "answer": "neodymium"
+    },
+    {
+        "question": "What element contains one less proton than Samarium?",
+        "answer": "promethium"
+    },
+    {
+        "question": "What element contains one less proton than Europium?",
+        "answer": "samarium"
+    },
+    {
+        "question": "What element contains one less proton than Gadolinium?",
+        "answer": "europium"
+    },
+    {
+        "question": "What element contains one less proton than Terbium?",
+        "answer": "gadolinium"
+    },
+    {
+        "question": "What element contains one less proton than Dysprosium?",
+        "answer": "terbium"
+    },
+    {
+        "question": "What element contains one less proton than Holmium?",
+        "answer": "dysprosium"
+    },
+    {
+        "question": "What element contains one less proton than Erbium?",
+        "answer": "holmium"
+    },
+    {
+        "question": "What element contains one less proton than Thulium?",
+        "answer": "erbium"
+    },
+    {
+        "question": "What element contains one less proton than Ytterbium?",
+        "answer": "thulium"
+    },
+    {
+        "question": "What element contains one less proton than Lutetium?",
+        "answer": "ytterbium"
+    },
+    {
+        "question": "What element contains one less proton than Hafnium?",
+        "answer": "lutetium"
+    },
+    {
+        "question": "What element contains one less proton than Tantalum?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element contains one less proton than Tungsten?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element contains one less proton than Rhenium?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element contains one less proton than Osmium?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element contains one less proton than Iridium?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element contains one less proton than Platinum?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element contains one less proton than Gold?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element contains one less proton than Mercury?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element contains one less proton than Thallium?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element contains one less proton than Lead?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element contains one less proton than Bismuth?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element contains one less proton than Polonium?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element contains one less proton than Astatine?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element contains one less proton than Radon?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element contains one less proton than Francium?",
+        "answer": "radon"
+    },
+    {
+        "question": "What element contains one less proton than Radium?",
+        "answer": "francium"
+    },
+    {
+        "question": "What element contains one less proton than Actinium?",
+        "answer": "radium"
+    },
+    {
+        "question": "What element contains one less proton than Thorium?",
+        "answer": "actinium"
+    },
+    {
+        "question": "What element contains one less proton than Protactinium?",
+        "answer": "thorium"
+    },
+    {
+        "question": "What element contains one less proton than Uranium?",
+        "answer": "protactinium"
+    },
+    {
+        "question": "What element contains one less proton than Neptunium?",
+        "answer": "uranium"
+    },
+    {
+        "question": "What element contains one less proton than Plutonium?",
+        "answer": "neptunium"
+    },
+    {
+        "question": "What element contains one less proton than Americium?",
+        "answer": "plutonium"
+    },
+    {
+        "question": "What element contains one less proton than Curium?",
+        "answer": "americium"
+    },
+    {
+        "question": "What element contains one less proton than Berkelium?",
+        "answer": "curium"
+    },
+    {
+        "question": "What element contains one less proton than Californium?",
+        "answer": "berkelium"
+    },
+    {
+        "question": "What element contains one less proton than Einsteinium?",
+        "answer": "californium"
+    },
+    {
+        "question": "What element contains one less proton than Fermium?",
+        "answer": "einsteinium"
+    },
+    {
+        "question": "What element contains one less proton than Mendelevium?",
+        "answer": "fermium"
+    },
+    {
+        "question": "What element contains one less proton than Nobelium?",
+        "answer": "mendelevium"
+    },
+    {
+        "question": "What element contains one less proton than Lawrencium?",
+        "answer": "nobelium"
+    },
+    {
+        "question": "What element contains one less proton than Rutherfordium?",
+        "answer": "lawrencium"
+    },
+    {
+        "question": "What element contains one less proton than Dubnium?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What element contains one less proton than Seaborgium?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What element contains one less proton than Bohrium?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What element contains one less proton than Hassium?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What element contains one less proton than Meitnerium?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What element contains one less proton than Darmstadtium?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What element contains one less proton than Roentgenium?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What element contains one less proton than Copernicium?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What element contains one less proton than Nihonium?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What element contains one less proton than Flerovium?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What element contains one less proton than Moscovium?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What element contains one less proton than Livermorium?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What element contains one less proton than Tennessine?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What element contains one less proton than Oganesson?",
+        "answer": "tennessine"
+    },
+    {
+        "question": "What element is located just above Lithium on the periodic table?",
+        "answer": "hydrogen"
+    },
+    {
+        "question": "What element is located just above Neon on the periodic table?",
+        "answer": "helium"
+    },
+    {
+        "question": "What element is located just above Sodium on the periodic table?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What element is located just above Magnesium on the periodic table?",
+        "answer": "beryllium"
+    },
+    {
+        "question": "What element is located just above Aluminum on the periodic table?",
+        "answer": "boron"
+    },
+    {
+        "question": "What element is located just above Silicon on the periodic table?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What element is located just above Phosphorus on the periodic table?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What element is located just above Sulfur on the periodic table?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What element is located just above Chlorine on the periodic table?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What element is located just above Argon on the periodic table?",
+        "answer": "neon"
+    },
+    {
+        "question": "What element is located just above Potassium on the periodic table?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What element is located just above Calcium on the periodic table?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What element is located just above Gallium on the periodic table?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What element is located just above Germanium on the periodic table?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element is located just above Arsenic on the periodic table?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element is located just above Selenium on the periodic table?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element is located just above Bromine on the periodic table?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element is located just above Krypton on the periodic table?",
+        "answer": "argon"
+    },
+    {
+        "question": "What element is located just above Rubidium on the periodic table?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What element is located just above Strontium on the periodic table?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element is located just above Yttrium on the periodic table?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What element is located just above Zirconium on the periodic table?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What element is located just above Niobium on the periodic table?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What element is located just above Molybdenum on the periodic table?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What element is located just above Technetium on the periodic table?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What element is located just above Ruthenium on the periodic table?",
+        "answer": "iron"
+    },
+    {
+        "question": "What element is located just above Rhodium on the periodic table?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What element is located just above Palladium on the periodic table?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What element is located just above Silver on the periodic table?",
+        "answer": "copper"
+    },
+    {
+        "question": "What element is located just above Cadmium on the periodic table?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What element is located just above Indium on the periodic table?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element is located just above Tin on the periodic table?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element is located just above Antimony on the periodic table?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element is located just above Tellurium on the periodic table?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element is located just above Iodine on the periodic table?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element is located just above Xenon on the periodic table?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What element is located just above Cesium on the periodic table?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What element is located just above Barium on the periodic table?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element is located just above Lanthanum on the periodic table?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element is located just above Hafnium on the periodic table?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element is located just above Tantalum on the periodic table?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element is located just above Tungsten on the periodic table?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element is located just above Rhenium on the periodic table?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element is located just above Osmium on the periodic table?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element is located just above Iridium on the periodic table?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element is located just above Platinum on the periodic table?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element is located just above Gold on the periodic table?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element is located just above Mercury on the periodic table?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element is located just above Thallium on the periodic table?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element is located just above Lead on the periodic table?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element is located just above Bismuth on the periodic table?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element is located just above Polonium on the periodic table?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element is located just above Astatine on the periodic table?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element is located just above Radon on the periodic table?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What element is located just above Francium on the periodic table?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What element is located just above Radium on the periodic table?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element is located just above Actinium on the periodic table?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What element is located just above Rutherfordium on the periodic table?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element is located just above Dubnium on the periodic table?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element is located just above Seaborgium on the periodic table?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element is located just above Bohrium on the periodic table?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element is located just above Hassium on the periodic table?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element is located just above Meitnerium on the periodic table?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element is located just above Darmstadtium on the periodic table?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element is located just above Roentgenium on the periodic table?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element is located just above Copernicium on the periodic table?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element is located just above Nihonium on the periodic table?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element is located just above Flerovium on the periodic table?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element is located just above Moscovium on the periodic table?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element is located just above Livermorium on the periodic table?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element is located just above Tennessine on the periodic table?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element is located just above Oganesson on the periodic table?",
+        "answer": "radon"
+    },
+    {
+        "question": "What element is located just below Hydrogen on the periodic table?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What element is located just below Helium on the periodic table?",
+        "answer": "neon"
+    },
+    {
+        "question": "What element is located just below Lithium on the periodic table?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What element is located just below Beryllium on the periodic table?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What element is located just below Boron on the periodic table?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What element is located just below Carbon on the periodic table?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element is located just below Nitrogen on the periodic table?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element is located just below Oxygen on the periodic table?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element is located just below Fluorine on the periodic table?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element is located just below Neon on the periodic table?",
+        "answer": "argon"
+    },
+    {
+        "question": "What element is located just below Sodium on the periodic table?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What element is located just below Magnesium on the periodic table?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element is located just below Aluminum on the periodic table?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element is located just below Silicon on the periodic table?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element is located just below Phosphorus on the periodic table?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element is located just below Sulfur on the periodic table?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element is located just below Chlorine on the periodic table?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element is located just below Argon on the periodic table?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What element is located just below Potassium on the periodic table?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What element is located just below Calcium on the periodic table?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element is located just below Scandium on the periodic table?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element is located just below Titanium on the periodic table?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element is located just below Vanadium on the periodic table?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element is located just below Chromium on the periodic table?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element is located just below Manganese on the periodic table?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element is located just below Iron on the periodic table?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element is located just below Cobalt on the periodic table?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element is located just below Nickel on the periodic table?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element is located just below Copper on the periodic table?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element is located just below Zinc on the periodic table?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element is located just below Gallium on the periodic table?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element is located just below Germanium on the periodic table?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element is located just below Arsenic on the periodic table?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element is located just below Selenium on the periodic table?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element is located just below Bromine on the periodic table?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element is located just below Krypton on the periodic table?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What element is located just below Rubidium on the periodic table?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What element is located just below Strontium on the periodic table?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element is located just below Yttrium on the periodic table?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What element is located just below Zirconium on the periodic table?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element is located just below Niobium on the periodic table?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element is located just below Molybdenum on the periodic table?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element is located just below Technetium on the periodic table?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element is located just below Ruthenium on the periodic table?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element is located just below Rhodium on the periodic table?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element is located just below Palladium on the periodic table?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element is located just below Silver on the periodic table?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element is located just below Cadmium on the periodic table?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element is located just below Indium on the periodic table?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element is located just below Tin on the periodic table?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element is located just below Antimony on the periodic table?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element is located just below Tellurium on the periodic table?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element is located just below Iodine on the periodic table?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element is located just below Xenon on the periodic table?",
+        "answer": "radon"
+    },
+    {
+        "question": "What element is located just below Cesium on the periodic table?",
+        "answer": "francium"
+    },
+    {
+        "question": "What element is located just below Barium on the periodic table?",
+        "answer": "radium"
+    },
+    {
+        "question": "What element is located just below Lanthanum on the periodic table?",
+        "answer": "actinium"
+    },
+    {
+        "question": "What element is located just below Hafnium on the periodic table?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What element is located just below Tantalum on the periodic table?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What element is located just below Tungsten on the periodic table?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What element is located just below Rhenium on the periodic table?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What element is located just below Osmium on the periodic table?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What element is located just below Iridium on the periodic table?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What element is located just below Platinum on the periodic table?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What element is located just below Gold on the periodic table?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What element is located just below Mercury on the periodic table?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What element is located just below Thallium on the periodic table?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What element is located just below Lead on the periodic table?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What element is located just below Bismuth on the periodic table?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What element is located just below Polonium on the periodic table?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What element is located just below Astatine on the periodic table?",
+        "answer": "tennessine"
+    },
+    {
+        "question": "What element is located just below Radon on the periodic table?",
+        "answer": "oganesson"
+    },
+    {
+        "question": "What element is located just to the right of Lithium on the periodic table?",
+        "answer": "beryllium"
+    },
+    {
+        "question": "What element is located just to the right of Boron on the periodic table?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What element is located just to the right of Carbon on the periodic table?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What element is located just to the right of Nitrogen on the periodic table?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What element is located just to the right of Oxygen on the periodic table?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What element is located just to the right of Fluorine on the periodic table?",
+        "answer": "neon"
+    },
+    {
+        "question": "What element is located just to the right of Sodium on the periodic table?",
+        "answer": "magnesium"
+    },
+    {
+        "question": "What element is located just to the right of Aluminum on the periodic table?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element is located just to the right of Silicon on the periodic table?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element is located just to the right of Phosphorus on the periodic table?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element is located just to the right of Sulfur on the periodic table?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element is located just to the right of Chlorine on the periodic table?",
+        "answer": "argon"
+    },
+    {
+        "question": "What element is located just to the right of Potassium on the periodic table?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element is located just to the right of Calcium on the periodic table?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What element is located just to the right of Scandium on the periodic table?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What element is located just to the right of Titanium on the periodic table?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What element is located just to the right of Vanadium on the periodic table?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What element is located just to the right of Chromium on the periodic table?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What element is located just to the right of Manganese on the periodic table?",
+        "answer": "iron"
+    },
+    {
+        "question": "What element is located just to the right of Iron on the periodic table?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What element is located just to the right of Cobalt on the periodic table?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What element is located just to the right of Nickel on the periodic table?",
+        "answer": "copper"
+    },
+    {
+        "question": "What element is located just to the right of Copper on the periodic table?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What element is located just to the right of Zinc on the periodic table?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element is located just to the right of Gallium on the periodic table?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element is located just to the right of Germanium on the periodic table?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element is located just to the right of Arsenic on the periodic table?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element is located just to the right of Selenium on the periodic table?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element is located just to the right of Bromine on the periodic table?",
+        "answer": "krypton"
+    },
+    {
+        "question": "What element is located just to the right of Rubidium on the periodic table?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element is located just to the right of Strontium on the periodic table?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element is located just to the right of Yttrium on the periodic table?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element is located just to the right of Zirconium on the periodic table?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element is located just to the right of Niobium on the periodic table?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element is located just to the right of Molybdenum on the periodic table?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element is located just to the right of Technetium on the periodic table?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element is located just to the right of Ruthenium on the periodic table?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element is located just to the right of Rhodium on the periodic table?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element is located just to the right of Palladium on the periodic table?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element is located just to the right of Silver on the periodic table?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element is located just to the right of Cadmium on the periodic table?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element is located just to the right of Indium on the periodic table?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element is located just to the right of Tin on the periodic table?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element is located just to the right of Antimony on the periodic table?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element is located just to the right of Tellurium on the periodic table?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element is located just to the right of Iodine on the periodic table?",
+        "answer": "xenon"
+    },
+    {
+        "question": "What element is located just to the right of Cesium on the periodic table?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element is located just to the right of Lanthanum on the periodic table?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element is located just to the right of Hafnium on the periodic table?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element is located just to the right of Tantalum on the periodic table?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element is located just to the right of Tungsten on the periodic table?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element is located just to the right of Rhenium on the periodic table?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element is located just to the right of Osmium on the periodic table?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element is located just to the right of Iridium on the periodic table?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element is located just to the right of Platinum on the periodic table?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element is located just to the right of Gold on the periodic table?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element is located just to the right of Mercury on the periodic table?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element is located just to the right of Thallium on the periodic table?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element is located just to the right of Lead on the periodic table?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element is located just to the right of Bismuth on the periodic table?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element is located just to the right of Polonium on the periodic table?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element is located just to the right of Astatine on the periodic table?",
+        "answer": "radon"
+    },
+    {
+        "question": "What element is located just to the right of Francium on the periodic table?",
+        "answer": "radium"
+    },
+    {
+        "question": "What element is located just to the right of Actinium on the periodic table?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What element is located just to the right of Rutherfordium on the periodic table?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What element is located just to the right of Dubnium on the periodic table?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What element is located just to the right of Seaborgium on the periodic table?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What element is located just to the right of Bohrium on the periodic table?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What element is located just to the right of Hassium on the periodic table?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What element is located just to the right of Meitnerium on the periodic table?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What element is located just to the right of Darmstadtium on the periodic table?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What element is located just to the right of Roentgenium on the periodic table?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What element is located just to the right of Copernicium on the periodic table?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What element is located just to the right of Nihonium on the periodic table?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What element is located just to the right of Flerovium on the periodic table?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What element is located just to the right of Moscovium on the periodic table?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What element is located just to the right of Livermorium on the periodic table?",
+        "answer": "tennessine"
+    },
+    {
+        "question": "What element is located just to the right of Tennessine on the periodic table?",
+        "answer": "oganesson"
+    },
+    {
+        "question": "What element is located just to the left of Beryllium on the periodic table?",
+        "answer": "lithium"
+    },
+    {
+        "question": "What element is located just to the left of Carbon on the periodic table?",
+        "answer": "boron"
+    },
+    {
+        "question": "What element is located just to the left of Nitrogen on the periodic table?",
+        "answer": "carbon"
+    },
+    {
+        "question": "What element is located just to the left of Oxygen on the periodic table?",
+        "answer": "nitrogen"
+    },
+    {
+        "question": "What element is located just to the left of Fluorine on the periodic table?",
+        "answer": "oxygen"
+    },
+    {
+        "question": "What element is located just to the left of Neon on the periodic table?",
+        "answer": "fluorine"
+    },
+    {
+        "question": "What element is located just to the left of Magnesium on the periodic table?",
+        "answer": "sodium"
+    },
+    {
+        "question": "What element is located just to the left of Silicon on the periodic table?",
+        "answer": "aluminum"
+    },
+    {
+        "question": "What element is located just to the left of Phosphorus on the periodic table?",
+        "answer": "silicon"
+    },
+    {
+        "question": "What element is located just to the left of Sulfur on the periodic table?",
+        "answer": "phosphorus"
+    },
+    {
+        "question": "What element is located just to the left of Chlorine on the periodic table?",
+        "answer": "sulfur"
+    },
+    {
+        "question": "What element is located just to the left of Argon on the periodic table?",
+        "answer": "chlorine"
+    },
+    {
+        "question": "What element is located just to the left of Calcium on the periodic table?",
+        "answer": "potassium"
+    },
+    {
+        "question": "What element is located just to the left of Scandium on the periodic table?",
+        "answer": "calcium"
+    },
+    {
+        "question": "What element is located just to the left of Titanium on the periodic table?",
+        "answer": "scandium"
+    },
+    {
+        "question": "What element is located just to the left of Vanadium on the periodic table?",
+        "answer": "titanium"
+    },
+    {
+        "question": "What element is located just to the left of Chromium on the periodic table?",
+        "answer": "vanadium"
+    },
+    {
+        "question": "What element is located just to the left of Manganese on the periodic table?",
+        "answer": "chromium"
+    },
+    {
+        "question": "What element is located just to the left of Iron on the periodic table?",
+        "answer": "manganese"
+    },
+    {
+        "question": "What element is located just to the left of Cobalt on the periodic table?",
+        "answer": "iron"
+    },
+    {
+        "question": "What element is located just to the left of Nickel on the periodic table?",
+        "answer": "cobalt"
+    },
+    {
+        "question": "What element is located just to the left of Copper on the periodic table?",
+        "answer": "nickel"
+    },
+    {
+        "question": "What element is located just to the left of Zinc on the periodic table?",
+        "answer": "copper"
+    },
+    {
+        "question": "What element is located just to the left of Gallium on the periodic table?",
+        "answer": "zinc"
+    },
+    {
+        "question": "What element is located just to the left of Germanium on the periodic table?",
+        "answer": "gallium"
+    },
+    {
+        "question": "What element is located just to the left of Arsenic on the periodic table?",
+        "answer": "germanium"
+    },
+    {
+        "question": "What element is located just to the left of Selenium on the periodic table?",
+        "answer": "arsenic"
+    },
+    {
+        "question": "What element is located just to the left of Bromine on the periodic table?",
+        "answer": "selenium"
+    },
+    {
+        "question": "What element is located just to the left of Krypton on the periodic table?",
+        "answer": "bromine"
+    },
+    {
+        "question": "What element is located just to the left of Strontium on the periodic table?",
+        "answer": "rubidium"
+    },
+    {
+        "question": "What element is located just to the left of Yttrium on the periodic table?",
+        "answer": "strontium"
+    },
+    {
+        "question": "What element is located just to the left of Zirconium on the periodic table?",
+        "answer": "yttrium"
+    },
+    {
+        "question": "What element is located just to the left of Niobium on the periodic table?",
+        "answer": "zirconium"
+    },
+    {
+        "question": "What element is located just to the left of Molybdenum on the periodic table?",
+        "answer": "niobium"
+    },
+    {
+        "question": "What element is located just to the left of Technetium on the periodic table?",
+        "answer": "molybdenum"
+    },
+    {
+        "question": "What element is located just to the left of Ruthenium on the periodic table?",
+        "answer": "technetium"
+    },
+    {
+        "question": "What element is located just to the left of Rhodium on the periodic table?",
+        "answer": "ruthenium"
+    },
+    {
+        "question": "What element is located just to the left of Palladium on the periodic table?",
+        "answer": "rhodium"
+    },
+    {
+        "question": "What element is located just to the left of Silver on the periodic table?",
+        "answer": "palladium"
+    },
+    {
+        "question": "What element is located just to the left of Cadmium on the periodic table?",
+        "answer": "silver"
+    },
+    {
+        "question": "What element is located just to the left of Indium on the periodic table?",
+        "answer": "cadmium"
+    },
+    {
+        "question": "What element is located just to the left of Tin on the periodic table?",
+        "answer": "indium"
+    },
+    {
+        "question": "What element is located just to the left of Antimony on the periodic table?",
+        "answer": "tin"
+    },
+    {
+        "question": "What element is located just to the left of Tellurium on the periodic table?",
+        "answer": "antimony"
+    },
+    {
+        "question": "What element is located just to the left of Iodine on the periodic table?",
+        "answer": "tellurium"
+    },
+    {
+        "question": "What element is located just to the left of Xenon on the periodic table?",
+        "answer": "iodine"
+    },
+    {
+        "question": "What element is located just to the left of Barium on the periodic table?",
+        "answer": "cesium"
+    },
+    {
+        "question": "What element is located just to the left of Lanthanum on the periodic table?",
+        "answer": "barium"
+    },
+    {
+        "question": "What element is located just to the left of Hafnium on the periodic table?",
+        "answer": "lanthanum"
+    },
+    {
+        "question": "What element is located just to the left of Tantalum on the periodic table?",
+        "answer": "hafnium"
+    },
+    {
+        "question": "What element is located just to the left of Tungsten on the periodic table?",
+        "answer": "tantalum"
+    },
+    {
+        "question": "What element is located just to the left of Rhenium on the periodic table?",
+        "answer": "tungsten"
+    },
+    {
+        "question": "What element is located just to the left of Osmium on the periodic table?",
+        "answer": "rhenium"
+    },
+    {
+        "question": "What element is located just to the left of Iridium on the periodic table?",
+        "answer": "osmium"
+    },
+    {
+        "question": "What element is located just to the left of Platinum on the periodic table?",
+        "answer": "iridium"
+    },
+    {
+        "question": "What element is located just to the left of Gold on the periodic table?",
+        "answer": "platinum"
+    },
+    {
+        "question": "What element is located just to the left of Mercury on the periodic table?",
+        "answer": "gold"
+    },
+    {
+        "question": "What element is located just to the left of Thallium on the periodic table?",
+        "answer": "mercury"
+    },
+    {
+        "question": "What element is located just to the left of Lead on the periodic table?",
+        "answer": "thallium"
+    },
+    {
+        "question": "What element is located just to the left of Bismuth on the periodic table?",
+        "answer": "lead"
+    },
+    {
+        "question": "What element is located just to the left of Polonium on the periodic table?",
+        "answer": "bismuth"
+    },
+    {
+        "question": "What element is located just to the left of Astatine on the periodic table?",
+        "answer": "polonium"
+    },
+    {
+        "question": "What element is located just to the left of Radon on the periodic table?",
+        "answer": "astatine"
+    },
+    {
+        "question": "What element is located just to the left of Radium on the periodic table?",
+        "answer": "francium"
+    },
+    {
+        "question": "What element is located just to the left of Actinium on the periodic table?",
+        "answer": "radium"
+    },
+    {
+        "question": "What element is located just to the left of Rutherfordium on the periodic table?",
+        "answer": "actinium"
+    },
+    {
+        "question": "What element is located just to the left of Dubnium on the periodic table?",
+        "answer": "rutherfordium"
+    },
+    {
+        "question": "What element is located just to the left of Seaborgium on the periodic table?",
+        "answer": "dubnium"
+    },
+    {
+        "question": "What element is located just to the left of Bohrium on the periodic table?",
+        "answer": "seaborgium"
+    },
+    {
+        "question": "What element is located just to the left of Hassium on the periodic table?",
+        "answer": "bohrium"
+    },
+    {
+        "question": "What element is located just to the left of Meitnerium on the periodic table?",
+        "answer": "hassium"
+    },
+    {
+        "question": "What element is located just to the left of Darmstadtium on the periodic table?",
+        "answer": "meitnerium"
+    },
+    {
+        "question": "What element is located just to the left of Roentgenium on the periodic table?",
+        "answer": "darmstadtium"
+    },
+    {
+        "question": "What element is located just to the left of Copernicium on the periodic table?",
+        "answer": "roentgenium"
+    },
+    {
+        "question": "What element is located just to the left of Nihonium on the periodic table?",
+        "answer": "copernicium"
+    },
+    {
+        "question": "What element is located just to the left of Flerovium on the periodic table?",
+        "answer": "nihonium"
+    },
+    {
+        "question": "What element is located just to the left of Moscovium on the periodic table?",
+        "answer": "flerovium"
+    },
+    {
+        "question": "What element is located just to the left of Livermorium on the periodic table?",
+        "answer": "moscovium"
+    },
+    {
+        "question": "What element is located just to the left of Tennessine on the periodic table?",
+        "answer": "livermorium"
+    },
+    {
+        "question": "What element is located just to the left of Oganesson on the periodic table?",
+        "answer": "tennessine"
+    }
+]
