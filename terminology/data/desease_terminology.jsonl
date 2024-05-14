@@ -1,0 +1,225 @@
+{"type": "common_desease", "terminology": "Acquired Immunodeficiency Syndrome", "term_count": 3, "prompt": "Acquired _ Syndrome", "answer": "Immunodeficiency"}
+{"type": "common_desease", "terminology": "Acute Lymphoblastic Leukemia", "term_count": 3, "prompt": "Acute _ Leukemia", "answer": "Lymphoblastic"}
+{"type": "common_desease", "terminology": "Acute Myeloid Leukemia", "term_count": 3, "prompt": "Acute _ Leukemia", "answer": "Myeloid"}
+{"type": "common_desease", "terminology": "Chronic Fatigue Syndrome", "term_count": 3, "prompt": "Chronic _ Syndrome", "answer": "Fatigue"}
+{"type": "common_desease", "terminology": "Chronic Kidney Disease", "term_count": 3, "prompt": "Chronic _ Disease", "answer": "Kidney"}
+{"type": "common_desease", "terminology": "Chronic Myeloid Leukemia", "term_count": 3, "prompt": "Chronic _ Leukemia", "answer": "Myeloid"}
+{"type": "common_desease", "terminology": "Chronic Obstructive Pulmonary Disease", "term_count": 4, "prompt": "Chronic Obstructive _ Disease", "answer": "Pulmonary"}
+{"type": "common_desease", "terminology": "Congenital Heart Disease", "term_count": 3, "prompt": "Congenital _ Disease", "answer": "Heart"}
+{"type": "common_desease", "terminology": "Congestive Heart Failure", "term_count": 3, "prompt": "Congestive _ Failure", "answer": "Heart"}
+{"type": "common_desease", "terminology": "Coronary Artery Disease", "term_count": 3, "prompt": "Coronary _ Disease", "answer": "Artery"}
+{"type": "common_desease", "terminology": "Deep Vein Thrombosis", "term_count": 3, "prompt": "Deep _ Thrombosis", "answer": "Vein"}
+{"type": "common_desease", "terminology": "Dementia with Lewy Bodies", "term_count": 4, "prompt": "Dementia with _ Bodies", "answer": "Lewy"}
+{"type": "common_desease", "terminology": "Diabetes Mellitus Type 2", "term_count": 4, "prompt": "Diabetes Mellitus _ 2", "answer": "Type"}
+{"type": "common_desease", "terminology": "Duchenne Muscular Dystrophy", "term_count": 3, "prompt": "Duchenne _ Dystrophy", "answer": "Muscular"}
+{"type": "common_desease", "terminology": "End-Stage Renal Disease", "term_count": 3, "prompt": "End-Stage _ Disease", "answer": "Renal"}
+{"type": "common_desease", "terminology": "Epstein-Barr Virus Infection", "term_count": 3, "prompt": "Epstein-Barr _ Infection", "answer": "Virus"}
+{"type": "common_desease", "terminology": "Functional Neurological Disorder", "term_count": 3, "prompt": "Functional _ Disorder", "answer": "Neurological"}
+{"type": "common_desease", "terminology": "Gastroesophageal Reflux Disease", "term_count": 3, "prompt": "Gastroesophageal _ Disease", "answer": "Reflux"}
+{"type": "common_desease", "terminology": "Herpes Simplex Virus Infection", "term_count": 4, "prompt": "Herpes Simplex _ Infection", "answer": "Virus"}
+{"type": "common_desease", "terminology": "Human Papillomavirus Infection", "term_count": 3, "prompt": "Human _ Infection", "answer": "Papillomavirus"}
+{"type": "common_desease", "terminology": "Idiopathic Pulmonary Fibrosis", "term_count": 3, "prompt": "Idiopathic _ Fibrosis", "answer": "Pulmonary"}
+{"type": "common_desease", "terminology": "Idiopathic Thrombocytopenic Purpura", "term_count": 3, "prompt": "Idiopathic _ Purpura", "answer": "Thrombocytopenic"}
+{"type": "common_desease", "terminology": "Inflammatory Bowel Disease", "term_count": 3, "prompt": "Inflammatory _ Disease", "answer": "Bowel"}
+{"type": "common_desease", "terminology": "Insulin-Dependent Diabetes Mellitus", "term_count": 3, "prompt": "Insulin-Dependent _ Mellitus", "answer": "Diabetes"}
+{"type": "common_desease", "terminology": "Juvenile Idiopathic Arthritis", "term_count": 3, "prompt": "Juvenile _ Arthritis", "answer": "Idiopathic"}
+{"type": "common_desease", "terminology": "Large B-Cell Lymphoma", "term_count": 3, "prompt": "Large _ Lymphoma", "answer": "B-Cell"}
+{"type": "common_desease", "terminology": "Leber's Hereditary Optic Neuropathy", "term_count": 4, "prompt": "Leber's Hereditary _ Neuropathy", "answer": "Optic"}
+{"type": "common_desease", "terminology": "Mast Cell Activation Syndrome", "term_count": 4, "prompt": "Mast Cell _ Syndrome", "answer": "Activation"}
+{"type": "common_desease", "terminology": "Medullary Thyroid Carcinoma", "term_count": 3, "prompt": "Medullary _ Carcinoma", "answer": "Thyroid"}
+{"type": "common_desease", "terminology": "Mixed Connective Tissue Disease", "term_count": 4, "prompt": "Mixed Connective _ Disease", "answer": "Tissue"}
+{"type": "common_desease", "terminology": "Multiple Endocrine Neoplasia Type 1", "term_count": 5, "prompt": "Multiple Endocrine Neoplasia _ 1", "answer": "Type"}
+{"type": "common_desease", "terminology": "Neurofibromatosis Type 1", "term_count": 3, "prompt": "Neurofibromatosis _ 1", "answer": "Type"}
+{"type": "common_desease", "terminology": "Nonalcoholic Fatty Liver Disease", "term_count": 4, "prompt": "Nonalcoholic Fatty _ Disease", "answer": "Liver"}
+{"type": "common_desease", "terminology": "Paroxysmal Nocturnal Hemoglobinuria", "term_count": 3, "prompt": "Paroxysmal _ Hemoglobinuria", "answer": "Nocturnal"}
+{"type": "common_desease", "terminology": "Pelvic Inflammatory Disease", "term_count": 3, "prompt": "Pelvic _ Disease", "answer": "Inflammatory"}
+{"type": "common_desease", "terminology": "Peripheral Arterial Disease", "term_count": 3, "prompt": "Peripheral _ Disease", "answer": "Arterial"}
+{"type": "common_desease", "terminology": "Polycystic Kidney Disease", "term_count": 3, "prompt": "Polycystic _ Disease", "answer": "Kidney"}
+{"type": "common_desease", "terminology": "Polycystic Ovary Syndrome", "term_count": 3, "prompt": "Polycystic _ Syndrome", "answer": "Ovary"}
+{"type": "common_desease", "terminology": "Post-Traumatic Stress Disorder", "term_count": 3, "prompt": "Post-Traumatic _ Disorder", "answer": "Stress"}
+{"type": "common_desease", "terminology": "Primary Biliary Cholangitis", "term_count": 3, "prompt": "Primary _ Cholangitis", "answer": "Biliary"}
+{"type": "common_desease", "terminology": "Primary Sclerosing Cholangitis", "term_count": 3, "prompt": "Primary _ Cholangitis", "answer": "Sclerosing"}
+{"type": "common_desease", "terminology": "Progressive Multifocal Leukoencephalopathy", "term_count": 3, "prompt": "Progressive _ Leukoencephalopathy", "answer": "Multifocal"}
+{"type": "common_desease", "terminology": "Pulmonary Arterial Hypertension", "term_count": 3, "prompt": "Pulmonary _ Hypertension", "answer": "Arterial"}
+{"type": "common_desease", "terminology": "Restless Legs Syndrome", "term_count": 3, "prompt": "Restless _ Syndrome", "answer": "Legs"}
+{"type": "common_desease", "terminology": "Severe Combined Immunodeficiency", "term_count": 3, "prompt": "Severe _ Immunodeficiency", "answer": "Combined"}
+{"type": "common_desease", "terminology": "Small Cell Lung Cancer", "term_count": 4, "prompt": "Small Cell _ Cancer", "answer": "Lung"}
+{"type": "common_desease", "terminology": "Spinal Muscular Atrophy", "term_count": 3, "prompt": "Spinal _ Atrophy", "answer": "Muscular"}
+{"type": "common_desease", "terminology": "Squamous Cell Carcinoma", "term_count": 3, "prompt": "Squamous _ Carcinoma", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Systemic Lupus Erythematosus", "term_count": 3, "prompt": "Systemic _ Erythematosus", "answer": "Lupus"}
+{"type": "common_desease", "terminology": "Temporomandibular Joint Dysfunction", "term_count": 3, "prompt": "Temporomandibular _ Dysfunction", "answer": "Joint"}
+{"type": "common_desease", "terminology": "Thyroid-Stimulating Hormone Deficiency", "term_count": 3, "prompt": "Thyroid-Stimulating _ Deficiency", "answer": "Hormone"}
+{"type": "common_desease", "terminology": "Toxic Epidermal Necrolysis", "term_count": 3, "prompt": "Toxic _ Necrolysis", "answer": "Epidermal"}
+{"type": "common_desease", "terminology": "von Willebrand Disease", "term_count": 3, "prompt": "von _ Disease", "answer": "Willebrand"}
+{"type": "common_desease", "terminology": "Acute Respiratory Distress Syndrome", "term_count": 4, "prompt": "Acute Respiratory _ Syndrome", "answer": "Distress"}
+{"type": "common_desease", "terminology": "Adult-Onset Still's Disease", "term_count": 3, "prompt": "Adult-Onset _ Disease", "answer": "Still's"}
+{"type": "common_desease", "terminology": "Benign Fasciculation Syndrome", "term_count": 3, "prompt": "Benign _ Syndrome", "answer": "Fasciculation"}
+{"type": "common_desease", "terminology": "Bone Marrow Failure Syndrome", "term_count": 4, "prompt": "Bone Marrow _ Syndrome", "answer": "Failure"}
+{"type": "common_desease", "terminology": "Central Serous Retinopathy", "term_count": 3, "prompt": "Central _ Retinopathy", "answer": "Serous"}
+{"type": "common_desease", "terminology": "Chronic Fatigue Immune Dysfunction Syndrome", "term_count": 5, "prompt": "Chronic Fatigue Immune _ Syndrome", "answer": "Dysfunction"}
+{"type": "common_desease", "terminology": "Chronic Lymphocytic Leukemia", "term_count": 3, "prompt": "Chronic _ Leukemia", "answer": "Lymphocytic"}
+{"type": "common_desease", "terminology": "Congenital Adrenal Hyperplasia", "term_count": 3, "prompt": "Congenital _ Hyperplasia", "answer": "Adrenal"}
+{"type": "common_desease", "terminology": "Congenital Diaphragmatic Hernia", "term_count": 3, "prompt": "Congenital _ Hernia", "answer": "Diaphragmatic"}
+{"type": "common_desease", "terminology": "Drug-Induced Lupus Erythematosus", "term_count": 3, "prompt": "Drug-Induced _ Erythematosus", "answer": "Lupus"}
+{"type": "common_desease", "terminology": "Functional Neurological Disorder", "term_count": 3, "prompt": "Functional _ Disorder", "answer": "Neurological"}
+{"type": "common_desease", "terminology": "Gestational Diabetes Mellitus", "term_count": 3, "prompt": "Gestational _ Mellitus", "answer": "Diabetes"}
+{"type": "common_desease", "terminology": "Giant Cell Arteritis", "term_count": 3, "prompt": "Giant _ Arteritis", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Granulomatosis with Polyangiitis", "term_count": 3, "prompt": "Granulomatosis _ Polyangiitis", "answer": "with"}
+{"type": "common_desease", "terminology": "Hypoplastic Left Heart Syndrome", "term_count": 4, "prompt": "Hypoplastic Left _ Syndrome", "answer": "Heart"}
+{"type": "common_desease", "terminology": "Idiopathic Intracranial Hypertension", "term_count": 3, "prompt": "Idiopathic _ Hypertension", "answer": "Intracranial"}
+{"type": "common_desease", "terminology": "Idiopathic Thrombocytopenic Purpura", "term_count": 3, "prompt": "Idiopathic _ Purpura", "answer": "Thrombocytopenic"}
+{"type": "common_desease", "terminology": "Immune-Mediated Inflammatory Diseases", "term_count": 3, "prompt": "Immune-Mediated _ Diseases", "answer": "Inflammatory"}
+{"type": "common_desease", "terminology": "Inflammatory Breast Cancer", "term_count": 3, "prompt": "Inflammatory _ Cancer", "answer": "Breast"}
+{"type": "common_desease", "terminology": "Interstitial Lung Disease", "term_count": 3, "prompt": "Interstitial _ Disease", "answer": "Lung"}
+{"type": "common_desease", "terminology": "Juvenile Myoclonic Epilepsy", "term_count": 3, "prompt": "Juvenile _ Epilepsy", "answer": "Myoclonic"}
+{"type": "common_desease", "terminology": "Leber's Hereditary Optic Neuropathy", "term_count": 4, "prompt": "Leber's Hereditary _ Neuropathy", "answer": "Optic"}
+{"type": "common_desease", "terminology": "Leukocyte Adhesion Deficiency", "term_count": 3, "prompt": "Leukocyte _ Deficiency", "answer": "Adhesion"}
+{"type": "common_desease", "terminology": "Malignant Peripheral Nerve Sheath Tumor", "term_count": 5, "prompt": "Malignant Peripheral Nerve _ Tumor", "answer": "Sheath"}
+{"type": "common_desease", "terminology": "Mantle Cell Lymphoma", "term_count": 3, "prompt": "Mantle _ Lymphoma", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Maturity Onset Diabetes of the Young", "term_count": 6, "prompt": "Maturity Onset Diabetes of _ Young", "answer": "the"}
+{"type": "common_desease", "terminology": "Mediastinal Large B-Cell Lymphoma", "term_count": 4, "prompt": "Mediastinal Large _ Lymphoma", "answer": "B-Cell"}
+{"type": "common_desease", "terminology": "Mixed Connective Tissue Disease", "term_count": 4, "prompt": "Mixed Connective _ Disease", "answer": "Tissue"}
+{"type": "common_desease", "terminology": "Multiple Endocrine Neoplasia Type 1", "term_count": 5, "prompt": "Multiple Endocrine Neoplasia _ 1", "answer": "Type"}
+{"type": "common_desease", "terminology": "Neurofibromatosis Type 1", "term_count": 3, "prompt": "Neurofibromatosis _ 1", "answer": "Type"}
+{"type": "common_desease", "terminology": "Nonalcoholic Fatty Liver Disease", "term_count": 4, "prompt": "Nonalcoholic Fatty _ Disease", "answer": "Liver"}
+{"type": "common_desease", "terminology": "Paraneoplastic Neurological Disorders", "term_count": 3, "prompt": "Paraneoplastic _ Disorders", "answer": "Neurological"}
+{"type": "common_desease", "terminology": "Pelvic Congestion Syndrome", "term_count": 3, "prompt": "Pelvic _ Syndrome", "answer": "Congestion"}
+{"type": "common_desease", "terminology": "Peptic Ulcer Disease", "term_count": 3, "prompt": "Peptic _ Disease", "answer": "Ulcer"}
+{"type": "common_desease", "terminology": "Peripheral Arterial Disease", "term_count": 3, "prompt": "Peripheral _ Disease", "answer": "Arterial"}
+{"type": "common_desease", "terminology": "Polycystic Kidney Disease", "term_count": 3, "prompt": "Polycystic _ Disease", "answer": "Kidney"}
+{"type": "common_desease", "terminology": "Polycystic Ovary Syndrome", "term_count": 3, "prompt": "Polycystic _ Syndrome", "answer": "Ovary"}
+{"type": "common_desease", "terminology": "Post-Traumatic Stress Disorder", "term_count": 3, "prompt": "Post-Traumatic _ Disorder", "answer": "Stress"}
+{"type": "common_desease", "terminology": "Primary Biliary Cholangitis", "term_count": 3, "prompt": "Primary _ Cholangitis", "answer": "Biliary"}
+{"type": "common_desease", "terminology": "Primary Sclerosing Cholangitis", "term_count": 3, "prompt": "Primary _ Cholangitis", "answer": "Sclerosing"}
+{"type": "common_desease", "terminology": "Progressive Multifocal Leukoencephalopathy", "term_count": 3, "prompt": "Progressive _ Leukoencephalopathy", "answer": "Multifocal"}
+{"type": "common_desease", "terminology": "Pulmonary Arterial Hypertension", "term_count": 3, "prompt": "Pulmonary _ Hypertension", "answer": "Arterial"}
+{"type": "common_desease", "terminology": "Renal Cell Carcinoma", "term_count": 3, "prompt": "Renal _ Carcinoma", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Restless Legs Syndrome", "term_count": 3, "prompt": "Restless _ Syndrome", "answer": "Legs"}
+{"type": "common_desease", "terminology": "Seasonal Affective Disorder", "term_count": 3, "prompt": "Seasonal _ Disorder", "answer": "Affective"}
+{"type": "common_desease", "terminology": "Severe Combined Immunodeficiency", "term_count": 3, "prompt": "Severe _ Immunodeficiency", "answer": "Combined"}
+{"type": "common_desease", "terminology": "Sickle Cell Anemia", "term_count": 3, "prompt": "Sickle _ Anemia", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Small Cell Lung Cancer", "term_count": 4, "prompt": "Small Cell _ Cancer", "answer": "Lung"}
+{"type": "common_desease", "terminology": "Spinal Muscular Atrophy", "term_count": 3, "prompt": "Spinal _ Atrophy", "answer": "Muscular"}
+{"type": "common_desease", "terminology": "Squamous Cell Carcinoma", "term_count": 3, "prompt": "Squamous _ Carcinoma", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Systemic Lupus Erythematosus", "term_count": 3, "prompt": "Systemic _ Erythematosus", "answer": "Lupus"}
+{"type": "common_desease", "terminology": "Temporomandibular Joint Dysfunction", "term_count": 3, "prompt": "Temporomandibular _ Dysfunction", "answer": "Joint"}
+{"type": "common_desease", "terminology": "Thyroid-Stimulating Hormone Deficiency", "term_count": 3, "prompt": "Thyroid-Stimulating _ Deficiency", "answer": "Hormone"}
+{"type": "common_desease", "terminology": "Toxic Epidermal Necrolysis", "term_count": 3, "prompt": "Toxic _ Necrolysis", "answer": "Epidermal"}
+{"type": "common_desease", "terminology": "Urinary Tract Infection", "term_count": 3, "prompt": "Urinary _ Infection", "answer": "Tract"}
+{"type": "common_desease", "terminology": "von Willebrand Disease", "term_count": 3, "prompt": "von _ Disease", "answer": "Willebrand"}
+{"type": "common_desease", "terminology": "Acute Respiratory Distress Syndrome", "term_count": 4, "prompt": "Acute Respiratory _ Syndrome", "answer": "Distress"}
+{"type": "common_desease", "terminology": "Adult-Onset Still's Disease", "term_count": 3, "prompt": "Adult-Onset _ Disease", "answer": "Still's"}
+{"type": "common_desease", "terminology": "Benign Fasciculation Syndrome", "term_count": 3, "prompt": "Benign _ Syndrome", "answer": "Fasciculation"}
+{"type": "common_desease", "terminology": "Bone Marrow Failure Syndrome", "term_count": 4, "prompt": "Bone Marrow _ Syndrome", "answer": "Failure"}
+{"type": "common_desease", "terminology": "Central Serous Retinopathy", "term_count": 3, "prompt": "Central _ Retinopathy", "answer": "Serous"}
+{"type": "common_desease", "terminology": "Chronic Fatigue Immune Dysfunction Syndrome", "term_count": 5, "prompt": "Chronic Fatigue Immune _ Syndrome", "answer": "Dysfunction"}
+{"type": "common_desease", "terminology": "Chronic Lymphocytic Leukemia", "term_count": 3, "prompt": "Chronic _ Leukemia", "answer": "Lymphocytic"}
+{"type": "common_desease", "terminology": "Congenital Adrenal Hyperplasia", "term_count": 3, "prompt": "Congenital _ Hyperplasia", "answer": "Adrenal"}
+{"type": "common_desease", "terminology": "Congenital Diaphragmatic Hernia", "term_count": 3, "prompt": "Congenital _ Hernia", "answer": "Diaphragmatic"}
+{"type": "common_desease", "terminology": "Drug-Induced Lupus Erythematosus", "term_count": 3, "prompt": "Drug-Induced _ Erythematosus", "answer": "Lupus"}
+{"type": "common_desease", "terminology": "Functional Neurological Disorder", "term_count": 3, "prompt": "Functional _ Disorder", "answer": "Neurological"}
+{"type": "common_desease", "terminology": "Gestational Diabetes Mellitus", "term_count": 3, "prompt": "Gestational _ Mellitus", "answer": "Diabetes"}
+{"type": "common_desease", "terminology": "Giant Cell Arteritis", "term_count": 3, "prompt": "Giant _ Arteritis", "answer": "Cell"}
+{"type": "common_desease", "terminology": "Granulomatosis with Polyangiitis", "term_count": 3, "prompt": "Granulomatosis _ Polyangiitis", "answer": "with"}
+{"type": "common_desease", "terminology": "Hypoplastic Left Heart Syndrome", "term_count": 4, "prompt": "Hypoplastic Left _ Syndrome", "answer": "Heart"}
+{"type": "common_desease", "terminology": "Idiopathic Intracranial Hypertension", "term_count": 3, "prompt": "Idiopathic _ Hypertension", "answer": "Intracranial"}
+{"type": "common_desease", "terminology": "Idiopathic Thrombocytopenic Purpura", "term_count": 3, "prompt": "Idiopathic _ Purpura", "answer": "Thrombocytopenic"}
+{"type": "common_desease", "terminology": "Immune-Mediated Inflammatory Diseases", "term_count": 3, "prompt": "Immune-Mediated _ Diseases", "answer": "Inflammatory"}
+{"type": "common_desease", "terminology": "Inflammatory Breast Cancer", "term_count": 3, "prompt": "Inflammatory _ Cancer", "answer": "Breast"}
+{"type": "common_desease", "terminology": "Interstitial Lung Disease", "term_count": 3, "prompt": "Interstitial _ Disease", "answer": "Lung"}
+{"type": "common_desease", "terminology": "Juvenile Myoclonic Epilepsy", "term_count": 3, "prompt": "Juvenile _ Epilepsy", "answer": "Myoclonic"}
+{"type": "common_desease", "terminology": "Leber's Hereditary Optic Neuropathy", "term_count": 4, "prompt": "Leber's Hereditary _ Neuropathy", "answer": "Optic"}
+{"type": "rare_desease", "terminology": "Acrocallosal Syndrome Type 1", "term_count": 4, "prompt": "Acrocallosal Syndrome _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Adult-onset Still's Disease", "term_count": 3, "prompt": "Adult-onset _ Disease", "answer": "Still's"}
+{"type": "rare_desease", "terminology": "Alpha-1 Antitrypsin Deficiency", "term_count": 3, "prompt": "Alpha-1 _ Deficiency", "answer": "Antitrypsin"}
+{"type": "rare_desease", "terminology": "Alpha-mannosidosis Type II", "term_count": 3, "prompt": "Alpha-mannosidosis _ II", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Alternating Hemiplegia of Childhood", "term_count": 4, "prompt": "Alternating Hemiplegia _ Childhood", "answer": "of"}
+{"type": "rare_desease", "terminology": "Andersen-Tawil Syndrome Type 1", "term_count": 4, "prompt": "Andersen-Tawil Syndrome _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Anophthalmia Plus Syndrome", "term_count": 3, "prompt": "Anophthalmia _ Syndrome", "answer": "Plus"}
+{"type": "rare_desease", "terminology": "Aplastic Anemia Fanconi Type", "term_count": 4, "prompt": "Aplastic Anemia _ Type", "answer": "Fanconi"}
+{"type": "rare_desease", "terminology": "Arthrogryposis Multiplex Congenita", "term_count": 3, "prompt": "Arthrogryposis _ Congenita", "answer": "Multiplex"}
+{"type": "rare_desease", "terminology": "Autoimmune Polyendocrine Syndrome", "term_count": 3, "prompt": "Autoimmune _ Syndrome", "answer": "Polyendocrine"}
+{"type": "rare_desease", "terminology": "Bardet-Biedl Syndrome Type 1", "term_count": 4, "prompt": "Bardet-Biedl Syndrome _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Basal Cell Nevus Syndrome", "term_count": 4, "prompt": "Basal Cell _ Syndrome", "answer": "Nevus"}
+{"type": "rare_desease", "terminology": "Benign Paroxysmal Positional Vertigo", "term_count": 4, "prompt": "Benign Paroxysmal _ Vertigo", "answer": "Positional"}
+{"type": "rare_desease", "terminology": "Berardinelli-Seip Congenital Lipodystrophy", "term_count": 3, "prompt": "Berardinelli-Seip _ Lipodystrophy", "answer": "Congenital"}
+{"type": "rare_desease", "terminology": "Beta Thalassemia Major", "term_count": 3, "prompt": "Beta _ Major", "answer": "Thalassemia"}
+{"type": "rare_desease", "terminology": "Bilateral Perisylvian Polymicrogyria", "term_count": 3, "prompt": "Bilateral _ Polymicrogyria", "answer": "Perisylvian"}
+{"type": "rare_desease", "terminology": "Blue Rubber Bleb Nevus Syndrome", "term_count": 5, "prompt": "Blue Rubber Bleb _ Syndrome", "answer": "Nevus"}
+{"type": "rare_desease", "terminology": "Brown-Vialetto-Van Laere Syndrome", "term_count": 3, "prompt": "Brown-Vialetto-Van _ Syndrome", "answer": "Laere"}
+{"type": "rare_desease", "terminology": "Caffey Disease Infantile Form", "term_count": 4, "prompt": "Caffey Disease _ Form", "answer": "Infantile"}
+{"type": "rare_desease", "terminology": "Carney Complex Type 1", "term_count": 4, "prompt": "Carney Complex _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Cartilage Hair Hypoplasia", "term_count": 3, "prompt": "Cartilage _ Hypoplasia", "answer": "Hair"}
+{"type": "rare_desease", "terminology": "Cat Eye Syndrome", "term_count": 3, "prompt": "Cat _ Syndrome", "answer": "Eye"}
+{"type": "rare_desease", "terminology": "Cavernous Malformation Type 1", "term_count": 4, "prompt": "Cavernous Malformation _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Chiari Malformation Type I", "term_count": 4, "prompt": "Chiari Malformation _ I", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Chronic Granulomatous Disease", "term_count": 3, "prompt": "Chronic _ Disease", "answer": "Granulomatous"}
+{"type": "rare_desease", "terminology": "Congenital Central Hypoventilation Syndrome", "term_count": 4, "prompt": "Congenital Central _ Syndrome", "answer": "Hypoventilation"}
+{"type": "rare_desease", "terminology": "Congenital Disorder of Glycosylation", "term_count": 4, "prompt": "Congenital Disorder _ Glycosylation", "answer": "of"}
+{"type": "rare_desease", "terminology": "Congenital Insensitivity to Pain with Anhidrosis", "term_count": 6, "prompt": "Congenital Insensitivity to Pain _ Anhidrosis", "answer": "with"}
+{"type": "rare_desease", "terminology": "Corticobasal Degeneration Syndrome", "term_count": 3, "prompt": "Corticobasal _ Syndrome", "answer": "Degeneration"}
+{"type": "rare_desease", "terminology": "Craniofacial Dysostosis Type 1", "term_count": 4, "prompt": "Craniofacial Dysostosis _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Cri du Chat Syndrome", "term_count": 4, "prompt": "Cri du _ Syndrome", "answer": "Chat"}
+{"type": "rare_desease", "terminology": "Crouzon Syndrome with Acanthosis Nigricans", "term_count": 5, "prompt": "Crouzon Syndrome with _ Nigricans", "answer": "Acanthosis"}
+{"type": "rare_desease", "terminology": "Distal Myopathy with Rimmed Vacuoles", "term_count": 5, "prompt": "Distal Myopathy with _ Vacuoles", "answer": "Rimmed"}
+{"type": "rare_desease", "terminology": "Ehlers-Danlos Syndrome Type IV", "term_count": 4, "prompt": "Ehlers-Danlos Syndrome _ IV", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Ellis-van Creveld Syndrome", "term_count": 3, "prompt": "Ellis-van _ Syndrome", "answer": "Creveld"}
+{"type": "rare_desease", "terminology": "Emery-Dreifuss Muscular Dystrophy", "term_count": 3, "prompt": "Emery-Dreifuss _ Dystrophy", "answer": "Muscular"}
+{"type": "rare_desease", "terminology": "Epidermolysis Bullosa Dystrophica", "term_count": 3, "prompt": "Epidermolysis _ Dystrophica", "answer": "Bullosa"}
+{"type": "rare_desease", "terminology": "Familial Adenomatous Polyposis", "term_count": 3, "prompt": "Familial _ Polyposis", "answer": "Adenomatous"}
+{"type": "rare_desease", "terminology": "Familial Mediterranean Fever", "term_count": 3, "prompt": "Familial _ Fever", "answer": "Mediterranean"}
+{"type": "rare_desease", "terminology": "Fetal Alcohol Spectrum Disorder", "term_count": 4, "prompt": "Fetal Alcohol _ Disorder", "answer": "Spectrum"}
+{"type": "rare_desease", "terminology": "Fibrodysplasia Ossificans Progressiva", "term_count": 3, "prompt": "Fibrodysplasia _ Progressiva", "answer": "Ossificans"}
+{"type": "rare_desease", "terminology": "Fragile X Syndrome", "term_count": 3, "prompt": "Fragile _ Syndrome", "answer": "X"}
+{"type": "rare_desease", "terminology": "Frontotemporal Dementia with Parkinsonism", "term_count": 4, "prompt": "Frontotemporal Dementia _ Parkinsonism", "answer": "with"}
+{"type": "rare_desease", "terminology": "Fukuyama Congenital Muscular Dystrophy", "term_count": 4, "prompt": "Fukuyama Congenital _ Dystrophy", "answer": "Muscular"}
+{"type": "rare_desease", "terminology": "Gaucher Disease Type 1", "term_count": 4, "prompt": "Gaucher Disease _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Glutaric Acidemia Type I", "term_count": 4, "prompt": "Glutaric Acidemia _ I", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Granulomatosis with Polyangiitis", "term_count": 3, "prompt": "Granulomatosis _ Polyangiitis", "answer": "with"}
+{"type": "rare_desease", "terminology": "Griscelli Syndrome Type 1", "term_count": 4, "prompt": "Griscelli Syndrome _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Hardy-Weinberg Equilibrium Syndrome", "term_count": 3, "prompt": "Hardy-Weinberg _ Syndrome", "answer": "Equilibrium"}
+{"type": "rare_desease", "terminology": "Hereditary Angioedema Type III", "term_count": 4, "prompt": "Hereditary Angioedema _ III", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Hereditary Hemorrhagic Telangiectasia", "term_count": 3, "prompt": "Hereditary _ Telangiectasia", "answer": "Hemorrhagic"}
+{"type": "rare_desease", "terminology": "Hereditary Spastic Paraplegia", "term_count": 3, "prompt": "Hereditary _ Paraplegia", "answer": "Spastic"}
+{"type": "rare_desease", "terminology": "Hutchinson-Gilford Progeria Syndrome", "term_count": 3, "prompt": "Hutchinson-Gilford _ Syndrome", "answer": "Progeria"}
+{"type": "rare_desease", "terminology": "Hyper IgM Syndrome", "term_count": 3, "prompt": "Hyper _ Syndrome", "answer": "IgM"}
+{"type": "rare_desease", "terminology": "Idiopathic Intracranial Hypertension", "term_count": 3, "prompt": "Idiopathic _ Hypertension", "answer": "Intracranial"}
+{"type": "rare_desease", "terminology": "Infantile Refsum Disease", "term_count": 3, "prompt": "Infantile _ Disease", "answer": "Refsum"}
+{"type": "rare_desease", "terminology": "Insulin Autoimmune Syndrome", "term_count": 3, "prompt": "Insulin _ Syndrome", "answer": "Autoimmune"}
+{"type": "rare_desease", "terminology": "Isolated Lissencephaly Sequence", "term_count": 3, "prompt": "Isolated _ Sequence", "answer": "Lissencephaly"}
+{"type": "rare_desease", "terminology": "Joubert Syndrome with Ocular Abnormalities", "term_count": 5, "prompt": "Joubert Syndrome with _ Abnormalities", "answer": "Ocular"}
+{"type": "rare_desease", "terminology": "Lenz Microphthalmia Syndrome", "term_count": 3, "prompt": "Lenz _ Syndrome", "answer": "Microphthalmia"}
+{"type": "rare_desease", "terminology": "Leukocyte Adhesion Deficiency", "term_count": 3, "prompt": "Leukocyte _ Deficiency", "answer": "Adhesion"}
+{"type": "rare_desease", "terminology": "Limb-Girdle Muscular Dystrophy", "term_count": 3, "prompt": "Limb-Girdle _ Dystrophy", "answer": "Muscular"}
+{"type": "rare_desease", "terminology": "Maple Syrup Urine Disease", "term_count": 4, "prompt": "Maple Syrup _ Disease", "answer": "Urine"}
+{"type": "rare_desease", "terminology": "Marcus Gunn Jaw-Winking Syndrome", "term_count": 4, "prompt": "Marcus Gunn _ Syndrome", "answer": "Jaw-Winking"}
+{"type": "rare_desease", "terminology": "Maturity Onset Diabetes of the Young", "term_count": 6, "prompt": "Maturity Onset Diabetes of _ Young", "answer": "the"}
+{"type": "rare_desease", "terminology": "Medium-Chain Acyl-CoA Dehydrogenase Deficiency", "term_count": 4, "prompt": "Medium-Chain Acyl-CoA _ Deficiency", "answer": "Dehydrogenase"}
+{"type": "rare_desease", "terminology": "Megalencephalic Leukoencephalopathy with Subcortical Cysts", "term_count": 5, "prompt": "Megalencephalic Leukoencephalopathy with _ Cysts", "answer": "Subcortical"}
+{"type": "rare_desease", "terminology": "Methylenetetrahydrofolate Reductase Deficiency", "term_count": 3, "prompt": "Methylenetetrahydrofolate _ Deficiency", "answer": "Reductase"}
+{"type": "rare_desease", "terminology": "Microvillus Inclusion Disease", "term_count": 3, "prompt": "Microvillus _ Disease", "answer": "Inclusion"}
+{"type": "rare_desease", "terminology": "Mitochondrial Neurogastrointestinal Encephalomyopathy", "term_count": 3, "prompt": "Mitochondrial _ Encephalomyopathy", "answer": "Neurogastrointestinal"}
+{"type": "rare_desease", "terminology": "Multiple Endocrine Neoplasia Type 1", "term_count": 5, "prompt": "Multiple Endocrine Neoplasia _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Multiple System Atrophy", "term_count": 3, "prompt": "Multiple _ Atrophy", "answer": "System"}
+{"type": "rare_desease", "terminology": "Myoclonic Epilepsy with Ragged Red Fibers", "term_count": 6, "prompt": "Myoclonic Epilepsy with Ragged _ Fibers", "answer": "Red"}
+{"type": "rare_desease", "terminology": "Myotonic Dystrophy Type 1", "term_count": 4, "prompt": "Myotonic Dystrophy _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Nevoid Basal Cell Carcinoma Syndrome", "term_count": 5, "prompt": "Nevoid Basal Cell _ Syndrome", "answer": "Carcinoma"}
+{"type": "rare_desease", "terminology": "Niemann-Pick Disease Type C", "term_count": 4, "prompt": "Niemann-Pick Disease _ C", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Noonan Syndrome with Multiple Lentigines", "term_count": 5, "prompt": "Noonan Syndrome with _ Lentigines", "answer": "Multiple"}
+{"type": "rare_desease", "terminology": "Occipital Horn Syndrome", "term_count": 3, "prompt": "Occipital _ Syndrome", "answer": "Horn"}
+{"type": "rare_desease", "terminology": "Oculocerebrorenal Syndrome of Lowe", "term_count": 4, "prompt": "Oculocerebrorenal Syndrome _ Lowe", "answer": "of"}
+{"type": "rare_desease", "terminology": "Opitz G/BBB Syndrome", "term_count": 3, "prompt": "Opitz _ Syndrome", "answer": "G/BBB"}
+{"type": "rare_desease", "terminology": "Ornithine Transcarbamylase Deficiency", "term_count": 3, "prompt": "Ornithine _ Deficiency", "answer": "Transcarbamylase"}
+{"type": "rare_desease", "terminology": "Osteogenesis Imperfecta Type I", "term_count": 4, "prompt": "Osteogenesis Imperfecta _ I", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Paroxysmal Nocturnal Hemoglobinuria", "term_count": 3, "prompt": "Paroxysmal _ Hemoglobinuria", "answer": "Nocturnal"}
+{"type": "rare_desease", "terminology": "Pfeiffer Syndrome Type 1", "term_count": 4, "prompt": "Pfeiffer Syndrome _ 1", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Pierre Robin Sequence", "term_count": 3, "prompt": "Pierre _ Sequence", "answer": "Robin"}
+{"type": "rare_desease", "terminology": "Primary Biliary Cholangitis", "term_count": 3, "prompt": "Primary _ Cholangitis", "answer": "Biliary"}
+{"type": "rare_desease", "terminology": "Progressive Supranuclear Palsy", "term_count": 3, "prompt": "Progressive _ Palsy", "answer": "Supranuclear"}
+{"type": "rare_desease", "terminology": "Pulmonary Alveolar Proteinosis", "term_count": 3, "prompt": "Pulmonary _ Proteinosis", "answer": "Alveolar"}
+{"type": "rare_desease", "terminology": "Pyruvate Kinase Deficiency", "term_count": 3, "prompt": "Pyruvate _ Deficiency", "answer": "Kinase"}
+{"type": "rare_desease", "terminology": "Recessive Dystrophic Epidermolysis Bullosa", "term_count": 4, "prompt": "Recessive Dystrophic _ Bullosa", "answer": "Epidermolysis"}
+{"type": "rare_desease", "terminology": "Rhizomelic Chondrodysplasia Punctata", "term_count": 3, "prompt": "Rhizomelic _ Punctata", "answer": "Chondrodysplasia"}
+{"type": "rare_desease", "terminology": "Sanfilippo Syndrome Type A", "term_count": 4, "prompt": "Sanfilippo Syndrome _ A", "answer": "Type"}
+{"type": "rare_desease", "terminology": "Severe Combined Immunodeficiency", "term_count": 3, "prompt": "Severe _ Immunodeficiency", "answer": "Combined"}
+{"type": "rare_desease", "terminology": "Spinal Muscular Atrophy", "term_count": 3, "prompt": "Spinal _ Atrophy", "answer": "Muscular"}
