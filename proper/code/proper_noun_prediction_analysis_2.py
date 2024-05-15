@@ -115,12 +115,8 @@ def analyze_idiom_count(r_file, match='Y'):
 
 if __name__ == '__main__':
     from load_LLMs import MODELS
-    prompt_num = 6
-    last_n = 1
     for model_name_or_path in MODELS:
-        r_file = '../data/shi_out_{}_last_{}.jsonl'.format(model_name_or_path.split('/')[-1], last_n)
-        # w_file = '../data/shi_out_inner_{}.jsonl'.format(model_name_or_path.split('/')[-1])
-        # r_file = '../data/shi_out_next_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+        r_file = '../data/noun_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')
 
         # analyze_idiom_count(r_file, match='Y')
