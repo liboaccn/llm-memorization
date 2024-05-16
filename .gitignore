@@ -1,5 +1,6 @@
 # Default ignored files
 
+.DS_Store
 /llama2-7b-hf
 /submit
 /papers
