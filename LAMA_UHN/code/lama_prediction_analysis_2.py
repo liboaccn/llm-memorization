@@ -59,10 +59,19 @@ def analyze_last_word_len(r_file, match='Y'):
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                lw_len = 1
+                lw_len = data['answer_len']
                 len_count[lw_len] += 1
-    # increase order
-    len_count = dict(sorted(len_count.items(), key=lambda item: item[0]))
+    new_len_count = defaultdict(int)
+    for k, v in len_count.items():
+        if k <= 5:
+            new_len_count[5] += v
+        elif k <= 7:
+            new_len_count[7] += v
+        elif k <= 9:
+            new_len_count[9] += v
+        else:
+            new_len_count[10] += v
+    len_count = dict(sorted(new_len_count.items(), key=lambda item: item[0]))
     if match == "Y":
         print("The number of memorized is: {}".format(len_count))
     else:
@@ -99,19 +108,30 @@ def analyze_pos(r_file):
 
 def analyze_context_len(r_file, match='Y'):
     from collections import defaultdict
-    peotry_context_len = defaultdict(int)
+    question_context_len = defaultdict(int)
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                peotry_len = data['prompt_len']
-                peotry_context_len[peotry_len] += 1
+                question_len = data['question_len']
+                question_context_len[question_len] += 1
     # increase order
-    len_count = dict(sorted(peotry_context_len.items(), key=lambda item: item[0]))
+    new_dic = defaultdict(int)
+    for k, v in question_context_len.items():
+        if k<= 10:
+            new_dic['< 10'] += v
+        elif k <= 17:
+            new_dic['< 17'] += v
+        elif k <=25:
+            new_dic['< 25'] += v
+        else:
+            new_dic['> 25'] += v
+    len_count = dict(sorted(new_dic.items(), key=lambda item: item[0]))
+
     if match == "Y":
-        print("peotry, context length, #memorized={}".format(len_count))
+        print("LAMA, context length, #memorized={}".format(len_count))
     else:
-        print("peotry, context length, #NON-memorized={}".format(len_count))
+        print("LAMA, context length, #NON-memorized={}".format(len_count))
 
 
 
@@ -134,12 +154,10 @@ def print_acc(r_file, match='Y'):
 
 if __name__ == '__main__':
     from load_LLMs import MODELS
-    prompt_num = 0
+    prompt_num = 10
     last_n = 1
     for model_name_or_path in MODELS:
-        r_file = '../data/shi_out_{}_last_{}.jsonl'.format(model_name_or_path.split('/')[-1], last_n)
-        # r_file = '../data/shi_out_inner_{}.jsonl'.format(model_name_or_path.split('/')[-1])
-        # r_file = '../data/shi_out_next_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+        r_file = '../data/LAMA_UHN_out_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')
 
         print_acc(r_file, match='Y')
@@ -162,8 +180,3 @@ if __name__ == '__main__':
         # calculate_mean_h(r_file=r_file, match='Y')
         # calculate_mean_h(r_file=r_file, match='N')
         # print('-----------------------')
-
-
-
-
-

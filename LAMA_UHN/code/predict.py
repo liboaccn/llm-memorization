@@ -1,15 +1,12 @@
-# from random import random
-import random
 import torch
 import json
 import string
 import torch.nn.functional as F
-import statistics
 # import pdb
-# import spacy
+import spacy
 import numpy as np
 
-# nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")
 
 
 def remove_punctuation(input_string):
@@ -24,13 +21,13 @@ def remove_punctuation(input_string):
 
 
 def string_match(pre, ground):
-    if ground in pre:
+    if ground in pre or pre in ground:
         return 'Y'
     else:
         return 'N'
 
 
-def get_last_word_pos(sentence):
+def get_word_pos(sentence):
     doc = nlp(sentence)
     last_word_pos = doc[-1].pos_
     return last_word_pos
@@ -77,75 +74,77 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
         }
         new_tokens.append(data)
         generated_text = \
-        tokenizer.batch_decode(input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+            tokenizer.batch_decode(input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
     return generated_text, input_ids, new_tokens
 
 
-def create_prompt_ground(previous_line, next_line):
-    from load_LLMs import PEOTRY_PROMPT_inner
+def create_prompt_ground(question, answer, prompt_num=6):
+    from load_LLMs import PROMPT_10
 
-    # 上下句
-    random_index = random.randint(0, len(previous_line) - 1)
-    ground_truth = previous_line[random_index]
-    previous_line = previous_line[:random_index] + 'UNK' + previous_line[random_index + 1:]
-    prompt = PEOTRY_PROMPT_inner.format(previous_line)
-    max_gen_tokens = 1
+    prompt = PROMPT_10.format(question)
+    ground_truth = answer
+    max_gen_tokens = 2
 
-    return max_gen_tokens, prompt, previous_line, ground_truth
+    return max_gen_tokens, prompt, ground_truth
 
 
-def generate_idiom(r_file, w_file, model, tokenizer):
+def generate(r_file, w_file, model, tokenizer, prompt_num=6):
     fw = open(w_file, 'w', encoding='utf-8')
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             line = json.loads(line)
-            previous_line = line['previous_line']
-            next_line = line['next_line']
+            question = line['question']
+            answer = line['answer']
 
-            max_gen_tokens, prompt, previous_line, ground_truth = create_prompt_ground(previous_line, next_line)
+            max_gen_tokens, prompt, ground_truth = create_prompt_ground(question, answer, prompt_num)
 
             input_ids = None
             new_tokens = []
+            match = 'N'
             for i in range(max_gen_tokens):
                 generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids,
                                                                            new_tokens)
-                print(generated_text.replace(prompt, ''))
-            generated_text = remove_punctuation(generated_text).replace(prompt, '')
-            print("original: ", previous_line, ground_truth)
-            print("Generated: ", generated_text, '\n')
-            match = string_match(generated_text, ground_truth)
+                generated_text = remove_punctuation(generated_text.replace(prompt, ''))
+                print('generated: ---', generated_text)
 
+                match = string_match(generated_text, ground_truth)
+                if ground_truth in generated_text:
+                    match = 'Y'
+                    break
+            print('\n')
             mean_prob, mean_hidden = calculate_mean(new_tokens)
             data = {
                 'match': match,
-                'previous_line': previous_line,
-                'next_line': next_line,
-
-                'prompt': prompt,
-                'prompt_len': len(prompt),
-
                 'ground_truth': ground_truth,
                 'generated_text': generated_text,
+
+                'question': question,
+                'question_len': len(question.split()),
+                'answer_len': len(answer),
+                'answer_pos': get_word_pos(answer),
 
                 'mean_prob': mean_prob,
                 'mean_hidden': mean_hidden,
             }
+
             json_data = json.dumps(data, ensure_ascii=False)
             fw.write(json_data + '\n')
 
 
 if __name__ == '__main__':
     import logging
+
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     from load_LLMs import load_model, MODELS
 
-    r_file = '../data/tangshi.jsonl'
+    r_file = '../data/LAMA_UHN.jsonl'
 
-    for model_name_or_path in MODELS:
-        logging.info('Loading model: {}'.format(model_name_or_path))
+    for prompt_num in [10]:
+        for model_name_or_path in MODELS:
+            logging.info('Loading model: {}'.format(model_name_or_path))
 
-        w_file = '../data/shi_out_inner_{}.jsonl'.format(model_name_or_path.split('/')[-1])
-        logging.info('written file: {}'.format(w_file))
+            w_file = '../data/LAMA_UHN_out_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+            logging.info('written file: {}'.format(w_file))
 
-        model, tokenizer = load_model(model_name_or_path)
-        generate_idiom(r_file, w_file, model, tokenizer)
+            model, tokenizer = load_model(model_name_or_path)
+            generate(r_file, w_file, model, tokenizer, prompt_num)

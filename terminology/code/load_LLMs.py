@@ -92,48 +92,46 @@ def load_model(model_name_or_path):
     return model, tokenizer
 
 
-# 默认
-CRYTONITE_PROMPT_10 = """
-question: solution woman had found is a turning point (9)
-answer: watershed
+TERM_PROMPT = """
+Chronic Obstructive _ Disease
+Pulmonary
 
-question: airborne soldier given particular protection from fire (7)
-answer: parapet
+Acute _ Leukemia
+Lymphoblastic
 
-question: closely follow artist leaving son to pontificate (9)
-answer: dogmatise
+Acute _ Leukemia
+Myeloid
 
-question: the majority will get the next clue! (8)
-answer: eighteen
+Chronic _ Syndrome
+Fatigue
 
-question: a text is accepted in error (5)
-answer: amiss
+Rhizomelic _ Punctata
+Chondrodysplasia
 
-question: alas not how fairy stories are supposed to end (9)
-answer: unhappily
+Sanfilippo Syndrome _ A
+Type
 
-question: on ark i seem out of place - it's cacophonous (10)
-answer: noisemaker
+Severe _ Immunodeficiency
+Combined
 
-question: sound like an ass in time-serving cleric's place (4)
-answer: bray
+Spinal _ Atrophy
+Muscular
 
-question: {}
-answer: 
+{}
 """
 
-# question: high field put under cultivation (8)
-# answer: uplifted
-#
-# question: player is a bit too boisterous (6)
-# answer: oboist
+
 
 MODELS = [
-    # '../../llama2-7b-hf',
-    # '/home/incoming/LLM/llama3/llama3-8b',
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
-    # '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/llama2/llama2-7b',
     '/home/incoming/LLM/llama2/llama2-13b',
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
 
+# models = [
+# '../llama2-7b-hf', '../llama2-13b-hf',
+# 'mistralai/Mistral-7B-v0.1',
+# 'google/gemma-7b',
+# 'Qwen1.5-7B', 'Qwen/Qwen1.5-14B']

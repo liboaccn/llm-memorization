@@ -95,17 +95,14 @@ def load_model(model_name_or_path):
 
 
 MODELS = [
-    # '/home/incoming/LLM/qwen1_5/qwen1_5-7b',
-    # '/home/incoming/LLM/gemma/gemma-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/llama3/llama3-8b',
-    '/home/incoming/LLM/qwen1_5/qwen1_5-14b'
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/llama2/llama2-7b',
     '/home/incoming/LLM/llama2/llama2-13b',
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
 
-# models = [
-# '../llama2-7b-hf', '../llama2-13b-hf',
-# 'mistralai/Mistral-7B-v0.1',
-# 'google/gemma-7b',
-# 'Qwen1.5-7B', 'Qwen/Qwen1.5-14B']
+
+last_one_prompt = """
+
+"""

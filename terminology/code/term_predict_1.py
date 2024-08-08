@@ -1,14 +1,15 @@
-
+# from random import random
+import random
 import torch
 import json
 import string
 import torch.nn.functional as F
 import statistics
 # import pdb
-# import spacy
+import spacy
 import numpy as np
 
-# nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")
 
 
 def remove_punctuation(input_string):
@@ -29,7 +30,7 @@ def string_match(pre, ground):
         return 'N'
 
 
-def get_last_word_pos(sentence):
+def get_word_pos(sentence):
     doc = nlp(sentence)
     last_word_pos = doc[-1].pos_
     return last_word_pos
@@ -80,58 +81,62 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
     return generated_text, input_ids, new_tokens
 
 
-def create_prompt_ground(previous_line, next_line):
-    from load_LLMs import PEOTRY_PROMPT_intro, PEOTRY_PROMPT_inner
+def create_prompt_ground(term, ground_truth):
+    from load_LLMs import TERM_PROMPT
 
-    # 上下句
-    prompt = PEOTRY_PROMPT_intro.format(previous_line)
-    ground_truth = next_line
-    max_gen_tokens = 7
+    prompt = TERM_PROMPT.format(term)
+    max_gen_tokens = 2
 
-    # 句子内部
-    # prompt = PEOTRY_PROMPT_inner + previous_line[:-1]
-    # ground_truth = previous_line[-1]
-    # max_gen_tokens = 1
-
-    return max_gen_tokens, prompt, ground_truth
+    return max_gen_tokens, prompt, term, ground_truth
 
 
-def generate_idiom(r_file, w_file, model, tokenizer):
+def generate_term(r_file, w_file, model, tokenizer):
     fw = open(w_file, 'w', encoding='utf-8')
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             line = json.loads(line)
-            previous_line = line['previous_line']
-            next_line = line['next_line']
+            term = line['prompt']
+            ground_truth = line['answer']
 
-            max_gen_tokens, prompt, ground_truth = create_prompt_ground(previous_line, next_line)
+            max_gen_tokens, prompt, previous_line, ground_truth = create_prompt_ground(term, ground_truth)
 
             input_ids = None
             new_tokens = []
             for i in range(max_gen_tokens):
                 generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids,
                                                                            new_tokens)
-                print(generated_text.replace(prompt, ''))
-            generated_text = remove_punctuation(generated_text).replace(prompt, '')
-            print("original: ", previous_line, next_line)
-            print("Generated: ", generated_text, '\n')
-            match = string_match(generated_text, ground_truth)
+                generated_text = remove_punctuation(generated_text.replace(prompt, ''))
+                print('generated: ---', generated_text)
 
+                match = string_match(generated_text, ground_truth)
+                if match == "Y":
+                    break
             mean_prob, mean_hidden = calculate_mean(new_tokens)
+            line['match'] = match
+            line['mean_prob'] = mean_prob
+            line['generated_text'] = generated_text
+            line['mean_hidden'] = mean_hidden
+            line['answer_pos'] = get_word_pos(ground_truth)
+            line['answer_len'] = len(ground_truth)
+
             data = {
                 'match': match,
-                'previous_line': previous_line,
-                'next_line': next_line,
-
-                'prompt': prompt,
-                'prompt_len': len(prompt),
-
-                'ground_truth': ground_truth,
+                'prompt': term,
+                'answer': line['answer'],
                 'generated_text': generated_text,
+
+                'answer_pos': get_word_pos(ground_truth),
+                'answer_len': len(ground_truth),
+
+                'term_count': line['term_count'],
+                'type': line['type'],
+                'terminology': line['terminology'],
 
                 'mean_prob': mean_prob,
                 'mean_hidden': mean_hidden,
+
             }
+
             json_data = json.dumps(data, ensure_ascii=False)
             fw.write(json_data + '\n')
 
@@ -141,13 +146,13 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     from load_LLMs import load_model, MODELS
 
-    r_file = '../data/tangshi.jsonl'
+    r_file = '../data/desease_terminology.jsonl'
 
     for model_name_or_path in MODELS:
         logging.info('Loading model: {}'.format(model_name_or_path))
 
-        w_file = '../data/shi_out_next_{}.jsonl'.format(model_name_or_path.split('/')[-1])
+        w_file = '../data/term_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
         logging.info('written file: {}'.format(w_file))
 
         model, tokenizer = load_model(model_name_or_path)
-        generate_idiom(r_file, w_file, model, tokenizer)
+        generate_term(r_file, w_file, model, tokenizer)

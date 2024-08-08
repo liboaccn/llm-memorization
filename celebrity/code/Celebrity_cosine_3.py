@@ -53,15 +53,16 @@ def a(r_file):
 
 def plot_box_plot(model, context_child, generated_parent, context_parent):
     cosine_sim_1 = compute_cosine_similarity(context_child, generated_parent)  # A
-    cosine_sim_2 = compute_cosine_similarity(context_child, context_parent)  # B
+    # cosine_sim_2 = compute_cosine_similarity(context_child, context_parent)  # B
     cosine_sim_3 = compute_cosine_similarity(context_parent, generated_parent)  # C
 
     print('cosine', sum(cosine_sim_1) / len(cosine_sim_1))
-    print('cosine', sum(cosine_sim_2) / len(cosine_sim_2))
+    # print('cosine', sum(cosine_sim_2) / len(cosine_sim_2))
     print('cosine', sum(cosine_sim_3) / len(cosine_sim_3))
 
     plt.figure(figsize=(8, 6))
-    plt.boxplot([cosine_sim_1, cosine_sim_2, cosine_sim_3], labels=['$A$', '$B$', '$C$'],
+    plt.boxplot([cosine_sim_1, cosine_sim_3],
+                labels=['(Generated P, Context C)', '(Generated P, Context P)'],
                 showmeans=False, meanline=True, meanprops={'color': 'r', 'linestyle': '-', 'linewidth': 3},
                 notch=False, patch_artist=False,
                 boxprops=dict(linewidth=3),
@@ -69,11 +70,11 @@ def plot_box_plot(model, context_child, generated_parent, context_parent):
                 capprops=dict(linewidth=3),
                 medianprops=dict(linewidth=3, color='k')
                 )
-    plt.ylabel('Cosine Similarity', fontsize=25)
-    plt.xticks(fontsize=16)
+    plt.ylabel('Cosine Similarity', fontsize=16)
+    plt.xticks(fontsize=14)
     plt.yticks(fontsize=16)
-    plt.legend(fontsize=14,)
-    plt.savefig('box_plot_{}.pdf'.format(model), dpi=300, bbox_inches='tight')
+    # plt.legend(fontsize=14,)
+    plt.savefig('../figure/box_plot_{}.pdf'.format(model), dpi=300, bbox_inches='tight')
     plt.show()
 
 
@@ -168,18 +169,19 @@ def plot_violin_inclination(model, context_child, generated_parent, context_pare
 if __name__ == "__main__":
     # model = "llama2-7b-hf"  # 7b, 13b
     # model = "llama2-7b-chat-hf"  # 7b, 13b
-    # model = "llama2-13b-hf"  # 7b, 13b
-    model = "llama2-13b-chat-hf"  # 7b, 13b
+    model = "llama2-13b"  # 7b, 13b
+    # model = "llama2-13b-chat-hf"  # 7b, 13b
 
-    r_file = 'CelebrityParent_predict_child_{}_v2.json'.format(model)
+    # r_file = 'CelebrityParent_predict_child_{}_v2.json'.format(model)
+    r_file = '../data/celebrity_out_child_{}.json'.format(model)
     context_child, generated_parent, context_parent = a(r_file)
 
     # cosine similarity
     plot_box_plot(model, context_child, generated_parent, context_parent)
 
     # euclidean distance
-    plot_slope_graph_euclidean(model, context_child, generated_parent, context_parent)
+    # plot_slope_graph_euclidean(model, context_child, generated_parent, context_parent)
     # plot_overlapping_density_euclidean(context_child, generated_parent, context_parent)
 
     # inclination
-    plot_violin_inclination(model, context_child, generated_parent, context_parent)
+    # plot_violin_inclination(model, context_child, generated_parent, context_parent)

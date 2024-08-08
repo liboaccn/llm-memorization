@@ -96,9 +96,9 @@ def analyze_idiom_count(r_file, match='Y'):
 if __name__ == '__main__':
     # model = '7b'
     # model = '7b-chat'
-    # model = '13b'
-    model = '13b-chat'
-    r_file = './idiom_predict_{}.jsonl'.format(model)
+    model = '13b'
+    # model = '13b-chat'
+    r_file = '../data/idiom_predict_{}.jsonl'.format(model)
 
     # analyze_idiom_count(r_file, match='Y')
     # analyze_idiom_count(r_file, match='N')

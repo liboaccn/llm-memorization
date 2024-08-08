@@ -5,10 +5,10 @@ import string
 import torch.nn.functional as F
 import statistics
 # import pdb
-import spacy
+# import spacy
 import numpy as np
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 
 def remove_punctuation(input_string):
@@ -29,7 +29,7 @@ def string_match(pre, ground):
         return 'N'
 
 
-def get_word_pos(sentence):
+def get_last_word_pos(sentence):
     doc = nlp(sentence)
     last_word_pos = doc[-1].pos_
     return last_word_pos
@@ -80,121 +80,81 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
     return generated_text, input_ids, new_tokens
 
 
-def create_prompt_ground(question, answer, prompt_num=6):
-    # from load_LLMs import PROMPT_10
+def create_prompt_ground(previous_line, next_line, prompt_num=6):
+    from load_LLMs import PEOTRY_PROMPT_next_sentence_6
+    from load_LLMs import PEOTRY_PROMPT_next_sentence_4
+    from load_LLMs import PEOTRY_PROMPT_next_sentence_2
+    from load_LLMs import PEOTRY_PROMPT_next_sentence_0
 
-    if prompt_num == 10:
-        prompt = PROMPT_10.format(question)
+    if prompt_num == 6:
+        prompt = PEOTRY_PROMPT_next_sentence_6.format(previous_line)
+    elif prompt_num == 4:
+        prompt = PEOTRY_PROMPT_next_sentence_4.format(previous_line)
+    elif prompt_num == 2:
+        prompt = PEOTRY_PROMPT_next_sentence_2.format(previous_line)
     else:
-        prompt = question
+        prompt = previous_line
 
     # 上下句
-    ground_truth = answer
-    max_gen_tokens = 4
+    ground_truth = next_line
+    max_gen_tokens = 7
 
     return max_gen_tokens, prompt, ground_truth
 
 
-def generate(r_file, w_file, model, tokenizer, prompt_num=6):
+def generate_poetry(r_file, w_file, model, tokenizer, prompt_num=6):
     fw = open(w_file, 'w', encoding='utf-8')
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             line = json.loads(line)
-            question = line['question']
-            answer = line['answer']
+            previous_line = line['previous_line']
+            next_line = line['next_line']
 
-            max_gen_tokens, prompt, ground_truth = create_prompt_ground(question, answer, prompt_num)
+            max_gen_tokens, prompt, ground_truth = create_prompt_ground(previous_line, next_line, prompt_num)
 
             input_ids = None
             new_tokens = []
-            match = 'N'
             for i in range(max_gen_tokens):
                 generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids,
                                                                            new_tokens)
-                generated_text = remove_punctuation(generated_text).replace(prompt, '')
-                match = string_match(generated_text, ground_truth)
-                if match == "Y":
-                    break
-            
+                print(generated_text.replace(prompt, ''))
+            generated_text = remove_punctuation(generated_text).replace(prompt, '')
+            print("original: ", previous_line, next_line)
+            print("Generated: ", generated_text, '\n')
+            match = string_match(generated_text, ground_truth)
+
             mean_prob, mean_hidden = calculate_mean(new_tokens)
             data = {
                 'match': match,
-                'question': question,
-                'answer': answer,
-                'question_len': len(question.split()),
-                'answer_len': len(answer.split()),
-                'answer_pos': get_word_pos(answer),
+                'previous_line': previous_line,
+                'next_line': next_line,
+
+                'prompt': prompt,
+                'prompt_len': len(prompt),
 
                 'ground_truth': ground_truth,
-                'generated_text': generated_text.split()[0],
-                'generated_pos': get_word_pos(generated_text),
+                'generated_text': generated_text,
 
                 'mean_prob': mean_prob,
                 'mean_hidden': mean_hidden,
             }
-
-            print("original: ", question, answer)
-            print("Generated: ", generated_text, '\n')
-
-            
-
             json_data = json.dumps(data, ensure_ascii=False)
             fw.write(json_data + '\n')
 
 
-# 默认
-PROMPT_10 = """
-question: Paul Mounsey (born 15 April 1959) is a composer arranger and producer from [MASK].
-answer: Scotland
-
-question: Ze'ev Jabotinsky MBE (Hebrew: זאב ז'בוטינסקי; born Vladimir Yevgenyevich Zhabotinsky Russian: Влади́мир Евге́ньевич Жаботи́нский; 18 October 1880 Odessa – 4 August 1940 New York City) was a Russian Jewish Revisionist Zionist leader author poet orator soldier and founder of the Jewish Self-Defense Organization in [MASK].
-answer: Odessa
-
-question: Pierre Dupont (April 23 1821 – July 25 1870) French song-writer the son of a blacksmith was born in [MASK].
-answer: Lyon
-
-question: Susette La Flesche (later Susette LaFlesche Tibbles) also called Inshata Theumba (Bright Eyes) (1854 – 1903) was a well-known Native American writer lecturer interpreter and artist of the Omaha tribe in [MASK].
-answer: Nebraska
-
-question: Godert Alexander Gerard Philip Baron van der Capellen (December 15 1778 – April 10 1848) was a Dutch statesman from [MASK].
-answer: Utrecht
-
-question: Pietro Andrea Gregorio Mattioli (Matthiolus) ([ˈpjɛːtro anˈdrɛːa ɡreˈɡɔːrjo matˈtjɔːli]; 12 March 1501 – 1577) was a doctor and naturalist born in [MASK].
-answer: Siena
-
-question: Corri was born in Rome and studied voice with Nicola Porpora in [MASK].
-answer: Naples
-
-question: The Herb Carnegie Centennial Centre formerly named the North York Centennial Centre is a multi-purpose arena located in North York now a part of the city of [MASK].
-answer: Toronto
-
-question: Tic Tac is a 1997 Swedish thriller film directed by Daniel Alfredson and written by Hans Renhäll about various people involved in small crime during one day and night in [MASK].
-answer: Stockholm
-
-question: Rawlinson reported his meeting to McNeill at Teheran on November 1 and the news soon reached Calcutta and [MASK].
-answer: London
-
-question: The revolt of Husayn ibn Ali ibn Hasan broke out when Husayn declared himself caliph in [MASK].
-answer: Medina
-
-question: {}
-answer:
-"""
 if __name__ == '__main__':
     import logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     from load_LLMs import load_model, MODELS
 
-    r_file = '../data/LAMA_UHN.jsonl'
-
-    for prompt_num in [10]:
+    r_file = '../data/tangshi.jsonl'
+    # prompt_num = 4
+    for prompt_num in [4, 2, 0]:
         for model_name_or_path in MODELS:
             logging.info('Loading model: {}'.format(model_name_or_path))
 
-            w_file = '../data/LAMA_UHN_out_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+            w_file = '../data/shi_out_next_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
             logging.info('written file: {}'.format(w_file))
 
             model, tokenizer = load_model(model_name_or_path)
-            generate(r_file, w_file, model, tokenizer, prompt_num)
-
-
+            generate_poetry(r_file, w_file, model, tokenizer, prompt_num)

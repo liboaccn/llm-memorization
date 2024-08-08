@@ -18,8 +18,7 @@ def calculate_mean_p(r_file, match='Y'):
         all_hidden = np.array(all_hidden)
         mean_hidden = np.mean(all_hidden, axis=0)
         print("The statistics of probability of all match={} (number={}) is: mean={}, variance={}"
-              .format(match, len(all_prob), all_prob.mean(), all_prob.var()))
-        print('========')
+              .format(match, len(all_prob), round(all_prob.mean(), 4), round(all_prob.var(), 4)))
 
 
 def calculate_mean_h(r_file, match='Y'):
@@ -58,10 +57,19 @@ def analyze_last_word_len(r_file, match='Y'):
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                lw_len = 1
+                lw_len = data['answer_len']
                 len_count[lw_len] += 1
-    # increase order
-    len_count = dict(sorted(len_count.items(), key=lambda item: item[0]))
+    new_len_count = defaultdict(int)
+    for k, v in len_count.items():
+        if k <= 2:
+            new_len_count[2] += v
+        elif k <= 6:
+            new_len_count[6] += v
+        elif k <= 11:
+            new_len_count[11] += v
+        else:
+            new_len_count[12] += v
+    len_count = dict(sorted(new_len_count.items(), key=lambda item: item[0]))
     if match == "Y":
         print("The number of memorized is: {}".format(len_count))
     else:
@@ -96,21 +104,39 @@ def analyze_pos(r_file):
                       POS_Y_count[pos] / (POS_Y_count[pos] + POS_N_count[pos])))
 
 
-def analyze_idiom_count(r_file, match='Y'):
+def analyze_context_length(r_file, match='Y'):
     from collections import defaultdict
-    idiom_len_count = defaultdict(int)
+    context_len_count = defaultdict(int)
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                idiom_len = data['prompt_len']
-                idiom_len_count[idiom_len] += 1
+                context_len = data['noun_count']
+                context_len_count[context_len] += 1
     # increase order
-    len_count = dict(sorted(idiom_len_count.items(), key=lambda item: item[0]))
+    len_count = dict(sorted(context_len_count.items(), key=lambda item: item[0]))
     if match == "Y":
-        print("word number of idiom, #memorized={}".format(len_count))
+        print("proper noun, context length, #memorized={}".format(len_count))
     else:
-        print("word number of idiom, #NON-memorized={}".format(len_count))
+        print("proper noun, context length, #NON-memorized={}".format(len_count))
+
+
+
+def print_acc(r_file, match='Y'):
+    total_count, acc_count = 0, 0
+    all_prob = []
+    with open(r_file, 'r', encoding='utf-8') as f:
+        for i, line in enumerate(f):
+            data = json.loads(line)
+            total_count += 1
+            prob = data['mean_prob']
+            all_prob.append(prob)
+            if data['match'] == match:
+                acc_count += 1
+    print("The accuracy of match={} is: {}/{}={}".format(match, acc_count, total_count, round(acc_count/total_count, 3)))
+    all_prob = np.array(all_prob)
+    print("probability : mean={}"
+          .format(round(all_prob.mean(), 3)))
 
 
 if __name__ == '__main__':
@@ -119,8 +145,10 @@ if __name__ == '__main__':
         r_file = '../data/noun_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')
 
-        # analyze_idiom_count(r_file, match='Y')
-        # analyze_idiom_count(r_file, match='N')
+        print_acc(r_file, match='Y')
+
+        # analyze_context_length(r_file, match='Y')
+        # analyze_context_length(r_file, match='N')
         # print('-----------------------')
 
         # analyze_last_word_len(r_file=r_file, match='Y')
@@ -133,12 +161,8 @@ if __name__ == '__main__':
         # calculate_mean_p(r_file=r_file, match='Y')
         # calculate_mean_p(r_file=r_file, match='N')
 
-        # -----------------
-        calculate_mean_h(r_file=r_file, match='Y')
-        calculate_mean_h(r_file=r_file, match='N')
+        # calculate_mean_h(r_file=r_file, match='Y')
+        # calculate_mean_h(r_file=r_file, match='N')
         print('-----------------------')
-
-
-
 
 

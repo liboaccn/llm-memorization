@@ -99,19 +99,19 @@ def analyze_pos(r_file):
 
 def analyze_context_len(r_file, match='Y'):
     from collections import defaultdict
-    peotry_context_len = defaultdict(int)
+    question_context_len = defaultdict(int)
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                peotry_len = data['prompt_len']
-                peotry_context_len[peotry_len] += 1
+                question_len = data['question_len']
+                question_context_len[question_len] += 1
     # increase order
-    len_count = dict(sorted(peotry_context_len.items(), key=lambda item: item[0]))
+    len_count = dict(sorted(question_context_len.items(), key=lambda item: item[0]))
     if match == "Y":
-        print("peotry, context length, #memorized={}".format(len_count))
+        print("popQA, context length, #memorized={}".format(len_count))
     else:
-        print("peotry, context length, #NON-memorized={}".format(len_count))
+        print("popQA, context length, #NON-memorized={}".format(len_count))
 
 
 
@@ -134,12 +134,10 @@ def print_acc(r_file, match='Y'):
 
 if __name__ == '__main__':
     from load_LLMs import MODELS
-    prompt_num = 0
+    prompt_num = 10
     last_n = 1
     for model_name_or_path in MODELS:
-        r_file = '../data/shi_out_{}_last_{}.jsonl'.format(model_name_or_path.split('/')[-1], last_n)
-        # r_file = '../data/shi_out_inner_{}.jsonl'.format(model_name_or_path.split('/')[-1])
-        # r_file = '../data/shi_out_next_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+        r_file = '../data/popQA_out_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')
 
         print_acc(r_file, match='Y')

@@ -1,0 +1,195 @@
+Acquired Immunodeficiency Syndrome
+Acute Lymphoblastic Leukemia
+Acute Myeloid Leukemia
+Chronic Fatigue Syndrome
+Chronic Kidney Disease
+Chronic Myeloid Leukemia
+Chronic Obstructive Pulmonary Disease
+Congenital Heart Disease
+Congestive Heart Failure
+Coronary Artery Disease
+Deep Vein Thrombosis
+Dementia with Lewy Bodies
+Diabetes Mellitus Type 2
+Duchenne Muscular Dystrophy
+End-Stage Renal Disease
+Epstein-Barr Virus Infection
+Functional Neurological Disorder
+Gastroesophageal Reflux Disease
+Hereditary Angioedema
+Herpes Simplex Virus Infection
+Human Papillomavirus Infection
+Hypertrophic Cardiomyopathy
+Idiopathic Pulmonary Fibrosis
+Idiopathic Thrombocytopenic Purpura
+Inflammatory Bowel Disease
+Insulin-Dependent Diabetes Mellitus
+Juvenile Idiopathic Arthritis
+Large B-Cell Lymphoma
+Leber's Hereditary Optic Neuropathy
+Lennox-Gastaut Syndrome
+Lichen Sclerosus
+Malignant Hyperthermia
+Marfan Syndrome
+Mast Cell Activation Syndrome
+Medullary Thyroid Carcinoma
+Microscopic Polyangiitis
+Mixed Connective Tissue Disease
+Multiple Endocrine Neoplasia Type 1
+Myalgic Encephalomyelitis
+Myelodysplastic Syndrome
+Neurofibromatosis Type 1
+Nonalcoholic Fatty Liver Disease
+Occupational Asthma
+Opsoclonus-Myoclonus Syndrome
+Paroxysmal Nocturnal Hemoglobinuria
+Pelvic Inflammatory Disease
+Peripheral Arterial Disease
+Polycystic Kidney Disease
+Polycystic Ovary Syndrome
+Post-Traumatic Stress Disorder
+Primary Biliary Cholangitis
+Primary Sclerosing Cholangitis
+Progressive Multifocal Leukoencephalopathy
+Pulmonary Arterial Hypertension
+Restless Legs Syndrome
+Severe Combined Immunodeficiency
+Small Cell Lung Cancer
+Spinal Muscular Atrophy
+Spinocerebellar Ataxia
+Squamous Cell Carcinoma
+Stevens-Johnson Syndrome
+Subarachnoid Hemorrhage
+Systemic Lupus Erythematosus
+Systemic Sclerosis
+Temporomandibular Joint Dysfunction
+Thyroid-Stimulating Hormone Deficiency
+Toxic Epidermal Necrolysis
+Trigeminal Neuralgia
+Ulcerative Colitis
+von Willebrand Disease
+Wegener's Granulomatosis
+Wernicke's Encephalopathy
+Wolff-Parkinson-White Syndrome
+Xeroderma Pigmentosum
+Zollinger-Ellison Syndrome
+Acute Respiratory Distress Syndrome
+Adult-Onset Still's Disease
+Antiphospholipid Syndrome
+Bacterial Endocarditis
+Benign Fasciculation Syndrome
+Bone Marrow Failure Syndrome
+Central Serous Retinopathy
+Chronic Fatigue Immune Dysfunction Syndrome
+Chronic Lymphocytic Leukemia
+Congenital Adrenal Hyperplasia
+Congenital Diaphragmatic Hernia
+Dermatitis Herpetiformis
+DiGeorge Syndrome
+Drug-Induced Lupus Erythematosus
+Eosinophilic Esophagitis
+Familial Hypercholesterolemia
+Functional Neurological Disorder
+Gestational Diabetes Mellitus
+Giant Cell Arteritis
+Granulomatosis with Polyangiitis
+Hypoplastic Left Heart Syndrome
+Idiopathic Intracranial Hypertension
+Idiopathic Thrombocytopenic Purpura
+Immune-Mediated Inflammatory Diseases
+Inflammatory Breast Cancer
+Interstitial Lung Disease
+Juvenile Myoclonic Epilepsy
+Leber's Hereditary Optic Neuropathy
+Leukocyte Adhesion Deficiency
+Malignant Peripheral Nerve Sheath Tumor
+Mantle Cell Lymphoma
+Maturity Onset Diabetes of the Young
+Mediastinal Large B-Cell Lymphoma
+Menetrier's Disease
+Microscopic Polyangiitis
+Mixed Connective Tissue Disease
+Multiple Endocrine Neoplasia Type 1
+Myalgic Encephalomyelitis
+Myelodysplastic Syndrome
+Myocardial Infarction
+Neurofibromatosis Type 1
+Non-Hodgkin's Lymphoma
+Nonalcoholic Fatty Liver Disease
+Occupational Asthma
+Opsoclonus-Myoclonus Syndrome
+Osteogenesis Imperfecta
+Paraneoplastic Neurological Disorders
+Pelvic Congestion Syndrome
+Peptic Ulcer Disease
+Peripheral Arterial Disease
+Phenylketonuria
+Polycystic Kidney Disease
+Polycystic Ovary Syndrome
+Post-Traumatic Stress Disorder
+Primary Biliary Cholangitis
+Primary Sclerosing Cholangitis
+Progressive Multifocal Leukoencephalopathy
+Pulmonary Arterial Hypertension
+Pulmonary Embolism
+Raynaud's Phenomenon
+Renal Cell Carcinoma
+Restless Legs Syndrome
+Seasonal Affective Disorder
+Severe Combined Immunodeficiency
+Sickle Cell Anemia
+Sjogren's Syndrome
+Small Cell Lung Cancer
+Spinal Muscular Atrophy
+Spinocerebellar Ataxia
+Squamous Cell Carcinoma
+Stevens-Johnson Syndrome
+Subarachnoid Hemorrhage
+Systemic Lupus Erythematosus
+Systemic Sclerosis
+Takayasu's Arteritis
+Temporomandibular Joint Dysfunction
+Thalassemia Major
+Thyroid-Stimulating Hormone Deficiency
+Tourette Syndrome
+Toxic Epidermal Necrolysis
+Trigeminal Neuralgia
+Tuberculous Meningitis
+Ulcerative Colitis
+Urinary Tract Infection
+Vascular Dementia
+von Willebrand Disease
+Wegener's Granulomatosis
+Wernicke's Encephalopathy
+Wilson's Disease
+Wolff-Parkinson-White Syndrome
+Xeroderma Pigmentosum
+Zollinger-Ellison Syndrome
+Acute Respiratory Distress Syndrome
+Adult-Onset Still's Disease
+Antiphospholipid Syndrome
+Bacterial Endocarditis
+Benign Fasciculation Syndrome
+Bone Marrow Failure Syndrome
+Central Serous Retinopathy
+Chronic Fatigue Immune Dysfunction Syndrome
+Chronic Lymphocytic Leukemia
+Congenital Adrenal Hyperplasia
+Congenital Diaphragmatic Hernia
+Dermatitis Herpetiformis
+DiGeorge Syndrome
+Drug-Induced Lupus Erythematosus
+Eosinophilic Esophagitis
+Familial Hypercholesterolemia
+Functional Neurological Disorder
+Gestational Diabetes Mellitus
+Giant Cell Arteritis
+Granulomatosis with Polyangiitis
+Hypoplastic Left Heart Syndrome
+Idiopathic Intracranial Hypertension
+Idiopathic Thrombocytopenic Purpura
+Immune-Mediated Inflammatory Diseases
+Inflammatory Breast Cancer
+Interstitial Lung Disease
+Juvenile Myoclonic Epilepsy
+Leber's Hereditary Optic Neuropathy

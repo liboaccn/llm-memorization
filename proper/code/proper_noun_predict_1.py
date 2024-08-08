@@ -1,4 +1,5 @@
-
+# from random import random
+import random
 import torch
 import json
 import string
@@ -23,7 +24,7 @@ def remove_punctuation(input_string):
 
 
 def string_match(pre, ground):
-    if ground in pre:
+    if ground in pre or pre in ground:
         return 'Y'
     else:
         return 'N'
@@ -80,121 +81,81 @@ def predict_next_token(model, tokenizer, prompt=None, input_ids=None, new_tokens
     return generated_text, input_ids, new_tokens
 
 
-def create_prompt_ground(question, answer, prompt_num=6):
-    # from load_LLMs import PROMPT_10
+def create_prompt_ground(term, ground_truth):
+    from load_LLMs import NOUN_PROMPT, NOUN_PROMPT_last_one
 
-    if prompt_num == 10:
-        prompt = PROMPT_10.format(question)
-    else:
-        prompt = question
+    # prompt = NOUN_PROMPT.format(term)
+    prompt = NOUN_PROMPT_last_one.format(term)
+    max_gen_tokens = 2
 
-    # 上下句
-    ground_truth = answer
-    max_gen_tokens = 4
-
-    return max_gen_tokens, prompt, ground_truth
+    return max_gen_tokens, prompt, term, ground_truth
 
 
-def generate(r_file, w_file, model, tokenizer, prompt_num=6):
+def generate_noun(r_file, w_file, model, tokenizer):
     fw = open(w_file, 'w', encoding='utf-8')
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             line = json.loads(line)
-            question = line['question']
-            answer = line['answer']
+            noun = line['prompt']
+            ground_truth = line['answer']
 
-            max_gen_tokens, prompt, ground_truth = create_prompt_ground(question, answer, prompt_num)
+            max_gen_tokens, prompt, previous_line, ground_truth = create_prompt_ground(noun, ground_truth)
 
             input_ids = None
             new_tokens = []
-            match = 'N'
             for i in range(max_gen_tokens):
                 generated_text, input_ids, new_tokens = predict_next_token(model, tokenizer, prompt, input_ids,
                                                                            new_tokens)
-                generated_text = remove_punctuation(generated_text).replace(prompt, '')
+                generated_text = remove_punctuation(generated_text.replace(prompt, ''))
+                print('generated: ---', generated_text)
+
                 match = string_match(generated_text, ground_truth)
-                if match == "Y":
+                if ground_truth in generated_text:
+                    match = 'Y'
                     break
-            
             mean_prob, mean_hidden = calculate_mean(new_tokens)
+            line['match'] = match
+            line['mean_prob'] = mean_prob
+            line['generated_text'] = generated_text
+            line['mean_hidden'] = mean_hidden
+            line['answer_pos'] = get_word_pos(ground_truth)
+            line['answer_len'] = len(ground_truth)
+
             data = {
                 'match': match,
-                'question': question,
-                'answer': answer,
-                'question_len': len(question.split()),
-                'answer_len': len(answer.split()),
-                'answer_pos': get_word_pos(answer),
 
-                'ground_truth': ground_truth,
-                'generated_text': generated_text.split()[0],
-                'generated_pos': get_word_pos(generated_text),
-
+                'answer': line['answer'],
+                'generated_text': generated_text,
                 'mean_prob': mean_prob,
+                'prompt': noun,
+
+                'answer_pos': get_word_pos(ground_truth),
+                'answer_len': len(ground_truth),
+
+                'noun_count': line['noun_count'],
+                'noun': line['noun'],
+
                 'mean_hidden': mean_hidden,
+
             }
-
-            print("original: ", question, answer)
-            print("Generated: ", generated_text, '\n')
-
-            
 
             json_data = json.dumps(data, ensure_ascii=False)
             fw.write(json_data + '\n')
 
 
-# 默认
-PROMPT_10 = """
-question: What is Bruce McDaniel's occupation?
-answer: composer
-
-question: What is William Lescaze's occupation?
-answer: architect
-
-question: What is Tsutomu Seki's occupation?
-answer: astronomer
-
-question: What is Dominick Bellizzi's occupation?
-answer: jockey
-
-question: What is Michael Arad's occupation?
-answer: architect
-
-question: What is Tor Aulin's occupation?
-answer: composer
-
-question: What is Glenn Albrecht's occupation?
-answer: philosopher
-
-question: What is Tolis Voskopoulos's occupation?
-answer: composer
-
-question: What is Rinaldo del Mel's occupation?
-answer: composer
-
-question: What is Nigel Sheinwald's occupation?
-answer: diplomat
-
-question: What is Eduard Looijenga's occupation?
-answer: mathematician
-
-question: {}
-answer:
-"""
 if __name__ == '__main__':
     import logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     from load_LLMs import load_model, MODELS
 
-    r_file = '../data/popQA.jsonl'
+    # r_file = '../data/proper_noun.jsonl'
+    r_file = '../data/proper_noun_last_one.jsonl'
 
-    for prompt_num in [10]:
-        for model_name_or_path in MODELS:
-            logging.info('Loading model: {}'.format(model_name_or_path))
+    for model_name_or_path in MODELS:
+        logging.info('Loading model: {}'.format(model_name_or_path))
 
-            w_file = '../data/popQA_out_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
-            logging.info('written file: {}'.format(w_file))
+        w_file = '../data/noun_out_last_one_{}.jsonl'.format(model_name_or_path.split('/')[-1])
+        logging.info('written file: {}'.format(w_file))
 
-            model, tokenizer = load_model(model_name_or_path)
-            generate(r_file, w_file, model, tokenizer, prompt_num)
-
-
+        model, tokenizer = load_model(model_name_or_path)
+        generate_noun(r_file, w_file, model, tokenizer)

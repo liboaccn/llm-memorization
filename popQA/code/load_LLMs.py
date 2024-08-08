@@ -86,28 +86,67 @@ def load_model(model_name_or_path):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
-                                             low_cpu_mem_usage=True, device_map='auto',
-                                             torch_dtype=torch.float32,
-                                             )
+                                                 low_cpu_mem_usage=True, device_map='auto',
+                                                 torch_dtype=torch.float32,
+                                                 )
     return model, tokenizer
 
 
+# 默认
+PROMPT_10 = """
+What is Bruce McDaniel's occupation?
+composer
 
-# MODELS = [
-#     # '../../llama2-7b-hf',
-#     '/home/incoming/LLM/llama3/llama3-8b',
-#     '/home/incoming/LLM/llama2/llama2-7b',
-#     '/home/incoming/LLM/mistral/mistral-7b-v0.1',
-#     '/home/incoming/LLM/gemma/gemma-7b',
-#     '/home/incoming/LLM/llama2/llama2-13b',
-# ]
+What is William Lescaze's occupation?
+architect
+
+What is Tsutomu Seki's occupation?
+astronomer
+
+What is Dominick Bellizzi's occupation?
+jockey
+
+What is Michael Arad's occupation?
+architect
+
+What is Tor Aulin's occupation?
+composer
+
+What is Glenn Albrecht's occupation?
+philosopher
+
+What is Tolis Voskopoulos's occupation?
+composer
+
+What is Rinaldo del Mel's occupation?
+composer
+
+What is Nigel Sheinwald's occupation?
+diplomat
+
+What is Eduard Looijenga's occupation?
+mathematician
+
+{}
+"""
+
+
+
 
 MODELS = [
     # '../../llama2-7b-hf',
-    '/home/users/libo15/code/llm-mem/model/llama3-8b',
-    '/home/users/libo15/code/llm-mem/model/Llama-2-7b-hf',
-    '/home/users/libo15/code/llm-mem/model/Mistral-7B-Instruct-v0.2',
-    '/home/users/libo15/code/llm-mem/model/gemma-7b',
-    '/home/users/libo15/code/llm-mem/model/Llama-2-13b-hf',
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/llama2/llama2-7b',
+    '/home/incoming/LLM/llama2/llama2-13b',
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
 
+# MODELS = [
+#     # '../../llama2-7b-hf',
+#     '/home/users/libo15/code/llm-mem/model/llama3-8b',
+#     '/home/users/libo15/code/llm-mem/model/Llama-2-7b-hf',
+#     '/home/users/libo15/code/llm-mem/model/Mistral-7B-Instruct-v0.2',
+#     '/home/users/libo15/code/llm-mem/model/gemma-7b',
+#     '/home/users/libo15/code/llm-mem/model/Llama-2-13b-hf',
+# ]

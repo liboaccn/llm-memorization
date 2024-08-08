@@ -81,8 +81,8 @@ def load_models(model_name_or_path):
 def load_model(model_name_or_path):
     from transformers import AutoTokenizer, AutoModelForCausalLM
 
-    # global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
-    # max_memory = {k: '32GB' for k in global_devices}
+    global_devices = [i for i in range(torch.cuda.device_count())] if torch.cuda.device_count() >= 1 else ["cpu"]
+    max_memory = {k: '32GB' for k in global_devices}
 
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
@@ -91,8 +91,8 @@ def load_model(model_name_or_path):
                                              )
     return model, tokenizer
 
-
-PEOTRY_PROMPT_intro = """
+# 默认
+PEOTRY_PROMPT_next_sentence_6 = """
 始信人间行不尽
 天涯更复有天涯
 
@@ -114,24 +114,51 @@ PEOTRY_PROMPT_intro = """
 {}
 """
 
-PEOTRY_PROMPT_inner = """
-始信人间_行不尽
+PEOTRY_PROMPT_next_sentence_4 = """
 始信人间行不尽
+天涯更复有天涯
 
-低_思故乡
+举头望明月
 低头思故乡
 
-姑苏城外_山寺
 姑苏城外寒山寺
+夜半钟声到客船
 
-烟村四_家
+一去二三里
 烟村四五家
 
-碧_妆成一树高
-碧玉妆成一树高
+{}
+"""
 
-会当凌_顶
-会当凌绝顶
+PEOTRY_PROMPT_next_sentence_2 = """
+始信人间行不尽
+天涯更复有天涯
+
+举头望明月
+低头思故乡
+
+{}
+"""
+PEOTRY_PROMPT_next_sentence_0 = ""
+
+PEOTRY_PROMPT_inner = """
+始信人间UNK不尽
+行
+
+低UNK思故乡
+头
+
+姑苏城外UNK山寺
+寒
+
+烟村四UNK家
+五
+
+碧UNK妆成一树高
+玉
+
+会当凌UNK顶
+绝
 
 {}
 """
@@ -139,12 +166,6 @@ PEOTRY_PROMPT_inner = """
 
 
 MODELS = [
-    # '../../llama2-7b-hf',
-    # '/home/incoming/LLM/llama3/llama3-8b',
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0.1',
-    # '/home/incoming/LLM/gemma/gemma-7b',
-    # '/home/incoming/LLM/llama2/llama2-13b',
     '/home/incoming/LLM/qwen1_5/qwen1_5-7b',
     '/home/incoming/LLM/qwen1_5/qwen1_5-14b',
     '/home/incoming/LLM/qwen1_5/qwen1_5-32b-chat'

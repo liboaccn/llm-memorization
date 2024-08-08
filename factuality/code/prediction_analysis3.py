@@ -76,7 +76,7 @@ if __name__ == '__main__':
     # model = "llama2-7b-hf"  # 7b, 13b
     # model = "llama2-13b-chat-hf"  # 7b, 13b
 
-    from load_LLMs import MODELS
+    from popQA.code.load_LLMs import MODELS
     for model_name_or_path in MODELS:
         r_file = '../data/LAMA_UHN_out_10_shot_{}.jsonl'.format(model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')

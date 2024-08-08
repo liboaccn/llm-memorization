@@ -86,54 +86,73 @@ def load_model(model_name_or_path):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, legacy=False)
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
-                                             low_cpu_mem_usage=True, device_map='auto',
-                                             torch_dtype=torch.float32,
-                                             )
+                                                 low_cpu_mem_usage=True, device_map='auto',
+                                                 torch_dtype=torch.float32,
+                                                 )
     return model, tokenizer
 
 
-# 默认
-CRYTONITE_PROMPT_10 = """
-question: solution woman had found is a turning point (9)
-answer: watershed
+NOUN_PROMPT = """
+Saint Catherine's _ Sinai
+Monastery
 
-question: airborne soldier given particular protection from fire (7)
-answer: parapet
+Alfred P. _ Foundation
+Sloan
 
-question: closely follow artist leaving son to pontificate (9)
-answer: dogmatise
+Center for _ Dynamics
+Nonlinear
 
-question: the majority will get the next clue! (8)
-answer: eighteen
+The Bank of New _ Mellon
+York
 
-question: a text is accepted in error (5)
-answer: amiss
+Greenland Institute of _ Resources
+Natural
 
-question: alas not how fairy stories are supposed to end (9)
-answer: unhappily
+Smithsonian American _ Museum
+Art
 
-question: on ark i seem out of place - it's cacophonous (10)
-answer: noisemaker
+Financial Times _ Exchange
+Stock
 
-question: sound like an ass in time-serving cleric's place (4)
-answer: bray
+Yale School _ Drama
+of
 
-question: {}
-answer: 
+{}
 """
 
-# question: high field put under cultivation (8)
-# answer: uplifted
-#
-# question: player is a bit too boisterous (6)
-# answer: oboist
+NOUN_PROMPT_last_one = """
+Chavín de Huántar, _
+Peru
+
+Costa Rica Rainforest Outward Bound _
+School
+
+Saint Catherine's Monastery, _
+Sinai
+
+Smithsonian American Art _
+Museum
+
+Bogotá International Book _
+Fair
+
+Denali National Park and _
+Preserve
+
+Great Wall of _
+China
+
+American Civil Liberties _
+Union
+
+{}
+"""
+
 
 MODELS = [
-    # '../../llama2-7b-hf',
-    # '/home/incoming/LLM/llama3/llama3-8b',
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
-    # '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/llama2/llama2-7b',
     '/home/incoming/LLM/llama2/llama2-13b',
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
-

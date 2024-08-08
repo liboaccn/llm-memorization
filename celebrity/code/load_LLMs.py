@@ -93,13 +93,11 @@ def load_model(model_name_or_path):
 
 
 MODELS = [
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
     '/home/incoming/LLM/gemma/gemma-7b',
-    '/home/incoming/LLM/qwen1_5/qwen1_5-7b',
-    '/home/incoming/LLM/llama3/llama3-8b',
+    '/home/incoming/LLM/llama2/llama2-7b',
     '/home/incoming/LLM/llama2/llama2-13b',
-    '/home/incoming/LLM//Qwen1.5-14B'
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
 
 # models = [

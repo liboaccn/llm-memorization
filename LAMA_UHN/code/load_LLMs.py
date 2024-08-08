@@ -91,49 +91,60 @@ def load_model(model_name_or_path):
                                              )
     return model, tokenizer
 
-
 # 默认
-CRYTONITE_PROMPT_10 = """
-question: solution woman had found is a turning point (9)
-answer: watershed
+PROMPT_10 = """
+Paul Mounsey (born 15 April 1959) is a composer arranger and producer from [MASK].
+Scotland
 
-question: airborne soldier given particular protection from fire (7)
-answer: parapet
+Ze'ev Jabotinsky MBE (Hebrew: זאב ז'בוטינסקי; born Vladimir Yevgenyevich Zhabotinsky Russian: Влади́мир Евге́ньевич Жаботи́нский; 18 October 1880 Odessa – 4 August 1940 New York City) was a Russian Jewish Revisionist Zionist leader author poet orator soldier and founder of the Jewish Self-Defense Organization in [MASK].
+Odessa
 
-question: closely follow artist leaving son to pontificate (9)
-answer: dogmatise
+Pierre Dupont (April 23 1821 – July 25 1870) French song-writer the son of a blacksmith was born in [MASK].
+Lyon
 
-question: the majority will get the next clue! (8)
-answer: eighteen
+Susette La Flesche (later Susette LaFlesche Tibbles) also called Inshata Theumba (Bright Eyes) (1854 – 1903) was a well-known Native American writer lecturer interpreter and artist of the Omaha tribe in [MASK].
+Nebraska
 
-question: a text is accepted in error (5)
-answer: amiss
+Godert Alexander Gerard Philip Baron van der Capellen (December 15 1778 – April 10 1848) was a Dutch statesman from [MASK].
+Utrecht
 
-question: alas not how fairy stories are supposed to end (9)
-answer: unhappily
+Pietro Andrea Gregorio Mattioli (Matthiolus) ([ˈpjɛːtro anˈdrɛːa ɡreˈɡɔːrjo matˈtjɔːli]; 12 March 1501 – 1577) was a doctor and naturalist born in [MASK].
+Siena
 
-question: on ark i seem out of place - it's cacophonous (10)
-answer: noisemaker
+Corri was born in Rome and studied voice with Nicola Porpora in [MASK].
+Naples
 
-question: sound like an ass in time-serving cleric's place (4)
-answer: bray
+The Herb Carnegie Centennial Centre formerly named the North York Centennial Centre is a multi-purpose arena located in North York now a part of the city of [MASK].
+Toronto
 
-question: {}
-answer: 
+Tic Tac is a 1997 Swedish thriller film directed by Daniel Alfredson and written by Hans Renhäll about various people involved in small crime during one day and night in [MASK].
+Stockholm
+
+Rawlinson reported his meeting to McNeill at Teheran on November 1 and the news soon reached Calcutta and [MASK].
+London
+
+The revolt of Husayn ibn Ali ibn Hasan broke out when Husayn declared himself caliph in [MASK].
+Medina
+
+{}
 """
 
-# question: high field put under cultivation (8)
-# answer: uplifted
-#
-# question: player is a bit too boisterous (6)
-# answer: oboist
+
 
 MODELS = [
-    # '../../llama2-7b-hf',
-    # '/home/incoming/LLM/llama3/llama3-8b',
-    # '/home/incoming/LLM/llama2/llama2-7b',
-    # '/home/incoming/LLM/mistral/mistral-7b-v0_1',
-    # '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/mistral/mistral-7b-v0_1',
+    '/home/incoming/LLM/gemma/gemma-7b',
+    '/home/incoming/LLM/llama2/llama2-7b',
     '/home/incoming/LLM/llama2/llama2-13b',
+    '/home/incoming/LLM/llama3/llama3-8b',
 ]
+
+# MODELS = [
+#     # '../../llama2-7b-hf',
+#     '/home/users/libo15/code/llm-mem/model/llama3-8b',
+#     '/home/users/libo15/code/llm-mem/model/Llama-2-7b-hf',
+#     '/home/users/libo15/code/llm-mem/model/Mistral-7B-Instruct-v0.2',
+#     '/home/users/libo15/code/llm-mem/model/gemma-7b',
+#     '/home/users/libo15/code/llm-mem/model/Llama-2-13b-hf',
+# ]
 

@@ -5,18 +5,12 @@ import numpy as np
 def calculate_mean_p(r_file, match='Y'):
     with open(r_file, 'r', encoding='utf-8') as f:
         all_prob = []
-        all_hidden = []
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
                 prob = data['mean_prob']
-                hidden = data['mean_hidden']
-
                 all_prob.append(prob)
-                all_hidden.append(hidden)
         all_prob = np.array(all_prob)
-        all_hidden = np.array(all_hidden)
-        mean_hidden = np.mean(all_hidden, axis=0)
         print("The statistics of probability of all match={} (number={}) is: mean={}, variance={}"
               .format(match, len(all_prob), round(all_prob.mean(), 4), round(all_prob.var(), 4)))
 
@@ -25,12 +19,9 @@ def calculate_mean_h(r_file, match='Y'):
     with open(r_file, 'r', encoding='utf-8') as f:
         all_mean = []
         all_var = []
-        count = 0
         for i, line in enumerate(f):
-            count = i+1
             data = json.loads(line)
             if data['match'] == match:
-                # prob = data['mean_prob']
                 hidden = np.array(data['mean_hidden'])
                 mean = hidden.mean()
                 var = hidden.var()
@@ -48,8 +39,8 @@ def calculate_mean_h(r_file, match='Y'):
         _mean = round(_mean, 4)
         _var = round(_var, 4)
 
-        print("Hidden: match={} (number={}，{}), MEAN={}, VARIANCE={}"
-              .format(match, len(all_mean), len(all_mean) / count, _mean, _var))
+        print("Hidden: match={} (number={}), MEAN={}, VARIANCE={}"
+              .format(match, len(all_mean), _mean, _var))
 
 
 def analyze_last_word_len(r_file, match='Y'):
@@ -59,10 +50,19 @@ def analyze_last_word_len(r_file, match='Y'):
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                lw_len = 1
+                lw_len = data['answer_len']
                 len_count[lw_len] += 1
-    # increase order
-    len_count = dict(sorted(len_count.items(), key=lambda item: item[0]))
+    new_len_count = defaultdict(int)
+    for k, v in len_count.items():
+        if k <=5 :
+            new_len_count[5] += v
+        elif k <= 8:
+            new_len_count[8] += v
+        elif k <= 12:
+            new_len_count[12] += v
+        else:
+            new_len_count[14] += v
+    len_count = dict(sorted(new_len_count.items(), key=lambda item: item[0]))
     if match == "Y":
         print("The number of memorized is: {}".format(len_count))
     else:
@@ -99,20 +99,18 @@ def analyze_pos(r_file):
 
 def analyze_context_len(r_file, match='Y'):
     from collections import defaultdict
-    peotry_context_len = defaultdict(int)
+    term_len_count = defaultdict(int)
     with open(r_file, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             data = json.loads(line)
             if data['match'] == match:
-                peotry_len = data['prompt_len']
-                peotry_context_len[peotry_len] += 1
-    # increase order
-    len_count = dict(sorted(peotry_context_len.items(), key=lambda item: item[0]))
+                term_count = data['term_count']
+                term_len_count[term_count] += 1
+    len_count = dict(sorted(term_len_count.items(), key=lambda item: item[0]))
     if match == "Y":
-        print("peotry, context length, #memorized={}".format(len_count))
+        print("term, context length, #memorized={}".format(len_count))
     else:
-        print("peotry, context length, #NON-memorized={}".format(len_count))
-
+        print("term, context length, #NON-memorized={}".format(len_count))
 
 
 def print_acc(r_file, match='Y'):
@@ -134,12 +132,9 @@ def print_acc(r_file, match='Y'):
 
 if __name__ == '__main__':
     from load_LLMs import MODELS
-    prompt_num = 0
     last_n = 1
     for model_name_or_path in MODELS:
-        r_file = '../data/shi_out_{}_last_{}.jsonl'.format(model_name_or_path.split('/')[-1], last_n)
-        # r_file = '../data/shi_out_inner_{}.jsonl'.format(model_name_or_path.split('/')[-1])
-        # r_file = '../data/shi_out_next_{}_shot_{}.jsonl'.format(prompt_num, model_name_or_path.split('/')[-1])
+        r_file =  '../data/term_out_{}.jsonl'.format(model_name_or_path.split('/')[-1])
         print('=========== {} ==========='.format(r_file), '\n')
 
         print_acc(r_file, match='Y')
@@ -158,10 +153,10 @@ if __name__ == '__main__':
         # calculate_mean_p(r_file=r_file, match='Y')
         # calculate_mean_p(r_file=r_file, match='N')
 
-        # -----------------
         # calculate_mean_h(r_file=r_file, match='Y')
         # calculate_mean_h(r_file=r_file, match='N')
         # print('-----------------------')
+
 
 
 
