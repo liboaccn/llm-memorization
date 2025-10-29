@@ -1,0 +1,200 @@
+Acrocallosal Syndrome Type 1
+Adult-onset Still's Disease
+Alpha-1 Antitrypsin Deficiency
+Alpha-mannosidosis Type II
+Alternating Hemiplegia of Childhood
+Andersen-Tawil Syndrome Type 1
+Anophthalmia Plus Syndrome
+Aplastic Anemia Fanconi Type
+Arthrogryposis Multiplex Congenita
+Autoimmune Polyendocrine Syndrome
+Baller-Gerold Syndrome
+Bardet-Biedl Syndrome Type 1
+Basal Cell Nevus Syndrome
+Beckwith-Wiedemann Syndrome
+Benign Paroxysmal Positional Vertigo
+Berardinelli-Seip Congenital Lipodystrophy
+Beta Thalassemia Major
+Bilateral Perisylvian Polymicrogyria
+Blue Rubber Bleb Nevus Syndrome
+Boerhaave Syndrome
+Branchiooculofacial Syndrome
+Brown-Vialetto-Van Laere Syndrome
+Budd-Chiari Syndrome
+Caffey Disease Infantile Form
+Camurati-Engelmann Disease
+Carney Complex Type 1
+Cartilage Hair Hypoplasia
+Cat Eye Syndrome
+Cavernous Malformation Type 1
+Chediak-Higashi Syndrome
+Chiari Malformation Type I
+Chronic Granulomatous Disease
+Churg-Strauss Syndrome
+Coffin-Lowry Syndrome
+Congenital Central Hypoventilation Syndrome
+Congenital Disorder of Glycosylation
+Congenital Insensitivity to Pain with Anhidrosis
+Corticobasal Degeneration Syndrome
+Costello Syndrome
+Craniofacial Dysostosis Type 1
+Cri du Chat Syndrome
+Cronkhite-Canada Syndrome
+Crouzon Syndrome with Acanthosis Nigricans
+Dandy-Walker Malformation
+Darier Disease
+Dejerine-Sottas Disease
+DiGeorge Syndrome
+Distal Myopathy with Rimmed Vacuoles
+Dopa-Responsive Dystonia
+Dravet Syndrome
+Dubin-Johnson Syndrome
+Ehlers-Danlos Syndrome Type IV
+Ellis-van Creveld Syndrome
+Emery-Dreifuss Muscular Dystrophy
+Encephalocraniocutaneous Lipomatosis
+Epidermolysis Bullosa Dystrophica
+Erdheim-Chester Disease
+Familial Adenomatous Polyposis
+Familial Dysautonomia
+Familial Hypercholesterolemia
+Familial Mediterranean Fever
+Fanconi Anemia
+Farber Disease
+Fahr's Syndrome
+Fetal Alcohol Spectrum Disorder
+Fibrodysplasia Ossificans Progressiva
+Fragile X Syndrome
+Freeman-Sheldon Syndrome
+Froehlich's Syndrome
+Frontotemporal Dementia with Parkinsonism
+Fukuyama Congenital Muscular Dystrophy
+Gaucher Disease Type 1
+Glutaric Acidemia Type I
+Goldenhar Syndrome
+Gorlin-Goltz Syndrome
+Granulomatosis with Polyangiitis
+Griscelli Syndrome Type 1
+Hajdu-Cheney Syndrome
+Hallermann-Streiff Syndrome
+Hand-Schuller-Christian Disease
+Hardy-Weinberg Equilibrium Syndrome
+Harlequin Ichthyosis
+Hermansky-Pudlak Syndrome
+Hereditary Angioedema Type III
+Hereditary Hemorrhagic Telangiectasia
+Hereditary Spastic Paraplegia
+Holt-Oram Syndrome
+Homocystinuria
+Horner's Syndrome
+Hutchinson-Gilford Progeria Syndrome
+Hyper IgM Syndrome
+Hyperekplexia
+Idiopathic Intracranial Hypertension
+Infantile Refsum Disease
+Inherited Thrombophilia
+Insulin Autoimmune Syndrome
+Isolated Lissencephaly Sequence
+Joubert Syndrome with Ocular Abnormalities
+Kabuki Syndrome
+Kartagener Syndrome
+Kearns-Sayre Syndrome
+Kennedy Disease
+Klippel-Feil Syndrome
+Klippel-Trenaunay-Weber Syndrome
+Kohler Disease
+Kostmann Syndrome
+Kufs Disease
+Laron Syndrome
+Laurence-Moon Syndrome
+Lenz Microphthalmia Syndrome
+Lesch-Nyhan Syndrome
+Leukocyte Adhesion Deficiency
+Levy-Yeboa Syndrome
+Li-Fraumeni Syndrome
+Limb-Girdle Muscular Dystrophy
+Lipodystrophy Syndromes
+Lissencephaly
+Loeys-Dietz Syndrome
+Lowe Syndrome
+Machado-Joseph Disease
+Malignant Hyperthermia
+Maple Syrup Urine Disease
+Marcus Gunn Jaw-Winking Syndrome
+Marshall-Smith Syndrome
+Maturity Onset Diabetes of the Young
+McCune-Albright Syndrome
+Meckel-Gruber Syndrome
+Medium-Chain Acyl-CoA Dehydrogenase Deficiency
+Megalencephalic Leukoencephalopathy with Subcortical Cysts
+MELAS Syndrome
+Metachromatic Leukodystrophy
+Methylenetetrahydrofolate Reductase Deficiency
+Microvillus Inclusion Disease
+Mikulicz Syndrome
+Miller-Dieker Syndrome
+Mitochondrial Neurogastrointestinal Encephalomyopathy
+Moebius Syndrome
+Mowat-Wilson Syndrome
+Multiple Endocrine Neoplasia Type 1
+Multiple System Atrophy
+Munchmeyer Disease
+MURCS Association
+Myelodysplastic Syndromes
+Myoclonic Epilepsy with Ragged Red Fibers
+Myotonic Dystrophy Type 1
+Nail-Patella Syndrome
+Nephronophthisis
+Nevoid Basal Cell Carcinoma Syndrome
+Niemann-Pick Disease Type C
+Noonan Syndrome with Multiple Lentigines
+Norrie Disease
+Occipital Horn Syndrome
+Oculocerebrorenal Syndrome of Lowe
+Ohtahara Syndrome
+Opitz G/BBB Syndrome
+Ornithine Transcarbamylase Deficiency
+Osteogenesis Imperfecta Type I
+Osteopetrosis
+Pallister-Killian Syndrome
+Panhypopituitarism
+Paraneoplastic Pemphigus
+Paroxysmal Nocturnal Hemoglobinuria
+Parry-Romberg Syndrome
+Pearson Syndrome
+Pelizaeus-Merzbacher Disease
+Pendred Syndrome
+Peutz-Jeghers Syndrome
+Pfeiffer Syndrome Type 1
+Pierre Robin Sequence
+Pitt-Hopkins Syndrome
+Poland Syndrome
+Polyarteritis Nodosa
+Porphyria
+Prader-Willi Syndrome
+Primary Biliary Cholangitis
+Progressive Supranuclear Palsy
+Proteus Syndrome
+Pulmonary Alveolar Proteinosis
+Pulmonary Fibrosis
+Pyruvate Kinase Deficiency
+Rasmussen Encephalitis
+Recessive Dystrophic Epidermolysis Bullosa
+Rett Syndrome
+Rhizomelic Chondrodysplasia Punctata
+Riley-Day Syndrome
+Robinow Syndrome
+Rubinstein-Taybi Syndrome
+Russell-Silver Syndrome
+Saethre-Chotzen Syndrome
+Sandhoff Disease
+Sanfilippo Syndrome Type A
+Scheuermann's Disease
+Severe Combined Immunodeficiency
+Shwachman-Diamond Syndrome
+Smith-Lemli-Opitz Syndrome
+Smith-Magenis Syndrome
+Soto's Syndrome
+Spinal Muscular Atrophy
+Stickler Syndrome
+Sturge-Weber Syndrome
